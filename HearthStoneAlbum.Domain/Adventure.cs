@@ -8,8 +8,8 @@ namespace HearthStoneAlbum.Domain
 {
     public class Adventure
     {
-        public int AdventureId { get; set; }
-        public string Name { get; set; }
-        public CardSet CardSet { get; set; }
+        public int AdventureId { get; private set; }
+        public string Name { get; private set; }
+        public CardSet CardSet { get; private set; }
     }
 }

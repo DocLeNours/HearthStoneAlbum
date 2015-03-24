@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HearthStoneAlbum.Domain {
     public class Card {
-        public string CardId { get; set; }
+        public string CardId { get; private set; }
 
     }
 }

@@ -8,8 +8,8 @@ namespace HearthStoneAlbum.Domain
 {
     public class Boss
     {
-        public int BossId { get; set; }
-        public string Name { get; set; }
-        public Wing Wing { get; set; }
+        public int BossId { get; private set; }
+        public string Name { get; private set; }
+        public Wing Wing { get; private set; }
     }
 }

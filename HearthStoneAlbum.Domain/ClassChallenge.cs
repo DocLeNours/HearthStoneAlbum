@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace HearthStoneAlbum.Domain {
     public class ClassChallenge {
-        public int ClassChallengeId { get; set; }
-        public PlayerClass Class { get; set; }
-        public Boss BossAchieved { get; set; }
+        public int BossId { get; private set; }
+        public Boss Boss { get; private set; }
+        public PlayerClass Class { get; private set; }
     }
 }

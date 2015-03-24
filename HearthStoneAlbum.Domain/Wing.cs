@@ -8,8 +8,8 @@ namespace HearthStoneAlbum.Domain
 {
     public class Wing
     {
-        public int WingId { get; set; }
-        public string Name { get; set; }
-        public Adventure Adventure { get; set; }
+        public int WingId { get; private set; }
+        public string Name { get; private set; }
+        public Adventure Adventure { get; private set; }
     }
 }

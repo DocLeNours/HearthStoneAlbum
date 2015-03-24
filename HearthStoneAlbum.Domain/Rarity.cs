@@ -8,7 +8,7 @@ namespace HearthStoneAlbum.Domain
 {
     public class Rarity
     {
-        public int RarityId { get; set; }
-        public string Name { get; set; }
+        public int RarityId { get; private set; }
+        public string Name { get; private set; }
     }
 }

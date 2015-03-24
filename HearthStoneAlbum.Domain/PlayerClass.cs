@@ -8,7 +8,7 @@ namespace HearthStoneAlbum.Domain
 {
     public class PlayerClass
     {
-        public int PlayerClassId { get; set; }
-        public string Name { get; set; }
+        public int PlayerClassId { get; private set; }
+        public string Name { get; private set; }
     }
 }

@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace HearthStoneAlbum.Domain {
     public class ChallengeAchievement {
-        public ChallengeAchievement(ClassChallenge challenge, bool achieved) {
-            this.ClassChallenge = challenge;
-            this.Achieved = achieved;
-        }
-
+        public int PlayerId { get; private set; }
+        public int BossId { get; private set; }
+        public Player Player { get; private set; }
         public ClassChallenge ClassChallenge { get; private set; }
         public bool Achieved { get; private set; }
     }
