@@ -47,7 +47,7 @@
     <Compile Include="CardType.cs" />
     <Compile Include="ChallengeAchievement.cs" />
     <Compile Include="ClassChallenge.cs" />
-    <Compile Include="Core\Player.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="BossAchievement.cs" />
     <Compile Include="Factory\PlayerFactory.cs" />
     <Compile Include="Interface\IAlbumRepository.cs" />

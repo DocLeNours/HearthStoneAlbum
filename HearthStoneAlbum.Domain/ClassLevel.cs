@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace HearthStoneAlbum.Domain {
     public class ClassLevel {
-        public readonly int MinPlayerClassLevel = 0;
-        public readonly int MaxPlayerClassLevel = 60;
+        public readonly int LevelMin = 0;
+        public readonly int LevelMax = 60;
 
         public int PlayerId { get; private set; }
         public int PlayerClassId { get; private set; }

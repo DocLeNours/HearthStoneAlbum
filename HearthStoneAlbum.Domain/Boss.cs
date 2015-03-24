@@ -8,8 +8,10 @@ namespace HearthStoneAlbum.Domain
 {
     public class Boss
     {
+        public const int NameMaxLength = 50;
         public int BossId { get; private set; }
         public string Name { get; private set; }
         public Wing Wing { get; private set; }
+        public ClassChallenge ClassChallenge { get; private set; }
     }
 }

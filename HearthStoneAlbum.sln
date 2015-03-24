@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{76B49AD6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearthStoneAlbum.Repository", "HearthStoneAlbum.Repository\HearthStoneAlbum.Repository.csproj", "{6C66BE4C-1FF3-4E07-A9A6-5B12F8059D37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearthStoneAlbum.TempBuildDb", "HearthStoneAlbum.TempBuildDb\HearthStoneAlbum.TempBuildDb.csproj", "{02DCBBBE-AC22-4FB3-90D8-665A6BC86490}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{6C66BE4C-1FF3-4E07-A9A6-5B12F8059D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C66BE4C-1FF3-4E07-A9A6-5B12F8059D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C66BE4C-1FF3-4E07-A9A6-5B12F8059D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02DCBBBE-AC22-4FB3-90D8-665A6BC86490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02DCBBBE-AC22-4FB3-90D8-665A6BC86490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02DCBBBE-AC22-4FB3-90D8-665A6BC86490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02DCBBBE-AC22-4FB3-90D8-665A6BC86490}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

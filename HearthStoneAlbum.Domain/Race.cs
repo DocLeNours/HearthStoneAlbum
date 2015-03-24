@@ -8,7 +8,9 @@ namespace HearthStoneAlbum.Domain
 {
     public class Race
     {
+        public const int NameMaxLength = 20;
         public int RaceId { get; private set; }
         public string Name { get; private set; }
+        public ICollection<Card> Cards { get; private set; }
     }
 }
