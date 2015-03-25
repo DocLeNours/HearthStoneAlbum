@@ -12,5 +12,9 @@ namespace HearthStoneAlbum.Domain {
         public Rarity Rarity { get; private set; }
         public CardType CardType { get; private set; }
         public Race Race { get; private set; }
+        public int Cost { get; private set; }
+        public int Attack { get; private set; }
+        public int Health { get; private set; }
+        public int Durability { get; private set; }
     }
 }
