@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Adventure.cs" />
+    <Compile Include="CardLanguage.cs" />
     <Compile Include="Core\Album.cs" />
     <Compile Include="Boss.cs" />
     <Compile Include="Card.cs" />
@@ -47,6 +48,7 @@
     <Compile Include="CardType.cs" />
     <Compile Include="ChallengeAchievement.cs" />
     <Compile Include="ClassChallenge.cs" />
+    <Compile Include="Language.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="BossAchievement.cs" />
     <Compile Include="Factory\PlayerFactory.cs" />

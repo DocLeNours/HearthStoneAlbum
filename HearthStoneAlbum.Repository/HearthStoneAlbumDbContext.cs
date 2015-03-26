@@ -28,6 +28,8 @@ namespace HearthStoneAlbum.Repository {
         public DbSet<Race> Races { get; set; }
         public DbSet<Rarity> Rarities { get; set; }
         public DbSet<Wing> Wings { get; set; }
+        public DbSet<Language> Languages { get; set; }
+        public DbSet<CardLanguage> CardLanguages { get; set; }
         #endregion
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder) {

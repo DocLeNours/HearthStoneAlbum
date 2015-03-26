@@ -4,10 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HearthStoneAlbum.Domain
-{
-    public class Rarity
-    {
+namespace HearthStoneAlbum.Domain {
+    public class Rarity {
         public const int NameMaxLength = 20;
         public int RarityId { get; private set; }
         public string Name { get; private set; }
