@@ -14,7 +14,6 @@ namespace HearthStoneAlbum.Repository {
 
         #region DbSets
         public DbSet<Player> Players { get; set; }
-
         public DbSet<Adventure> Adventures { get; set; }
         public DbSet<Boss> Bosses { get; set; }
         public DbSet<BossAchievement> BossAchievements { get; set; }
@@ -30,6 +29,14 @@ namespace HearthStoneAlbum.Repository {
         public DbSet<Wing> Wings { get; set; }
         public DbSet<Language> Languages { get; set; }
         public DbSet<CardLanguage> CardLanguages { get; set; }
+        public DbSet<AdventureLanguage> AdventureLanguages { get; set; }
+        public DbSet<BossLanguage> BossLanguages { get; set; }
+        public DbSet<CardSetLanguage> CardSetLanguages { get; set; }
+        public DbSet<CardTypeLanguage> CardTypeLanguages { get; set; }
+        public DbSet<PlayerClassLanguage> PlayerClassLanguages { get; set; }
+        public DbSet<RaceLanguage> RaceLanguages { get; set; }
+        public DbSet<RarityLanguage> RarityLanguages { get; set; }
+        public DbSet<WingLanguage> WingLanguages { get; set; }
         #endregion
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder) {
