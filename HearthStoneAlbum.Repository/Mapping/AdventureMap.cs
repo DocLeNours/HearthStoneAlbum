@@ -12,9 +12,6 @@ namespace HearthStoneAlbum.Repository.Mapping {
             this.HasKey(a => a.AdventureId);
             this.HasRequired(a => a.CardSet)
                 .WithOptional(cs => cs.Adventure);
-            this.Property(a => a.Name)
-                .IsRequired()
-                .HasMaxLength(Adventure.NameMaxLength);
         }
     }
 }

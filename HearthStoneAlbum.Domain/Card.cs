@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace HearthStoneAlbum.Domain {
     public class Card {
-        public string CardId { get; private set; }
+        public const int CodeMaxLength = 10;
+
+        public int CardId { get; private set; }
+        public string Code { get; private set; }
         public CardSet CardSet { get; private set; }
         public PlayerClass PlayerClass { get; private set; }
         public Rarity Rarity { get; private set; }
@@ -16,5 +19,6 @@ namespace HearthStoneAlbum.Domain {
         public int Attack { get; private set; }
         public int Health { get; private set; }
         public int Durability { get; private set; }
+        public ICollection<CardLanguage> CardLanguages { get; private set; }
     }
 }

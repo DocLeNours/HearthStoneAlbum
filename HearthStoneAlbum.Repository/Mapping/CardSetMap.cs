@@ -10,9 +10,6 @@ namespace HearthStoneAlbum.Repository.Mapping {
     public class CardSetMap : EntityTypeConfiguration<CardSet> {
         public CardSetMap() {
             this.HasKey(cs => cs.CardSetId);
-            this.Property(cs => cs.Name)
-                .HasMaxLength(CardSet.NameMaxLength)
-                .IsRequired();
         }
     }
 }

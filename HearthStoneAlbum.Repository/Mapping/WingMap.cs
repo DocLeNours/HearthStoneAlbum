@@ -10,9 +10,6 @@ namespace HearthStoneAlbum.Repository.Mapping {
     public class WingMap : EntityTypeConfiguration<Wing> {
         public WingMap() {
             this.HasKey(w => w.WingId);
-            this.Property(w => w.Name)
-                .HasMaxLength(Wing.NameMaxLength)
-                .IsRequired();
             this.HasRequired(w => w.Adventure)
                 .WithMany(a => a.Wings)
                 .Map(m => {

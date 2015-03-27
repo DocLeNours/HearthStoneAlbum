@@ -10,9 +10,6 @@ namespace HearthStoneAlbum.Repository.Mapping {
     public class RarityMap : EntityTypeConfiguration<Rarity> {
         public RarityMap() {
             this.HasKey(r => r.RarityId);
-            this.Property(r => r.Name)
-                .HasMaxLength(Rarity.NameMaxLength)
-                .IsRequired();
         }
     }
 }

@@ -39,8 +39,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdventureLanguage.cs" />
     <Compile Include="Adventure.cs" />
+    <Compile Include="BossLanguage.cs" />
     <Compile Include="CardLanguage.cs" />
+    <Compile Include="CardSetLanguage.cs" />
+    <Compile Include="CardTypeLanguage.cs" />
     <Compile Include="Core\Album.cs" />
     <Compile Include="Boss.cs" />
     <Compile Include="Card.cs" />
@@ -54,11 +58,15 @@
     <Compile Include="Factory\PlayerFactory.cs" />
     <Compile Include="Interface\IAlbumRepository.cs" />
     <Compile Include="Interface\IPlayerRepository.cs" />
+    <Compile Include="PlayerClassLanguage.cs" />
     <Compile Include="PlayerClass.cs" />
     <Compile Include="ClassLevel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RaceLanguage.cs" />
     <Compile Include="Race.cs" />
+    <Compile Include="RarityLanguage.cs" />
     <Compile Include="Rarity.cs" />
+    <Compile Include="WingLanguage.cs" />
     <Compile Include="Wing.cs" />
   </ItemGroup>
   <ItemGroup />

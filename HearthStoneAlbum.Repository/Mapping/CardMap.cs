@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Data.Entity.Infrastructure.Annotations;
 using System.Data.Entity.ModelConfiguration;
 using System.Linq;
 using System.Text;
@@ -10,6 +12,11 @@ namespace HearthStoneAlbum.Repository.Mapping {
     public class CardMap : EntityTypeConfiguration<Card> {
         public CardMap() {
             this.HasKey(c => c.CardId);
+            this.Property(c => c.Code)
+                .HasMaxLength(Card.CodeMaxLength)
+                .IsRequired()
+                .HasColumnAnnotation(IndexAnnotation.AnnotationName, new IndexAnnotation(
+                    new IndexAttribute("IXCardCode") { IsUnique = true }));
             this.HasRequired(c => c.CardSet)
                 .WithMany(cs => cs.Cards)
                 .Map(m => {

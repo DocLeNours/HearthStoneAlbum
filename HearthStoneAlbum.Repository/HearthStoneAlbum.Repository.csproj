@@ -47,8 +47,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HearthStoneAlbumDbContext.cs" />
+    <Compile Include="Mapping\AdventureLanguageMap.cs" />
+    <Compile Include="Mapping\BossLanguageMap.cs" />
     <Compile Include="Mapping\CardLanguageMap.cs" />
+    <Compile Include="Mapping\CardSetLanguageMap.cs" />
+    <Compile Include="Mapping\CardTypeLanguageMap.cs" />
     <Compile Include="Mapping\LanguageMap.cs" />
+    <Compile Include="Mapping\PlayerClassLanguageMap.cs" />
     <Compile Include="Mapping\PlayerMap.cs" />
     <Compile Include="Mapping\AdventureMap.cs" />
     <Compile Include="Mapping\BossMap.cs" />
@@ -60,8 +65,11 @@
     <Compile Include="Mapping\ClassChallengeMap.cs" />
     <Compile Include="Mapping\ClassLevelMap.cs" />
     <Compile Include="Mapping\PlayerClassMap.cs" />
+    <Compile Include="Mapping\RaceLanguageMap.cs" />
     <Compile Include="Mapping\RaceMap.cs" />
+    <Compile Include="Mapping\RarityLanguageMap.cs" />
     <Compile Include="Mapping\RarityMap.cs" />
+    <Compile Include="Mapping\WingLanguageMap.cs" />
     <Compile Include="Mapping\WingMap.cs" />
     <Compile Include="PlayerRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

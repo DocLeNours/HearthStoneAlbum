@@ -39,19 +39,29 @@ namespace HearthStoneAlbum.Repository {
             modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
 
             modelBuilder.Configurations.Add(new PlayerMap());
+            modelBuilder.Configurations.Add(new LanguageMap());
             modelBuilder.Configurations.Add(new AdventureMap());
+            modelBuilder.Configurations.Add(new AdventureLanguageMap());
             modelBuilder.Configurations.Add(new BossMap());
+            modelBuilder.Configurations.Add(new BossLanguageMap());
             modelBuilder.Configurations.Add(new BossAchievementMap());
             modelBuilder.Configurations.Add(new CardMap());
+            modelBuilder.Configurations.Add(new CardLanguageMap());
             modelBuilder.Configurations.Add(new CardSetMap());
+            modelBuilder.Configurations.Add(new CardSetLanguageMap());
             modelBuilder.Configurations.Add(new CardTypeMap());
+            modelBuilder.Configurations.Add(new CardTypeLanguageMap());
             modelBuilder.Configurations.Add(new ChallengeAchievementMap());
             modelBuilder.Configurations.Add(new ClassChallengeMap());
             modelBuilder.Configurations.Add(new ClassLevelMap());
             modelBuilder.Configurations.Add(new PlayerClassMap());
+            modelBuilder.Configurations.Add(new PlayerClassLanguageMap());
             modelBuilder.Configurations.Add(new RaceMap());
+            modelBuilder.Configurations.Add(new RaceLanguageMap());
             modelBuilder.Configurations.Add(new RarityMap());
+            modelBuilder.Configurations.Add(new RarityLanguageMap());
             modelBuilder.Configurations.Add(new WingMap());
+            modelBuilder.Configurations.Add(new WingLanguageMap());
         }
     }
 }

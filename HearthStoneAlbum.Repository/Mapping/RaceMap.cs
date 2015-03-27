@@ -10,9 +10,6 @@ namespace HearthStoneAlbum.Repository.Mapping {
     public class RaceMap : EntityTypeConfiguration<Race> {
         public RaceMap() {
             this.HasKey(r => r.RaceId);
-            this.Property(r => r.Name)
-                .HasMaxLength(Race.NameMaxLength)
-                .IsRequired();
         }
     }
 }
