@@ -5,11 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace HearthStoneAlbum.Domain {
-    public class Adventure {
-        public int AdventureId { get; private set; }
+    public class RaceCardSetCard {
+        public int RaceId { get; private set; }
+        public int CardSetId { get; private set; }
+        public int CardId { get; private set; }
+        public Race Race { get; private set; }
         public CardSet CardSet { get; private set; }
-        public ICollection<Wing> Wings { get; private set; }
-        public ICollection<AdventureLanguage> AdventureLanguages { get; set; }
         public Card Card { get; private set; }
     }
 }

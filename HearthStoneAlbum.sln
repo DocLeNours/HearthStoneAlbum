@@ -11,9 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearthStoneAlbum.Service", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{76B49AD6-6E57-4F7F-8E91-720AC9B93CDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearthStoneAlbum.Repository", "HearthStoneAlbum.Repository\HearthStoneAlbum.Repository.csproj", "{6C66BE4C-1FF3-4E07-A9A6-5B12F8059D37}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearthStoneAlbum.TempBuildDb", "HearthStoneAlbum.TempBuildDb\HearthStoneAlbum.TempBuildDb.csproj", "{02DCBBBE-AC22-4FB3-90D8-665A6BC86490}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearthStoneAlbum.Dal", "HearthStoneAlbum.Dal\HearthStoneAlbum.Dal.csproj", "{6C66BE4C-1FF3-4E07-A9A6-5B12F8059D37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearthStoneAlbum.DataImport", "HearthStoneAlbum.DataImport\HearthStoneAlbum.DataImport.csproj", "{C68AD518-0C73-4749-A156-0D84541B4A0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,14 +35,18 @@ Global
 		{5541A3E2-7D8A-4361-B802-CD110EBE1B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5541A3E2-7D8A-4361-B802-CD110EBE1B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5541A3E2-7D8A-4361-B802-CD110EBE1B8C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6C66BE4C-1FF3-4E07-A9A6-5B12F8059D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6C66BE4C-1FF3-4E07-A9A6-5B12F8059D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6C66BE4C-1FF3-4E07-A9A6-5B12F8059D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6C66BE4C-1FF3-4E07-A9A6-5B12F8059D37}.Release|Any CPU.Build.0 = Release|Any CPU
 		{02DCBBBE-AC22-4FB3-90D8-665A6BC86490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{02DCBBBE-AC22-4FB3-90D8-665A6BC86490}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02DCBBBE-AC22-4FB3-90D8-665A6BC86490}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02DCBBBE-AC22-4FB3-90D8-665A6BC86490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C66BE4C-1FF3-4E07-A9A6-5B12F8059D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C66BE4C-1FF3-4E07-A9A6-5B12F8059D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C66BE4C-1FF3-4E07-A9A6-5B12F8059D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C66BE4C-1FF3-4E07-A9A6-5B12F8059D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C68AD518-0C73-4749-A156-0D84541B4A0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C68AD518-0C73-4749-A156-0D84541B4A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C68AD518-0C73-4749-A156-0D84541B4A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C68AD518-0C73-4749-A156-0D84541B4A0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

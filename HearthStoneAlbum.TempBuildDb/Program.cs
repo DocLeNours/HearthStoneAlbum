@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using HearthStoneAlbum.Domain;
-using HearthStoneAlbum.Repository;
+using HearthStoneAlbum.Dal;
 
 namespace HearthStoneAlbum.TempBuildDb {
     class Program {

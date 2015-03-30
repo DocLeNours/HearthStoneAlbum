@@ -5,11 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace HearthStoneAlbum.Domain {
-    public class BossAchievement {
+    public class PlayerCard {
         public int PlayerId { get; private set; }
-        public int BossId { get; private set; }
+        public int CardId { get; private set; }
         public Player Player { get; private set; }
-        public Boss Boss { get; private set; }
-        public bool ClassChallenge { get; private set; }
+        public Card Card { get; private set; }
+        public int CopyNumber { get; private set; }
+        public int GoldenCopyNumber { get; private set; }
     }
 }

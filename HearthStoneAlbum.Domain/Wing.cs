@@ -10,5 +10,6 @@ namespace HearthStoneAlbum.Domain {
         public Adventure Adventure { get; private set; }
         public ICollection<Boss> Bosses { get; private set; }
         public ICollection<WingLanguage> WingLanguages { get; set; }
+        public Card Card { get; private set; }
     }
 }

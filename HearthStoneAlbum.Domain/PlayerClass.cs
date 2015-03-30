@@ -11,5 +11,6 @@ namespace HearthStoneAlbum.Domain {
         public string Name { get; private set; }
         public ICollection<Card> Cards { get; private set; }
         public ICollection<PlayerClassLanguage> PlayerClassLanguages { get; set; }
+        public ICollection<PlayerClassCard> PlayerClassCards { get; private set; }
     }
 }

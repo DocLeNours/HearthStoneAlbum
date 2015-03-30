@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{02DCBBBE-AC22-4FB3-90D8-665A6BC86490}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{6C66BE4C-1FF3-4E07-A9A6-5B12F8059D37}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HearthStoneAlbum.TempBuildDb</RootNamespace>
-    <AssemblyName>HearthStoneAlbum.TempBuildDb</AssemblyName>
+    <RootNamespace>HearthStoneAlbum.Repository</RootNamespace>
+    <AssemblyName>HearthStoneAlbum.Repository</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -40,7 +38,6 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -49,23 +46,46 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="HearthStoneAlbumDbContext.cs" />
+    <Compile Include="Mapping\AdventureLanguageMap.cs" />
+    <Compile Include="Mapping\BossLanguageMap.cs" />
+    <Compile Include="Mapping\CardLanguageMap.cs" />
+    <Compile Include="Mapping\CardSetLanguageMap.cs" />
+    <Compile Include="Mapping\RaceCardSetCardMap.cs" />
+    <Compile Include="Mapping\CardTypeLanguageMap.cs" />
+    <Compile Include="Mapping\LanguageMap.cs" />
+    <Compile Include="Mapping\PlayerClassCardMap.cs" />
+    <Compile Include="Mapping\PlayerClassLanguageMap.cs" />
+    <Compile Include="Mapping\PlayerCardMap.cs" />
+    <Compile Include="Mapping\PlayerMap.cs" />
+    <Compile Include="Mapping\AdventureMap.cs" />
+    <Compile Include="Mapping\BossMap.cs" />
+    <Compile Include="Mapping\BossAchievementMap.cs" />
+    <Compile Include="Mapping\CardMap.cs" />
+    <Compile Include="Mapping\CardSetMap.cs" />
+    <Compile Include="Mapping\CardTypeMap.cs" />
+    <Compile Include="Mapping\ClassLevelMap.cs" />
+    <Compile Include="Mapping\PlayerClassMap.cs" />
+    <Compile Include="Mapping\RaceLanguageMap.cs" />
+    <Compile Include="Mapping\RaceMap.cs" />
+    <Compile Include="Mapping\RarityLanguageMap.cs" />
+    <Compile Include="Mapping\RarityMap.cs" />
+    <Compile Include="Mapping\WingLanguageMap.cs" />
+    <Compile Include="Mapping\WingMap.cs" />
+    <Compile Include="PlayerRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\HearthStoneAlbum.Dal\HearthStoneAlbum.Dal.csproj">
-      <Project>{6c66be4c-1ff3-4e07-a9a6-5b12f8059d37}</Project>
-      <Name>HearthStoneAlbum.Dal</Name>
-    </ProjectReference>
     <ProjectReference Include="..\HearthStoneAlbum.Domain\HearthStoneAlbum.Domain.csproj">
       <Project>{6b10b9b8-556a-475c-a534-5bd6559f71a5}</Project>
       <Name>HearthStoneAlbum.Domain</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -9,6 +9,5 @@ namespace HearthStoneAlbum.Domain.Interface {
         Player GetPlayer(int playerId);
         IList<PlayerClass> GetPlayerClasses();
         IList<Boss> GetBosses();
-        IList<ClassChallenge> GetClassChallenges();
     }
 }

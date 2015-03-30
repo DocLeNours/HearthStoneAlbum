@@ -10,6 +10,6 @@ namespace HearthStoneAlbum.Domain {
         public int PlayerId { get; private set; }
         public ICollection<ClassLevel> ClassLevels { get; private set; }
         public ICollection<BossAchievement> BossAchievements { get; private set; }
-        public ICollection<ChallengeAchievement> ChallengeAchievements { get; private set; }
+        public ICollection<PlayerCard> PlayerCards { get; private set; }
     }
 }

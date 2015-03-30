@@ -20,5 +20,6 @@ namespace HearthStoneAlbum.Domain {
         public int Health { get; private set; }
         public int Durability { get; private set; }
         public ICollection<CardLanguage> CardLanguages { get; private set; }
+        public ICollection<PlayerClassCard> PlayerClassCards { get; private set; }
     }
 }
