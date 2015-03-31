@@ -44,11 +44,12 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XmlDomain\Entity.cs" />
-    <Compile Include="XmlDomain\EntityPower.cs" />
-    <Compile Include="XmlDomain\EntityPowerPlayRequirement.cs" />
-    <Compile Include="XmlDomain\EntityReferencedTag.cs" />
-    <Compile Include="XmlDomain\EntityTag.cs" />
-    <Compile Include="XmlDomain\EntityTriggeredPowerHistoryInfo.cs" />
+    <Compile Include="XmlDomain\EntourageCard.cs" />
+    <Compile Include="XmlDomain\Power.cs" />
+    <Compile Include="XmlDomain\PowerPlayRequirement.cs" />
+    <Compile Include="XmlDomain\ReferencedTag.cs" />
+    <Compile Include="XmlDomain\Tag.cs" />
+    <Compile Include="XmlDomain\TriggeredPowerHistoryInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

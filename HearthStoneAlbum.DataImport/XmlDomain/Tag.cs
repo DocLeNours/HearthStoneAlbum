@@ -14,8 +14,8 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
     [SerializableAttribute()]
     [DebuggerStepThroughAttribute()]
     [DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(AnonymousType = true)]
-    public partial class EntityTag {
+    [XmlTypeAttribute("Tag", AnonymousType = true)]
+    public partial class Tag {
 
         private string enUSField;
 
@@ -50,7 +50,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         private string valueField;
 
         /// <remarks/>
-        [XmlElementAttribute(Form = XmlSchemaForm.Unqualified)]
+        [XmlElementAttribute("enUS", Form = XmlSchemaForm.Unqualified)]
         public string enUS {
             get {
                 return this.enUSField;
@@ -61,7 +61,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         }
 
         /// <remarks/>
-        [XmlElementAttribute(Form = XmlSchemaForm.Unqualified)]
+        [XmlElementAttribute("frFR", Form = XmlSchemaForm.Unqualified)]
         public string frFR {
             get {
                 return this.frFRField;
@@ -72,7 +72,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         }
 
         /// <remarks/>
-        [XmlElementAttribute(Form = XmlSchemaForm.Unqualified)]
+        [XmlElementAttribute("zhTW", Form = XmlSchemaForm.Unqualified)]
         public string zhTW {
             get {
                 return this.zhTWField;
@@ -83,7 +83,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         }
 
         /// <remarks/>
-        [XmlElementAttribute(Form = XmlSchemaForm.Unqualified)]
+        [XmlElementAttribute("zhCN", Form = XmlSchemaForm.Unqualified)]
         public string zhCN {
             get {
                 return this.zhCNField;
@@ -94,7 +94,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         }
 
         /// <remarks/>
-        [XmlElementAttribute(Form = XmlSchemaForm.Unqualified)]
+        [XmlElementAttribute("ruRU", Form = XmlSchemaForm.Unqualified)]
         public string ruRU {
             get {
                 return this.ruRUField;
@@ -105,7 +105,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         }
 
         /// <remarks/>
-        [XmlElementAttribute(Form = XmlSchemaForm.Unqualified)]
+        [XmlElementAttribute("ptBR", Form = XmlSchemaForm.Unqualified)]
         public string ptBR {
             get {
                 return this.ptBRField;
@@ -116,7 +116,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         }
 
         /// <remarks/>
-        [XmlElementAttribute(Form = XmlSchemaForm.Unqualified)]
+        [XmlElementAttribute("plPL", Form = XmlSchemaForm.Unqualified)]
         public string plPL {
             get {
                 return this.plPLField;
@@ -127,7 +127,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         }
 
         /// <remarks/>
-        [XmlElementAttribute(Form = XmlSchemaForm.Unqualified)]
+        [XmlElementAttribute("koKR", Form = XmlSchemaForm.Unqualified)]
         public string koKR {
             get {
                 return this.koKRField;
@@ -138,7 +138,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         }
 
         /// <remarks/>
-        [XmlElementAttribute(Form = XmlSchemaForm.Unqualified)]
+        [XmlElementAttribute("itIT", Form = XmlSchemaForm.Unqualified)]
         public string itIT {
             get {
                 return this.itITField;
@@ -149,7 +149,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         }
 
         /// <remarks/>
-        [XmlElementAttribute(Form = XmlSchemaForm.Unqualified)]
+        [XmlElementAttribute("esMX", Form = XmlSchemaForm.Unqualified)]
         public string esMX {
             get {
                 return this.esMXField;
@@ -160,7 +160,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         }
 
         /// <remarks/>
-        [XmlElementAttribute(Form = XmlSchemaForm.Unqualified)]
+        [XmlElementAttribute("esES", Form = XmlSchemaForm.Unqualified)]
         public string esES {
             get {
                 return this.esESField;
@@ -171,7 +171,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         }
 
         /// <remarks/>
-        [XmlElementAttribute(Form = XmlSchemaForm.Unqualified)]
+        [XmlElementAttribute("deDE", Form = XmlSchemaForm.Unqualified)]
         public string deDE {
             get {
                 return this.deDEField;
@@ -182,8 +182,8 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         }
 
         /// <remarks/>
-        [XmlAttributeAttribute()]
-        public string name {
+        [XmlAttributeAttribute("name")]
+        public string Name {
             get {
                 return this.nameField;
             }
@@ -193,8 +193,8 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         }
 
         /// <remarks/>
-        [XmlAttributeAttribute()]
-        public string enumID {
+        [XmlAttributeAttribute("enumID")]
+        public string EnumId {
             get {
                 return this.enumIDField;
             }
@@ -204,8 +204,8 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         }
 
         /// <remarks/>
-        [XmlAttributeAttribute()]
-        public string type {
+        [XmlAttributeAttribute("Type")]
+        public string Type {
             get {
                 return this.typeField;
             }
@@ -215,8 +215,8 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         }
 
         /// <remarks/>
-        [XmlAttributeAttribute()]
-        public string value {
+        [XmlAttributeAttribute("value")]
+        public string Value {
             get {
                 return this.valueField;
             }

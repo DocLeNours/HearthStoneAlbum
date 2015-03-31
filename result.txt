@@ -1,0 +1,3991 @@
+Sets :
+Basic
+Classic
+Credits
+Curse of Naxxramas
+Debug
+Goblins vs Gnomes
+Missions
+Promotion
+Reward
+System
+
+Card properties :
+	id
+		GAME_004
+		EX1_066
+		CS2_041
+		CS2_041e
+		HERO_09
+		NEW1_031
+		CS2_025
+		CS2_023
+		EX1_277
+		DS1_185
+		CS2_112
+		CS2_155
+		CS2_102
+		CS2_080
+		CS2_076
+		GAME_002
+		CS2_072
+		EX1_399e
+		CS2_092
+		CS2_092e
+		CS2_087
+		CS2_087e
+		CS2_172
+		CS2_046e
+		CS2_046
+		CS2_173
+		CS2_boar
+		CS2_187
+		CS2_200
+		CS2_103
+		EX1_084e
+		DS1_178e
+		CS2_103e2
+		CS2_182
+		CS2_005o
+		CS2_005
+		CS2_017o
+		CS2_114
+		EX1_019e
+		GAME_003
+		GAME_003e
+		CS2_093
+		CS2_201
+		CS2_063
+		CS2_063e
+		CS2_083b
+		EX1_582
+		DS1_055
+		CS2_074e
+		CS2_074
+		CS2_236e
+		CS2_236
+		EX1_025
+		CS2_061
+		CS2_064
+		CS2_189
+		CS2_122e
+		CS2_013t
+		CS2_108
+		NEW1_033o
+		EX1_129
+		CS2_106
+		CS2_042
+		CS2_029
+		CS2_034
+		CS2_032
+		EX1_565o
+		EX1_565
+		hexfrog
+		CS2_026
+		CS2_037
+		CS2_024
+		CS2_226e
+		CS2_121
+		CS2_226
+		DS1_175o
+		HERO_01
+		CS2_147
+		CS1_042
+		EX1_508
+		CS2_088
+		HERO_07
+		EX1_399
+		CS2_094
+		EX1_371
+		NEW1_009
+		CS2_007
+		CS2_062
+		CS2_105e
+		CS2_105
+		EX1_246
+		EX1_246e
+		CS2_089
+		CS1_112
+		CS1_130
+		DS1_070
+		NEW1_034
+		EX1_360e
+		EX1_360
+		CS2_084e
+		CS2_084
+		EX1_169
+		CS2_232
+		CS2_141
+		CS2_125
+		HERO_08
+		EX1_539
+		CS2_142
+		NEW1_011
+		NEW1_033
+		CS1h_001
+		CS2_056
+		CS2_091
+		CS2_162
+		GAME_001
+		CS2_118
+		HERO_06
+		CS2_009
+		CS2_009e
+		DS1_070o
+		EX1_025t
+		CS2_222o
+		DS1_233
+		CS1_113
+		CS1_113e
+		CS2_003
+		CS2_mirror
+		CS2_027
+		NEW1_032
+		EX1_508o
+		CS2_008
+		EX1_302
+		DS1_183
+		CS2_168
+		EX1_506a
+		EX1_506
+		GAME_006
+		EX1_593
+		CS2_235
+		EX1_015
+		CS2_119
+		CS2_197
+		CS2_022e
+		CS2_022
+		CS2_004
+		CS2_004e
+		CS2_122
+		CS2_196
+		CS2_213
+		CS2_101
+		HERO_05
+		CS2_120
+		CS2_045e
+		CS2_045
+		NEW1_003
+		EX1_581
+		CS2_011
+		CS2_011o
+		CS2_050
+		CS2_179
+		CS2_057
+		EX1_622
+		CS2_234
+		CS2_017
+		CS2_083e
+		EX1_019
+		CS2_tk1
+		EX1_606
+		EX1_278
+		CS2_101t
+		CS2_127
+		CS2_075
+		skele11
+		EX1_308
+		CS2_077
+		EX1_173
+		CS2_237
+		DS1h_292
+		CS2_051
+		CS2_171
+		CS2_150
+		CS2_222
+		CS2_131
+		EX1_306
+		CS2_012
+		GAME_005
+		GAME_005e
+		HERO_02
+		DS1_175
+		CS2_049
+		EX1_244e
+		EX1_244
+		DS1_184
+		CS2_097
+		DS1_178
+		HERO_04
+		HERO_03
+		NEW1_004
+		CS2_065
+		EX1_011
+		CS2_186
+		EX1_084
+		CS2_033
+		EX1_400
+		CS2_082
+		CS2_013
+		CS2_039
+		EX1_587
+		CS2_124
+		CS2_052
+		CS2_188o
+		EX1_097
+		CS2_188
+		EX1_007
+		NEW1_010
+		EX1_006
+		EX1_382
+		EX1_561
+		EX1_561e
+		EX1_393
+		CS2_038e
+		CS2_038
+		EX1_057
+		EX1_584
+		NEW1_008b
+		NEW1_008a
+		EX1_045
+		NEW1_008
+		EX1_178
+		EX1_009
+		EX1_398
+		EX1_089
+		EX1_559
+		EX1_067
+		EX1_362
+		EX1_008
+		EX1_402
+		EX1_383t
+		EX1_591
+		EX1_384
+		EX1_284
+		EX1_110t
+		EX1_014te
+		EX1_014t
+		EX1_320
+		EX1_249
+		EX1_398t
+		EX1_392
+		EX1_165b
+		EX1_604o
+		EX1_549
+		EX1_549o
+		EX1_126
+		EX1_005
+		EX1_570
+		EX1_570e
+		CS2_233
+		EX1_509e
+		EX1_355e
+		EX1_355
+		EX1_363
+		EX1_363e
+		EX1_363e2
+		CS2_028
+		EX1_323w
+		CS2_059
+		EX1_590
+		CS2_059o
+		EX1_012
+		EX1_411e
+		NEW1_025
+		NEW1_018
+		NEW1_025e
+		EX1_407
+		EX1_091
+		EX1_110
+		tt_004o
+		NEW1_024
+		EX1_165a
+		EX1_573
+		EX1_621
+		CS2_073e
+		CS2_073
+		CS2_073e2
+		EX1_050
+		EX1_103
+		NEW1_036e2
+		NEW1_036
+		NEW1_036e
+		EX1_128
+		EX1_128e
+		EX1_275
+		EX1_304e
+		EX1_287
+		EX1_059
+		EX1_603
+		EX1_595
+		skele21
+		EX1_334e
+		EX1_046
+		EX1_617
+		NEW1_030
+		EX1_130a
+		EX1_093
+		EX1_131t
+		EX1_131
+		EX1_573ae
+		EX1_573a
+		EX1_102
+		EX1_596
+		EX1_596e
+		EX1_161o
+		EX1_tk29
+		EX1_162
+		EX1_166b
+		EX1_349
+		EX1_310
+		EX1_567
+		NEW1_021
+		NEW1_022
+		DREAM_04
+		EX1_165t2
+		EX1_165
+		EX1_165t1
+		EX1_243
+		EX1_536
+		EX1_250
+		EX1_245
+		CS2_117
+		EX1_613
+		EX1_004e
+		DREAM_03
+		EX1_170
+		EX1_055o
+		EX1_619e
+		EX1_619
+		NEW1_037e
+		EX1_274
+		EX1_124
+		EX1_059e
+		EX1_537
+		EX1_610
+		EX1_132
+		EX1_564
+		NEW1_023
+		CS2_053e
+		CS2_053
+		EX1_301
+		CS1_069
+		EX1_248
+		EX1_finkle
+		EX1_319
+		EX1_614t
+		EX1_544
+		tt_004
+		EX1_571
+		EX1_251
+		EX1_611
+		EX1_283
+		EX1_604
+		NEW1_017e
+		CS2_181e
+		EX1_095
+		DS1_188
+		NEW1_040t
+		EX1_411
+		NEW1_024o
+		EX1_414
+		NEW1_038o
+		NEW1_038
+		EX1_093e
+		EX1_558
+		EX1_556
+		EX1_137
+		EX1_409t
+		NEW1_040
+		EX1_624
+		EX1_365
+		EX1_538t
+		EX1_043e
+		NEW1_017
+		EX1_534t
+		EX1_tk33
+		EX1_289
+		EX1_295
+		EX1_295o
+		CS2_031
+		EX1_614
+		EX1_598
+		EX1_597
+		EX1_tk34
+		EX1_623e
+		CS2_181
+		CS1_129e
+		CS1_129
+		EX1_607e
+		EX1_607
+		CS2_203
+		EX1_017
+		EX1_366e
+		EX1_166
+		EX1_080o
+		NEW1_005
+		NEW1_029t
+		EX1_543
+		EX1_014
+		EX1_612
+		NEW1_019
+		DREAM_01
+		EX1_241
+		EX1_354
+		EX1_160b
+		EX1_160be
+		EX1_116
+		EX1_029
+		EX1_044e
+		EX1_238
+		EX1_259
+		EX1_335
+		EX1_001
+		EX1_341
+		EX1_096
+		EX1_323
+		EX1_323h
+		EX1_100
+		EX1_082
+		EX1_563
+		EX1_055
+		NEW1_012o
+		EX1_575
+		EX1_616
+		NEW1_012
+		EX1_155be
+		EX1_155
+		EX1_155b
+		EX1_155a
+		EX1_155ae
+		EX1_626
+		NEW1_037
+		NEW1_014
+		NEW1_029
+		EX1_085
+		EX1_tk31
+		EX1_625t2
+		EX1_625t
+		EX1_345
+		EX1_294
+		EX1_533
+		EX1_396
+		EX1_620
+		EX1_166a
+		EX1_408
+		EX1_105
+		EX1_507e
+		EX1_103e
+		EX1_509
+		EX1_507
+		EX1_557
+		EX1_161
+		EX1_411e2
+		DREAM_05
+		DREAM_05e
+		EX1_130
+		EX1_164b
+		EX1_164a
+		EX1_164
+		EX1_560
+		EX1_562
+		EX1_258e
+		EX1_160t
+		EX1_522
+		EX1_133
+		EX1_076
+		EX1_313
+		EX1_316
+		EX1_316e
+		EX1_612o
+		EX1_160
+		EX1_145o
+		EX1_145
+		EX1_583
+		EX1_350
+		EX1_279
+		EX1_044
+		EX1_412
+		EX1_298
+		CS2_104e
+		CS2_104
+		CS2_161
+		EX1_274e
+		EX1_136
+		EX1_379e
+		EX1_379
+		EX1_178ae
+		EX1_178a
+		EX1_134
+		EX1_578
+		EX1_534
+		EX1_020
+		EX1_531
+		EX1_586
+		EX1_080
+		EX1_317
+		EX1_334
+		EX1_345t
+		EX1_303
+		EX1_625
+		EX1_590e
+		EX1_144
+		EX1_573b
+		CS2_221e
+		CS2_146o
+		EX1_410
+		EX1_405
+		EX1_332
+		CS2_151
+		EX1_023
+		EX1_309
+		EX1_391
+		EX1_554t
+		EX1_554
+		EX1_609
+		EX1_608
+		EX1_158
+		EX1_158e
+		NEW1_027
+		CS2_146
+		tt_010a
+		tt_010
+		EX1_048
+		EX1_tk11
+		CS2_221
+		CS2_152
+		EX1_tk28
+		NEW1_041
+		EX1_382e
+		NEW1_007a
+		NEW1_007b
+		NEW1_007
+		EX1_247
+		EX1_028
+		EX1_162o
+		EX1_160a
+		EX1_315
+		EX1_058
+		EX1_032
+		EX1_366
+		EX1_016
+		EX1_390
+		EX1_584e
+		EX1_046e
+		EX1_623
+		EX1_577
+		EX1_002
+		EX1_339
+		EX1_021
+		EX1_083
+		EX1_383
+		EX1_611e
+		EX1_tk9
+		EX1_573t
+		EX1_158t
+		NEW1_018e
+		EX1_043
+		EX1_312
+		EX1_258
+		EX1_538
+		EX1_409
+		EX1_536e
+		EX1_409e
+		EX1_178b
+		EX1_178be
+		EX1_613e
+		EX1_594
+		CS2_227
+		NEW1_026t
+		NEW1_026
+		EX1_304
+		EX1_001e
+		EX1_531e
+		ds1_whelptoken
+		EX1_116t
+		EX1_603e
+		NEW1_020
+		EX1_033
+		CS2_231
+		EX1_010
+		EX1_317t
+		EX1_154b
+		EX1_154a
+		EX1_154
+		NEW1_027e
+		CS2_169
+		EX1_004
+		EX1_049
+		EX1_572
+		DREAM_02
+		CRED_15
+		CRED_08
+		CRED_09
+		CRED_03
+		CRED_13
+		CRED_06
+		CRED_02
+		CRED_16
+		CRED_01
+		CRED_11
+		CRED_05
+		CRED_10
+		CRED_12
+		CRED_17
+		CRED_04
+		CRED_14
+		CRED_07
+		NAX1h_01
+		NAX1_01
+		FP1_026
+		FP1_020
+		NAX9_01
+		NAX9_01H
+		FP1_031
+		NAX15_04H
+		NAX15_04
+		FP1_005e
+		FP1_029
+		FP1_023
+		FP1_028e
+		FP1_021
+		NAX6_03
+		FP1_006
+		FP1_009
+		NAX12_02e
+		NAX12_02
+		NAX12_02H
+		FP1_018
+		FP1_003
+		NAX12_04e
+		NAX12_04
+		NAX5_02H
+		NAX5_02
+		NAX12_03e
+		NAX11_03
+		NAX13_04H
+		FP1_015
+		NAX15_02
+		NAX15_02H
+		NAX14_02
+		NAX14_03
+		NAX6_03te
+		NAX12_01H
+		NAX12_01
+		NAX8_01
+		NAX8_01H
+		NAX2_01H
+		NAX2_01
+		NAX11_01H
+		NAX11_01
+		NAX15_03t
+		NAX15_03n
+		NAX8_02
+		NAX8_02H
+		NAX10_03H
+		NAX10_03
+		FP1_002
+		NAX5_01
+		NAX5_01H
+		NAX10_02
+		NAX10_02H
+		NAX7_01H
+		NAX7_01
+		NAX15_01He
+		NAX15_01e
+		NAX12_03
+		NAX12_03H
+		NAX15_01H
+		NAX15_01
+		FP1_013
+		NAX9_02H
+		NAX9_02
+		NAX6_01H
+		NAX6_01
+		FP1_030
+		NAX1_05
+		FP1_004
+		NAX3_01H
+		FP1_010
+		NAX3_01
+		NAX9_07e
+		NAX9_07
+		NAX7_04H
+		NAX7_04
+		NAX7_05
+		NAX5_03
+		NAX15_05
+		NAX11_04
+		NAX11_04e
+		NAXM_001
+		NAX6_02
+		NAX6_02H
+		FP1_030e
+		NAX3_03
+		FP1_017
+		NAX1h_03
+		NAX1_03
+		FP1_007t
+		FP1_007
+		NAX4_01
+		NAX4_01H
+		NAX10_01
+		NAX10_01H
+		NAX4_05
+		NAX11_02
+		NAX11_02H
+		FP1_019
+		NAX13_02e
+		NAX13_02
+		FP1_023e
+		NAX14_04
+		NAX2_03
+		NAX2_03H
+		NAX4_04
+		NAX4_04H
+		FP1_025
+		NAX9_05H
+		NAX9_05
+		NAX14_01H
+		NAX14_01
+		FP1_005
+		NAX9_04
+		NAX9_04H
+		NAXM_002
+		NAX4_03H
+		NAX4_03
+		NAX1_04
+		NAX1h_04
+		NAX15_04a
+		FP1_012t
+		FP1_012
+		FP1_008
+		NAX8_05t
+		FP1_002t
+		NAX8_03t
+		NAX8_04t
+		NAX6_03t
+		NAX6_04
+		NAX13_05H
+		FP1_014
+		FP1_027
+		NAX13_03
+		NAX13_03e
+		NAX13_01H
+		NAX13_01
+		FP1_014t
+		NAX9_03H
+		NAX9_03
+		FP1_019t
+		NAX7_03
+		NAX7_03H
+		NAX7_02
+		FP1_028
+		NAX9_06
+		NAX8_05
+		NAX8_03
+		NAX8_04
+		FP1_024
+		FP1_020e
+		FP1_022
+		FP1_016
+		NAX3_02
+		NAX3_02H
+		FP1_011
+		NAX2_05
+		NAX2_05H
+		FP1_001
+		XXX_048
+		XXX_055
+		XXX_055e
+		XXX_095
+		XXX_096
+		XXX_097
+		XXX_098
+		XXX_099
+		XXX_053
+		XXX_039
+		XXX_012
+		XXX_006
+		XXX_015
+		XXX_001
+		XXX_002
+		XXX_024
+		XXX_020
+		XXX_005
+		XXX_023
+		XXX_018
+		XXX_047
+		XXX_041
+		XXX_057
+		XXX_050
+		XXX_049
+		XXX_013
+		XXX_025
+		XXX_017
+		XXX_009e
+		XXX_026
+		XXX_007
+		XXX_009
+		XXX_046
+		XXX_022
+		XXX_022e
+		XXX_008
+		XXX_052
+		XXX_044
+		XXX_042
+		XXX_040
+		XXX_051
+		XXX_014
+		XXX_043
+		XXX_019
+		XXX_029
+		XXX_030
+		XXX_003
+		XXX_004
+		XXX_021
+		XXX_028
+		XXX_027
+		XXX_010
+		XXX_056
+		XXX_016
+		XXX_045
+		XXX_011
+		XXX_054
+		XXX_054e
+		GVG_029
+		GVG_077
+		GVG_085
+		GVG_030
+		GVG_069
+		GVG_091
+		GVG_086e
+		PART_001e
+		PART_001
+		GVG_030a
+		GVG_030ae
+		GVG_119
+		GVG_063
+		GVG_099
+		GVG_110t
+		GVG_050
+		GVG_100e
+		GVG_068
+		GVG_056t
+		GVG_017
+		GVG_092t
+		PART_004e
+		GVG_121
+		GVG_082
+		GVG_062
+		GVG_073
+		GVG_059
+		GVG_013
+		GVG_024
+		GVG_038
+		GVG_052
+		GVG_041
+		GVG_041b
+		GVG_041a
+		GVG_041c
+		GVG_015
+		GVG_019
+		GVG_019e
+		GVG_110
+		GVG_080t
+		GVG_080
+		GVG_066
+		GVG_005
+		PART_005
+		GVG_107
+		GVG_076
+		GVG_023a
+		GVG_026
+		GVG_020
+		GVG_016
+		PART_004
+		GVG_007
+		GVG_001
+		GVG_100
+		GVG_084
+		GVG_113
+		GVG_079
+		GVG_049
+		GVG_028t
+		GVG_117
+		GVG_032b
+		GVG_032a
+		GVG_081
+		GVG_043e
+		GVG_043
+		GVG_098
+		GVG_092
+		GVG_023
+		GVG_004
+		GVG_095
+		GVG_021e
+		GVG_032
+		GVG_104a
+		GVG_120
+		GVG_104
+		GVG_089
+		GVG_045t
+		GVG_045
+		GVG_056
+		GVG_027
+		GVG_027e
+		GVG_094
+		GVG_106
+		GVG_106e
+		GVG_074
+		GVG_046
+		GVG_012
+		GVG_008
+		GVG_097
+		GVG_071
+		GVG_090
+		GVG_021
+		GVG_035
+		GVG_034
+		GVG_078
+		GVG_006
+		GVG_116
+		GVG_067a
+		GVG_068a
+		GVG_048e
+		GVG_048
+		GVG_103
+		GVG_102e
+		GVG_049e
+		GVG_111
+		GVG_109
+		GVG_018
+		GVG_112
+		GVG_061
+		GVG_042
+		GVG_065
+		GVG_088
+		GVG_054
+		GVG_025
+		GVG_123e
+		GVG_096
+		GVG_105
+		GVG_076a
+		GVG_036e
+		GVG_036
+		GVG_064
+		GVG_101e
+		GVG_060
+		GVG_108
+		GVG_031
+		GVG_069a
+		GVG_063a
+		PART_006
+		PART_003
+		GVG_047
+		GVG_070
+		GVG_101
+		GVG_055
+		GVG_055e
+		GVG_057
+		GVG_057a
+		GVG_009
+		GVG_072
+		GVG_014a
+		GVG_058
+		GVG_053
+		GVG_075
+		GVG_011a
+		GVG_011
+		GVG_086
+		GVG_040
+		GVG_114
+		GVG_002
+		GVG_123
+		GVG_044
+		GVG_087
+		GVG_067
+		PART_006a
+		GVG_030be
+		GVG_030b
+		GVG_093
+		GVG_046e
+		PART_002
+		GVG_022
+		GVG_022a
+		GVG_022b
+		GVG_102
+		GVG_115
+		GVG_028
+		GVG_033
+		GVG_118
+		GVG_003
+		GVG_083
+		GVG_111t
+		GVG_010b
+		GVG_010
+		GVG_039
+		GVG_014
+		GVG_051
+		GVG_122
+		GVG_060e
+		PART_007e
+		PART_007
+		GVG_037
+		TU4c_006e
+		TU4c_006
+		TU4c_003
+		TU4c_002
+		TU4f_005
+		TU4d_002
+		TU4f_007
+		TU4e_007
+		TU4e_005
+		TU4e_002t
+		TU4e_002
+		TU4a_003
+		TU4d_001
+		TU4c_005
+		TU4a_001
+		TU4a_004
+		TU4e_001
+		TU4a_006
+		TU4c_001
+		TU4f_004o
+		TU4f_004
+		TU4f_001
+		TU4a_005
+		TU4c_008e
+		TU4b_001
+		TU4c_007
+		TU4e_003
+		TU4f_002
+		TU4a_002
+		TU4f_003
+		TU4d_003
+		TU4c_004
+		TU4f_006
+		TU4f_006o
+		TU4e_004
+		TU4c_008
+		Mekka4t
+		PRO_001
+		Mekka3e
+		Mekka3
+		EX1_112
+		Mekka1
+		PRO_001a
+		PRO_001at
+		Mekka4
+		PRO_001c
+		Mekka2
+		PRO_001b
+		Mekka4e
+		NEW1_016
+		EX1_062
+		PlaceholderCard
+	name
+		AFK
+		Acidic Swamp Ooze
+		Ancestral Healing
+		Ancestral Infusion
+		Anduin Wrynn
+		Animal Companion
+		Arcane Explosion
+		Arcane Intellect
+		Arcane Missiles
+		Arcane Shot
+		Arcanite Reaper
+		Archmage
+		Armor Up!
+		Assassin's Blade
+		Assassinate
+		Avatar of the Coin
+		Backstab
+		Berserking
+		Blessing of Kings
+		Blessing of Might
+		Bloodfen Raptor
+		Bloodlust
+		Bluegill Warrior
+		Boar
+		Booty Bay Bodyguard
+		Boulderfist Ogre
+		Charge
+		Chillwind Yeti
+		Claw
+		Claws
+		Cleave
+		Cleric's Blessing
+		Coin's Vengeance
+		Coin's Vengence
+		Consecration
+		Core Hound
+		Corruption
+		Dagger Mastery
+		Dalaran Mage
+		Darkscale Healer
+		Deadly Poison
+		Divine Spirit
+		Dragonling Mechanic
+		Drain Life
+		Dread Infernal
+		Elven Archer
+		Enhanced
+		Excess Mana
+		Execute
+		Eye In The Sky
+		Fan of Knives
+		Fiery War Axe
+		Fire Elemental
+		Fireball
+		Fireblast
+		Flamestrike
+		Flametongue
+		Flametongue Totem
+		Frog
+		Frost Nova
+		Frost Shock
+		Frostbolt
+		Frostwolf Banner
+		Frostwolf Grunt
+		Frostwolf Warlord
+		Furious Howl
+		Garrosh Hellscream
+		Gnomish Inventor
+		Goldshire Footman
+		Grimscale Oracle
+		Guardian of Kings
+		Gul'dan
+		Gurubashi Berserker
+		Hammer of Wrath
+		Hand of Protection
+		Healing Totem
+		Healing Touch
+		Hellfire
+		Heroic Strike
+		Hex
+		Hexxed
+		Holy Light
+		Holy Nova
+		Holy Smite
+		Houndmaster
+		Huffer
+		Humility
+		Hunter's Mark
+		Innervate
+		Ironbark Protector
+		Ironforge Rifleman
+		Ironfur Grizzly
+		Jaina Proudmoore
+		Kill Command
+		Kobold Geomancer
+		Kor'kron Elite
+		Leokk
+		Lesser Heal
+		Life Tap
+		Light's Justice
+		Lord of the Arena
+		Luck of the Coin
+		Magma Rager
+		Malfurion Stormrage
+		Mark of the Wild
+		Master's Presence
+		Mechanical Dragonling
+		Might of Stormwind
+		Mind Blast
+		Mind Control
+		Mind Vision
+		Mirror Image
+		Misha
+		Mlarggragllabl!
+		Moonfire
+		Mortal Coil
+		Multi-Shot
+		Murloc Raider
+		Murloc Scout
+		Murloc Tidehunter
+		NOOOOOOOOOOOO
+		Nightblade
+		Northshire Cleric
+		Novice Engineer
+		Oasis Snapjaw
+		Ogre Magi
+		Polymorph
+		Power Word: Shield
+		Raid Leader
+		Razorfen Hunter
+		Reckless Rocketeer
+		Reinforce
+		Rexxar
+		River Crocolisk
+		Rockbiter Weapon
+		Sacrificial Pact
+		Sap
+		Savage Roar
+		Searing Totem
+		Sen'jin Shieldmasta
+		Shadow Bolt
+		Shadow Word: Death
+		Shadow Word: Pain
+		Shapeshift
+		Sharpened
+		Shattered Sun Cleric
+		Sheep
+		Shield Block
+		Shiv
+		Silver Hand Recruit
+		Silverback Patriarch
+		Sinister Strike
+		Skeleton
+		Soulfire
+		Sprint
+		Starfire
+		Starving Buzzard
+		Steady Shot
+		Stoneclaw Totem
+		Stonetusk Boar
+		Stormpike Commando
+		Stormwind Champion
+		Stormwind Knight
+		Succubus
+		Swipe
+		The Coin
+		Thrall
+		Timber Wolf
+		Totemic Call
+		Totemic Might
+		Tracking
+		Truesilver Champion
+		Tundra Rhino
+		Uther Lightbringer
+		Valeera Sanguinar
+		Vanish
+		Voidwalker
+		Voodoo Doctor
+		War Golem
+		Warsong Commander
+		Water Elemental
+		Whirlwind
+		Wicked Knife
+		Wild Growth
+		Windfury
+		Windspeaker
+		Wolfrider
+		Wrath of Air Totem
+		'Inspired'
+		Abomination
+		Abusive Sergeant
+		Acolyte of Pain
+		Al'Akir the Windlord
+		Alarm-o-Bot
+		Aldor Peacekeeper
+		Alexstrasza
+		Alexstrasza's Fire
+		Amani Berserker
+		Ancestral Spirit
+		Ancient Brewmaster
+		Ancient Mage
+		Ancient Secrets
+		Ancient Teachings
+		Ancient Watcher
+		Ancient of Lore
+		Ancient of War
+		Angry Chicken
+		Arathi Weaponsmith
+		Arcane Golem
+		Archmage Antonidas
+		Argent Commander
+		Argent Protector
+		Argent Squire
+		Armorsmith
+		Ashbringer
+		Auchenai Soulpriest
+		Avenging Wrath
+		Azure Drake
+		Baine Bloodhoof
+		Bananas
+		Bane of Doom
+		Baron Geddon
+		Battle Axe
+		Battle Rage
+		Bear Form
+		Berserk
+		Bestial Wrath
+		Betrayal
+		Big Game Hunter
+		Bite
+		Blade Flurry
+		Blarghghl
+		Blessed Champion
+		Blessing of Wisdom
+		Blizzard
+		Blood Fury
+		Blood Imp
+		Blood Knight
+		Blood Pact
+		Bloodmage Thalnos
+		Bloodrage
+		Bloodsail Corsair
+		Bloodsail Raider
+		Bolstered
+		Brawl
+		Cabal Shadow Priest
+		Cairne Bloodhoof
+		Cannibalize
+		Captain Greenskin
+		Cat Form
+		Cenarius
+		Circle of Healing
+		Cold Blood
+		Coldlight Oracle
+		Coldlight Seer
+		Commanding Shout
+		Conceal
+		Concealed
+		Cone of Cold
+		Consume
+		Counterspell
+		Crazed Alchemist
+		Cruel Taskmaster
+		Cult Master
+		Damaged Golem
+		Dark Command
+		Dark Iron Dwarf
+		Deadly Shot
+		Deathwing
+		Defender
+		Defender of Argus
+		Defias Bandit
+		Defias Ringleader
+		Demigod's Favor
+		Demolisher
+		Demonfire
+		Demoralizing Roar
+		Devilsaur
+		Dire Wolf Alpha
+		Dispel
+		Divine Favor
+		Doomguard
+		Doomhammer
+		Doomsayer
+		Dread Corsair
+		Dream
+		Druid of the Claw
+		Dust Devil
+		Eaglehorn Bow
+		Earth Elemental
+		Earth Shock
+		Earthen Ring Farseer
+		Edwin VanCleef
+		Elune's Grace
+		Emerald Drake
+		Emperor Cobra
+		Empowered
+		Equality
+		Equipped
+		Ethereal Arcanist
+		Eviscerate
+		Experiments!
+		Explosive Shot
+		Explosive Trap
+		Eye for an Eye
+		Faceless Manipulator
+		Faerie Dragon
+		Far Sight
+		Felguard
+		Fen Creeper
+		Feral Spirit
+		Finkle Einhorn
+		Flame Imp
+		Flame of Azzinoth
+		Flare
+		Flesheating Ghoul
+		Force of Nature
+		Forked Lightning
+		Freezing Trap
+		Frost Elemental
+		Frothing Berserker
+		Full Belly
+		Full Strength
+		Gadgetzan Auctioneer
+		Gladiator's Longbow
+		Gnoll
+		Gorehowl
+		Greenskin's Command
+		Grommash Hellscream
+		Growth
+		Gruul
+		Hand of Argus
+		Harrison Jones
+		Harvest Golem
+		Headcrack
+		Heavy Axe
+		Hogger
+		Holy Fire
+		Holy Wrath
+		Hound
+		Hour of Twilight
+		Hungry Crab
+		Hyena
+		INFERNO!
+		Ice Barrier
+		Ice Block
+		Ice Lance
+		Illidan Stormrage
+		Imp
+		Imp Master
+		Infernal
+		Infusion
+		Injured Blademaster
+		Inner Fire
+		Inner Rage
+		Ironbeak Owl
+		Jungle Panther
+		Justice Served
+		Keeper of the Grove
+		Keeping Secrets
+		Kidnapper
+		Kill Millhouse!
+		King Krush
+		King Mukla
+		Kirin Tor Mage
+		Knife Juggler
+		Laughing Sister
+		Lava Burst
+		Lay on Hands
+		Leader of the Pack
+		Leeroy Jenkins
+		Leper Gnome
+		Level Up!
+		Lightning Bolt
+		Lightning Storm
+		Lightspawn
+		Lightwarden
+		Lightwell
+		Loot Hoarder
+		Lord Jaraxxus
+		Lorewalker Cho
+		Mad Bomber
+		Malygos
+		Mana Addict
+		Mana Gorged
+		Mana Tide Totem
+		Mana Wraith
+		Mana Wyrm
+		Mark of Nature
+		Mass Dispel
+		Master Swordsmith
+		Master of Disguise
+		Millhouse Manastorm
+		Mind Control Tech
+		Mind Controlling
+		Mind Shatter
+		Mind Spike
+		Mindgames
+		Mirror Entity
+		Misdirection
+		Mogu'shan Warden
+		Molten Giant
+		Mortal Strike
+		Mountain Giant
+		Mrgglaargl!
+		Mrghlglhal
+		Murloc Tidecaller
+		Murloc Warleader
+		Nat Pagle
+		Naturalize
+		Needs Sharpening
+		Nightmare
+		Noble Sacrifice
+		Nourish
+		Nozdormu
+		Onyxia
+		Overloading
+		Panther
+		Patient Assassin
+		Perdition's Blade
+		Pint-Sized Summoner
+		Pit Lord
+		Power Overwhelming
+		Power of the Kirin Tor
+		Power of the Wild
+		Preparation
+		Priestess of Elune
+		Prophet Velen
+		Pyroblast
+		Questing Adventurer
+		Raging Worgen
+		Ragnaros the Firelord
+		Rampage
+		Ravenholdt Assassin
+		Raw Power!
+		Redemption
+		Repentance
+		Rooted
+		SI:7 Agent
+		Savagery
+		Savannah Highmane
+		Scarlet Crusader
+		Scavenging Hyena
+		Sea Giant
+		Secretkeeper
+		Sense Demons
+		Shadow Madness
+		Shadow of Nothing
+		Shadowflame
+		Shadowform
+		Shadows of M'uru
+		Shadowstep
+		Shan'do's Lesson
+		Sharp!
+		Shield Slam
+		Shieldbearer
+		Silence
+		Silver Hand Knight
+		Silvermoon Guardian
+		Siphon Soul
+		Slam
+		Snake
+		Snake Trap
+		Snipe
+		Sorcerer's Apprentice
+		Soul of the Forest
+		Southsea Captain
+		Southsea Deckhand
+		Spellbender
+		Spellbreaker
+		Spirit Wolf
+		Spiteful Smith
+		Squire
+		Squirrel
+		Stampeding Kodo
+		Stand Down!
+		Starfall
+		Stormforged Axe
+		Stranglethorn Tiger
+		Strength of the Pack
+		Summon a Panther
+		Summoning Portal
+		Sunfury Protector
+		Sunwalker
+		Sword of Justice
+		Sylvanas Windrunner
+		Tauren Warrior
+		Teachings of the Kirin Tor
+		Tempered
+		Temple Enforcer
+		The Beast
+		The Black Knight
+		Thoughtsteal
+		Thrallmar Farseer
+		Tinkmaster Overspark
+		Tirion Fordring
+		Trapped
+		Treant
+		Treasure Crazed
+		Twilight Drake
+		Twisting Nether
+		Unbound Elemental
+		Unleash the Hounds
+		Upgrade!
+		Upgraded
+		Uproot
+		Uprooted
+		VanCleef's Vengeance
+		Vaporize
+		Venture Co. Mercenary
+		Violet Apprentice
+		Violet Teacher
+		Void Terror
+		Warded
+		Well Fed
+		Whelp
+		Whipped Into Shape
+		Wild Pyromancer
+		Windfury Harpy
+		Wisp
+		Worgen Infiltrator
+		Worthless Imp
+		Wrath
+		Yarrr!
+		Young Dragonhawk
+		Young Priestess
+		Youthful Brewmaster
+		Ysera
+		Ysera Awakens
+		Andy Brock
+		Ben Brode
+		Ben Thompson
+		Bob Fitch
+		Brian Schwab
+		Derek Sakamoto
+		Eric Dodds
+		Hamilton Chu
+		Jason Chayes
+		Jay Baxter
+		Kyle Harrison
+		Michael Schweitzer
+		Rachelle Davis
+		Rob Pardo
+		Steven Gabriel
+		Yong Woo
+		Zwick
+		Anub'Rekhan
+		Anub'ar Ambusher
+		Avenge
+		Baron Rivendare
+		Chains
+		Dancing Swords
+		Dark Cultist
+		Darkness Calls
+		Death's Bite
+		Deathbloom
+		Deathcharger
+		Deathlord
+		Decimate
+		Duplicate
+		Echoing Ooze
+		Enrage
+		Eruption
+		Extra Teeth
+		Fallout Slime
+		Feugen
+		Frost Blast
+		Frost Breath
+		Frozen Champion
+		Fungal Growth
+		Gluth
+		Gothik the Harvester
+		Grand Widow Faerlina
+		Grobbulus
+		Guardian of Icecrown
+		Harvest
+		Hateful Strike
+		Haunted Creeper
+		Heigan the Unclean
+		Hook
+		Instructor Razuvious
+		Interloper!
+		Jaws
+		Kel'Thuzad
+		Lady Blaumeux
+		Loatheb
+		Locust Swarm
+		Mad Scientist
+		Maexxna
+		Mark of the Horsemen
+		Massive Runeblade
+		Mind Control Crystal
+		Mindpocalypse
+		Mr. Bigglesworth
+		Mutating Injection
+		Necroknight
+		Necrotic Aura
+		Necrotic Poison
+		Nerub'ar Weblord
+		Nerubian
+		Nerubian Egg
+		Noth the Plaguebringer
+		Patchwerk
+		Plague
+		Poison Cloud
+		Poison Seeds
+		Polarity
+		Polarity Shift
+		Power of the Ziggurat
+		Pure Cold
+		Rain of Fire
+		Raise Dead
+		Reincarnate
+		Runeblade
+		Sapphiron
+		Shade of Naxxramas
+		Sir Zeliek
+		Skeletal Smith
+		Skitter
+		Slave of Kel'Thuzad
+		Slime
+		Sludge Belcher
+		Spectral Knight
+		Spectral Rider
+		Spectral Spider
+		Spectral Trainee
+		Spectral Warrior
+		Spore
+		Sporeburst
+		Stalagg
+		Stoneskin Gargoyle
+		Supercharge
+		Supercharged
+		Thaddius
+		Thane Korth'azz
+		Unbalancing Strike
+		Understudy
+		Undertaker
+		Unholy Shadow
+		Unrelenting Rider
+		Unrelenting Trainee
+		Unrelenting Warrior
+		Unstable Ghoul
+		Vengeance
+		Voidcaller
+		Wailing Soul
+		Web Wrap
+		Webspinner
+		Worshipper
+		Zombie Chow
+		-1 Durability
+		1000 Stats
+		1000 Stats Enchant
+		AI Buddy - All Charge!
+		AI Buddy - Damage Own Hero 5
+		AI Buddy - Destroy Minions
+		AI Buddy - No Deck/Hand
+		AI Helper Buddy
+		Armor
+		Become Hogger
+		Bounce
+		Break Weapon
+		Crash
+		Damage 1
+		Damage 5
+		Damage Reflector
+		Damage all but 1
+		Destroy
+		Destroy All Heroes
+		Destroy All Minions
+		Destroy Deck
+		Destroy Hero Power
+		Destroy Secrets
+		Destroy a Mana Crystal
+		Destroy all Mana
+		Discard
+		Do Nothing
+		Draw 3 Cards
+		Empty Enchant
+		Enable Emotes
+		Enable for Attack
+		Enchant
+		Force AI to Use Hero Power
+		Free Cards
+		Freeze
+		Grant Mega-Windfury
+		Hand Swapper Minion
+		Hand to Deck
+		Make Immune
+		Mill 10
+		Mill 30
+		Molasses
+		Opponent Concede
+		Opponent Disconnect
+		Restore 1
+		Restore 5
+		Restore All Health
+		Reveal Hand
+		Server Crash
+		Silence - debug
+		Silence Destroy
+		Snake Ball
+		Steal Card
+		Summon a random Secret
+		Weapon Buff
+		Weapon Buff Enchant
+		Ancestor's Call
+		Anima Golem
+		Annoy-o-Tron
+		Anodized Robo Cub
+		Antique Healbot
+		Arcane Nullifier X-21
+		Armor Plated
+		Armor Plating
+		Attack Mode
+		Blingtron 3000
+		Bolvar Fordragon
+		Bomb Lobber
+		Boom Bot
+		Bouncing Blade
+		Brow Furrow
+		Burly Rockjaw Trogg
+		Burrowing Mine
+		Call Pet
+		Chicken
+		Cloaked
+		Clockwork Giant
+		Clockwork Gnome
+		Cobalt Guardian
+		Cobra Shot
+		Coghammer
+		Cogmaster
+		Cogmaster's Wrench
+		Crackle
+		Crush
+		Dark Wispers
+		Darkbomb
+		Demonheart
+		Dr. Boom
+		Druid of the Fang
+		Dunemaul Shaman
+		Echo of Medivh
+		Emergency Coolant
+		Enhance-o Mechano
+		Explosive Sheep
+		Extra Sharp
+		Feign Death
+		Fel Cannon
+		Fel Reaver
+		Finicky Cloakfield
+		Flame Leviathan
+		Flamecannon
+		Floating Watcher
+		Flying Machine
+		Foe Reaper 4000
+		Force-Tank MAX
+		Gahz'rilla
+		Gallywix's Coin
+		Gazlowe
+		Gift of Cards
+		Gift of Mana
+		Gilblin Stalker
+		Glaivezooka
+		Gnomeregan Infantry
+		Gnomish Experimenter
+		Goblin Auto-Barber
+		Goblin Blastmage
+		Goblin Sapper
+		Grasp of Mal'Ganis
+		Grove Tender
+		HERE, TAKE BUFF.
+		Hemet Nesingwary
+		Hobgoblin
+		Illuminator
+		Imp-losion
+		Iron Juggernaut
+		Iron Sensei
+		Ironed Out
+		Jeeves
+		Junkbot
+		Junked Up
+		Kezan Mystic
+		King of Beasts
+		Light of the Naaru
+		Lightbomb
+		Lil' Exorcist
+		Lost Tallstrider
+		Madder Bomber
+		Mal'Ganis
+		Malorne
+		Mech-Bear-Cat
+		Mechanical Yeti
+		Mechwarper
+		Mekgineer Thermaplugg
+		Metabolized Magic
+		Metal Teeth
+		Metaltooth Leaper
+		Micro Machine
+		Might of Tinkertown
+		Might of Zul'Farrak
+		Mimiron's Head
+		Mini-Mage
+		Mistress of Pain
+		Mogor the Ogre
+		Muster for Battle
+		Neptulon
+		Ogre Brute
+		Ogre Ninja
+		Ogre Warmaul
+		One-eyed Cheat
+		Overclocked
+		Piloted Shredder
+		Piloted Sky Golem
+		Pistons
+		Powered
+		Powermace
+		Puddlestomper
+		Pure
+		Quartermaster
+		Recombobulator
+		Recycle
+		Repairs!
+		Retribution
+		Reversing Switch
+		Rusty Horn
+		Sabotage
+		Salty Dog
+		Scarlet Purifier
+		Screwjank Clunker
+		Screwy Jank
+		Seal of Light
+		Shadowbomber
+		Shadowboxer
+		Shadowed
+		Shielded Minibot
+		Shieldmaiden
+		Ship's Cannon
+		Shrink Ray
+		Shrinkmeister
+		Siege Engine
+		Siltfin Spiritwalker
+		Sneed's Old Shredder
+		Snowchugger
+		Soot Spewer
+		Spider Tank
+		Steamwheedle Sniper
+		Stonesplinter Trogg
+		Switched
+		Tank Mode
+		Target Dummy
+		The King
+		Time Rewinder
+		Tinker's Sharpsword Oil
+		Tinkertown Technician
+		Toshley
+		Trade Prince Gallywix
+		Tree of Life
+		Troggzor the Earthinator
+		Unstable Portal
+		Upgraded Repair Bot
+		V-07-TR-0N
+		Velen's Chosen
+		Vitality Totem
+		Vol'jin
+		Warbot
+		Wee Spellstopper
+		Well Equipped
+		Whirling Blades
+		Whirling Zap-o-matic
+		Barrel
+		Barrel Toss
+		Brewmaster
+		Crazed Hunter
+		Crazy Monkey
+		Dual Warglaives
+		Flame Burst
+		Flames of Azzinoth
+		Hidden Gnome
+		Hogger SMASH!
+		Legacy of the Emperor
+		Massive Gnoll
+		Might of Mukla
+		Mukla's Big Brother
+		Naga Myrmidon
+		Pandaren Scout
+		Riverpaw Gnoll
+		Shado-Pan Monk
+		Shotgun Blast
+		Stomp
+		Transcendence
+		Warglaive of Azzinoth
+		Will of Mukla
+		Elite Tauren Chieftain
+		Emboldened!
+		Emboldener 3000
+		Gelbin Mekkatorque
+		Homing Chicken
+		I Am Murloc
+		Murloc
+		Poultryizer
+		Power of the Horde
+		Repair Bot
+		Rogues Do It...
+		Transformed
+		Captain's Parrot
+		Old Murk-Eye
+		Placeholder Card
+	type
+		Enchantment
+		Minion
+		Spell
+		Hero
+		Weapon
+		Hero Power
+	text
+		Your turns are shorter.
+		<b>Battlecry:</b> Destroy your opponent's weapon.
+		Restore a minion to full Health and give it <b>Taunt</b>.
+		Taunt.
+		Summon a random Beast Companion.
+		Deal $1 damage to all enemy minions.
+		Draw 2 cards.
+		Deal $3 damage randomly split among enemy characters.
+		Deal $2 damage.
+		<b>Spell Damage +1</b>
+		<b>Hero Power</b>
+Gain 2 Armor.
+		Destroy an enemy minion.
+		<i>You lost the coin flip, but gained a friend.</i>
+		Deal $2 damage to an undamaged minion.
+		This minion has increased Attack.
+		Give a minion +4/+4. <i>(+4 Attack/+4 Health)</i>
+		+4/+4.
+		Give a minion +3 Attack.
+		+3 Attack.
+		+3 Attack this turn.
+		Give your minions +3 Attack this turn.
+		<b>Charge</b>
+		<b>Taunt</b>
+		Give a friendly minion +2 Attack and <b>Charge</b>.
+		This minion has <b>Charge</b>.
+		Tundra Rhino grants <b>Charge</b>.
+		+2 Attack and <b>Charge</b>.
+		+2 Attack this turn.
+		Give your hero +2 Attack this turn and 2 Armor.
+		Your hero has +1 Attack this turn.
+		Deal $2 damage to two random enemy minions.
+		+1/+1.
+		Going second makes your first minion stronger.
+		Deal $2 damage to all enemies.
+		Choose an enemy minion. At the start of your turn, destroy it.
+		At the start of the corrupting player's turn, destroy this minion.
+		<b>Hero Power</b>
+Equip a 1/2 Dagger.
+		<b>Battlecry:</b> Restore 2 Health to all friendly characters.
+		+2 Attack.
+		Give your weapon +2 Attack.
+		This minion has double Health.
+		Double a minion's Health.
+		<b>Battlecry:</b> Summon a 2/1 Mechanical Dragonling.
+		Deal $2 damage. Restore #2 Health to your hero.
+		<b>Battlecry:</b> Deal 1 damage to ALL other characters.
+		<b>Battlecry:</b> Deal 1 damage.
+		Raid Leader is granting this minion +1 Attack.
+		Draw a card. <i>(You can only have 10 Mana in your tray.)</i>
+		Destroy a damaged enemy minion.
+		Leokk is granting this minion +1 Attack.
+		Deal $1 damage to all enemy minions. Draw a card.
+		<b>Battlecry:</b> Deal 3 damage.
+		Deal $6 damage.
+		<b>Hero Power</b>
+Deal 1 damage.
+		Deal $4 damage to all enemy minions.
+		+2 Attack from Flametongue Totem.
+		Adjacent minions have +2 Attack.
+		<b>Freeze</b> all enemy minions.
+		Deal $1 damage to an enemy character and <b>Freeze</b> it.
+		Deal $3 damage to a character and <b>Freeze</b> it.
+		Increased stats.
+		<b>Battlecry:</b> Gain +1/+1 for each other friendly minion on the battlefield.
+		This Beast has +1 Attack from Timber Wolf.
+		<b>Battlecry:</b> Draw a card.
+		ALL other Murlocs have +1 Attack.
+		<b>Battlecry:</b> Restore 6 Health to your hero.
+		Whenever this minion takes damage, gain +3 Attack.
+		Deal $3 damage.
+Draw a card.
+		Give a minion <b>Divine Shield</b>.
+		At the end of your turn, restore 1 Health to all friendly minions.
+		Restore #8 Health.
+		Deal $3 damage to ALL characters.
+		+4 Attack this turn.
+		Give your hero +4 Attack this turn.
+		Transform a minion into a 0/1 Frog with <b>Taunt</b>.
+		This minion has been transformed!
+		Restore #6 Health.
+		Deal $2 damage to all enemies. Restore #2 Health to all friendly characters.
+		<b>Battlecry:</b> Give a friendly Beast +2/+2 and <b>Taunt</b>.
+		Attack has been changed to 1.
+		Change a minion's Attack to 1.
+		This minion has 1 Health.
+		Change a minion's Health to 1.
+		Gain 2 Mana Crystals this turn only.
+		Deal $3 damage. If you have a Beast, deal $5 damage instead.
+		Other friendly minions have +1 Attack.
+		<b>Hero Power</b>
+Restore 2 Health.
+		<b>Hero Power</b>
+Draw a card and take 2 damage.
+		Going second grants you increased Health.
+		Give a minion <b>Taunt</b> and +2/+2.<i> (+2 Attack/+2 Health)</i>
+		This minion has +2/+2 and <b>Taunt</b>.
+		+2/+2 and <b>Taunt</b>.
+		Has +1/+1.
+		Deal $5 damage to the enemy hero.
+		Take control of an enemy minion.
+		This minion has switched controllers.
+		Put a copy of a random card in your opponent's hand into your hand.
+		Summon two 0/2 minions with <b>Taunt</b>.
+		This Murloc has +1 Attack.
+		Deal $1 damage.
+		Deal $1 damage to a minion. If that kills it, draw a card.
+		Deal $3 damage to two random enemy minions.
+		<b>Battlecry:</b> Summon a 1/1 Murloc Scout.
+		Somehow, the card you USED to have has been deleted.  Here, have this one instead!
+		<b>Battlecry: </b>Deal 3 damage to the enemy hero.
+		Whenever a minion is healed, draw a card.
+		This minion has been transformed into a 1/1 Sheep.
+		Transform a minion into a 1/1 Sheep.
+		Give a minion +2 Health.
+Draw a card.
+		+2 Health.
+		Your other minions have +1 Attack.
+		<b>Battlecry:</b> Summon a 1/1 Boar.
+		<b>Hero Power</b>
+Summon a 1/1 Silver Hand Recruit.
+		This character has +3 Attack this turn.
+		Give a friendly character +3 Attack this turn.
+		Destroy a Demon. Restore #5 Health to your hero.
+		Return an enemy minion to your opponent's hand.
+		Give your characters +2 Attack this turn.
+		Deal $4 damage to a minion.
+		Destroy a minion with an Attack of 5 or more.
+		Destroy a minion with 3 or less Attack.
+		<b>Hero Power</b>
++1 Attack this turn.
++1 Armor.
+		+1 Attack this turn.
+		<b>Battlecry:</b> Give a friendly minion +1/+1.
+		Gain 5 Armor.
+Draw a card.
+		Deal $1 damage. Draw a card.
+		Deal $3 damage to the enemy hero.
+		<b></b>
+		Deal $4 damage. Discard a random card.
+		Draw 4 cards.
+		Deal $5 damage.
+Draw a card.
+		Whenever you summon a Beast, draw a card.
+		<b>Hero Power</b>
+Deal 2 damage to the enemy hero.
+		<b>Battlecry:</b> Deal 2 damage.
+		Your other minions have +1/+1.
+		<b>Battlecry:</b> Discard a random card.
+		Deal $4 damage to an enemy and $1 damage to all other enemies.
+		Gain 1 Mana Crystal this turn only.
+		Your other Beasts have +1 Attack.
+		<b>Hero Power</b>
+Summon a random Totem.
+		Give your Totems +2 Health.
+		Look at the top three cards of your deck. Draw one and discard the others.
+		Whenever your hero attacks, restore 2 Health to it.
+		Your Beasts have <b>Charge</b>.
+		Return all minions to their owner's hand.
+		<b>Battlecry:</b> Restore 2 Health.
+		Whenever you summon a minion with 3 or less Attack, give it <b>Charge</b>.
+		<b>Freeze</b> any character damaged by this minion.
+		Deal $1 damage to ALL minions.
+		Gain an empty Mana Crystal.
+		Give a minion <b>Windfury</b>.
+		<b>Battlecry:</b> Give a friendly minion <b>Windfury</b>.
+		This minion has +2 Attack this turn.
+		<b>Taunt</b>. <b>Deathrattle:</b> Deal 2 damage to ALL characters.
+		<b>Battlecry:</b> Give a minion +2 Attack this turn.
+		Whenever this minion takes damage, draw a card.
+		<b>Windfury, Charge, Divine Shield, Taunt</b>
+		At the start of your turn, swap this minion with a random one in your hand.
+		<b>Battlecry:</b> Change an enemy minion's Attack to 1.
+		<b>Battlecry:</b> Set a hero's remaining Health to 15.
+		Health set to 15.
+		<b>Enrage:</b> +3 Attack
+		<b>Deathrattle:</b> Resummon this minion.
+		Give a minion "<b>Deathrattle:</b> Resummon this minion."
+		<b>Battlecry:</b> Return a friendly minion from the battlefield to your hand.
+		<b>Battlecry:</b> Give adjacent minions <b>Spell Damage +1</b>.
+		Restore 5 Health.
+		Can't Attack.
+		<b>Choose One -</b> Draw 2 cards; or Restore 5 Health.
+		<b>Choose One</b> -
++5 Attack; or +5 Health and <b>Taunt</b>.
+		<b>Enrage:</b> +5 Attack.
+		<b>Battlecry:</b> Equip a 2/2 weapon.
+		<b>Charge</b>. <b>Battlecry:</b> Give your opponent a Mana Crystal.
+		Whenever you cast a spell, add a 'Fireball' spell to your hand.
+		<b>Charge</b>, <b>Divine Shield</b>
+		<b>Battlecry:</b> Give a friendly minion <b>Divine Shield</b>.
+		<b>Divine Shield</b>
+		Whenever a friendly minion takes damage, gain 1 Armor.
+		Your cards and powers that restore Health now deal damage instead.
+		Deal $8 damage randomly split among enemy characters.
+		<b>Spell Damage +1</b>. <b>Battlecry:</b> Draw a card.
+		Give a minion +1/+1.
+		Deal $2 damage to a character. If that kills it, summon a random Demon.
+		At the end of your turn, deal 2 damage to ALL other characters.
+		Draw a card for each damaged friendly character.
+		+2 Health and <b>Taunt</b>.
+		Increased Attack.
+		Give a friendly Beast +2 Attack and <b>Immune</b> this turn.
+		+2 Attack and <b>Immune</b> this turn.
+		Force an enemy minion to deal its damage to the minions next to it.
+		<b>Battlecry:</b> Destroy a minion with an Attack of 7 or more.
+		Give your hero +4 Attack this turn and 4 Armor.
+		Destroy your weapon and deal its damage to all enemies.
+		This minion's Attack has been doubled.
+		Double a minion's Attack.
+		Choose a minion. Whenever it attacks, draw a card.
+		When this minion attacks, the player who blessed it draws a card.
+		When this minion attacks, the enemy player draws a card.
+		Deal $2 damage to all enemy minions and <b>Freeze</b> them.
+		<b>Stealth</b>. At the end of your turn, give another random friendly minion +1 Health.
+		<b>Battlecry:</b> All minions lose <b>Divine Shield</b>. Gain +3/+3 for each Shield lost.
+		Increased Health.
+		<b>Spell Damage +1</b>. <b>Deathrattle:</b> Draw a card.
+		No durability loss.
+		<b>Battlecry:</b> Remove 1 Durability from your opponent's weapon.
+		<b>Battlecry:</b> Gain Attack equal to the Attack of your weapon.
+		Destroy all minions except one. <i>(chosen randomly)</i>
+		<b>Battlecry:</b> Take control of an enemy minion that has 2 or less Attack.
+		<b>Deathrattle:</b> Summon a 4/5 Baine Bloodhoof.
+		<b>Battlecry:</b> Give your weapon +1/+1.
+		<b>Choose One</b> - Give your other minions +2/+2; or Summon two 2/2 Treants with <b>Taunt</b>.
+		Restore #4 Health to ALL minions.
+		Give a minion +2 Attack. <b>Combo:</b> +4 Attack instead.
+		+4 Attack.
+		<b>Battlecry:</b> Each player draws 2 cards.
+		<b>Battlecry:</b> Give ALL other Murlocs +2 Health.
+		Your minions can't be reduced below 1 Health this turn.
+		Your minions can't be reduced below 1 Health this turn. Draw a card.
+		Can't be reduced below 1 Health this turn.
+		Give your minions <b>Stealth</b> until your next turn.
+		Stealthed until your next turn.
+		<b>Freeze</b> a minion and the minions next to it, and deal $1 damage to them.
+		<b>Secret:</b> When your opponent casts a spell, <b>Counter</b> it.
+		<b>Battlecry:</b> Swap the Attack and Health of a minion.
+		<b>Battlecry:</b> Deal 1 damage to a minion and give it +2 Attack.
+		Whenever one of your other minions dies, draw a card.
+		This minion has switched controllers this turn.
+		Destroy a random enemy minion.
+		<b>Battlecry:</b> Destroy all other minions and discard your hand.
+		<b>Battlecry:</b> Give adjacent minions +1/+1 and <b>Taunt</b>.
+		<b>Combo:</b> Summon a 2/1 Defias Bandit.
+		+2/+2.
+		Give your other minions +2/+2.
+		At the start of your turn, deal 2 damage to a random enemy.
+		Deal $2 damage to a minion. If it’s a friendly Demon, give it +2/+2 instead.
+		This Demon has +2/+2.
+		This minion has -3 Attack this turn.
+		Adjacent minions have +1 Attack.
+		<b>Silence</b> a minion.
+		Draw cards until you have as many in hand as your opponent.
+		<b>Charge</b>. <b>Battlecry:</b> Discard two random cards.
+		<b>Windfury, Overload:</b> (2)
+		At the start of your turn, destroy ALL minions.
+		<b>Taunt.</b> Costs (1) less per Attack of your weapon.
+		Return a minion to its owner's hand.
+		<b>Choose One -</b> <b>Charge</b>; or +2 Health and <b>Taunt</b>.
+		<b>Windfury</b>. <b>Overload:</b> (2)
+		Whenever a friendly <b>Secret</b> is revealed, gain +1 Durability.
+		<b>Taunt</b>. <b>Overload:</b> (3)
+		<b>Silence</b> a minion, then deal $1 damage to it.
+		<b>Battlecry:</b> Restore 3 Health.
+		<b>Combo:</b> Gain +2/+2 for each card played earlier this turn.
+		Destroy any minion damaged by this minion.
+		Mana Addict has increased Attack.
+		Health changed to 1.
+		Change the Health of ALL minions to 1.
+		If you control a <b>Secret</b> at the end of your turn, gain +2/+2.
+		Deal $2 damage. <b>Combo:</b> Deal $4 damage instead.
+		Attack and Health have been swapped by Crazed Alchemist.
+		Deal $5 damage to a minion and $2 damage to adjacent ones.
+		<b>Secret:</b> When your hero is attacked, deal $2 damage to all enemies.
+		<b>Secret:</b> When your hero takes damage, deal that much damage to the enemy hero.
+		<b>Battlecry:</b> Choose a minion and become a copy of it.
+		Can't be targeted by spells or Hero Powers.
+		One of your cards costs (3) less.
+		Draw a card. That card costs (3) less.
+		<b>Taunt</b>. <b>Battlecry:</b> Destroy one of your Mana Crystals.
+		Summon two 2/3 Spirit Wolves with <b>Taunt</b>. <b>Overload:</b> (2)
+		<b>Battlecry:</b> Deal 3 damage to your hero.
+		All minions lose <b>Stealth</b>. Destroy all enemy <b>Secrets</b>. Draw a card.
+		Whenever a minion dies, gain +1 Attack.
+		Summon three 2/2 Treants with <b>Charge</b> that die at the end of the turn.
+		Deal $2 damage to 2 random enemy minions. <b>Overload:</b> (2)
+		<b>Secret:</b> When an enemy minion attacks, return it to its owner's hand and it costs (2) more.
+		<b>Battlecry:</b> <b>Freeze</b> a character.
+		Whenever a minion takes damage, gain +1 Attack.
+		+2/+2.  Full of Murloc.
+		This minion has +2 Attack.
+		Whenever you cast a spell, draw a card.
+		Your hero is <b>Immune</b> while attacking.
+		Attacking a minion costs 1 Attack instead of 1 Durability.
+		<b>Charge</b>
+<b>Enrage:</b> +6 Attack
+		Gruul is growing...
+		At the end of each turn, gain +1/+1 .
+		+1/+1 and <b>Taunt</b>.
+		<b>Battlecry:</b> Destroy your opponent's weapon and draw cards equal to its Durability.
+		<b>Deathrattle:</b> Summon a 2/1 Damaged Golem.
+		Deal $2 damage to the enemy hero. <b>Combo:</b> Return this to your hand next turn.
+		At the end of your turn, summon a 2/2 Gnoll with <b>Taunt</b>.
+		Deal $5 damage. Restore #5 Health to your hero.
+		Draw a card and deal damage equal to its cost.
+		<b>Battlecry:</b> Destroy a Murloc and gain +2/+2.
+		<b>Hero Power</b>
+Summon a 6/6 Infernal.
+		<b>Secret:</b> When your hero is attacked, gain 8 Armor.
+		<b>Secret:</b> When your hero takes fatal damage, prevent it and become <b>Immune</b> this turn.
+		Your hero is <b>Immune</b> this turn.
+		<b>Freeze</b> a character. If it was already <b>Frozen</b>, deal $4 damage instead.
+		Whenever you play a card, summon a 2/1 Flame of Azzinoth.
+		At the end of your turn, deal 1 damage to this minion and summon a 1/1 Imp.
+		+3 Health.
+		<b>Battlecry:</b> Deal 4 damage to HIMSELF.
+		This minion's Attack is equal to its Health.
+		Change a minion's Attack to be equal to its Health.
+		Deal $1 damage to a minion and give it +2 Attack.
+		<b>Battlecry:</b> <b>Silence</b> a minion.
+		<b>Stealth</b>
+		<b>Choose One</b> - Deal 2 damage; or <b>Silence</b> a minion.
+		<b>Combo:</b> Return a minion to its owner's hand.
+		Spells cost (0) this turn!
+		<b>Battlecry:</b> Give your opponent 2 Bananas.
+		<b>Battlecry:</b> The next <b>Secret</b> you play this turn costs (0).
+		After you summon a minion, deal 1 damage to a random enemy.
+		Deal $5 damage. <b>Overload:</b> (2)
+		Restore #8 Health. Draw 3 cards.
+		Give your minions +1/+1.
+		+1/+1
+		<b>Charge</b>. <b>Battlecry:</b> Summon two 1/1 Whelps for your opponent.
+		<b>Deathrattle:</b> Deal 2 damage to the enemy hero.
+		Increased Attack and Health.
+		Deal $3 damage. <b>Overload:</b> (1)
+		Deal $2-$3 damage to all enemy minions. <b>Overload:</b> (2)
+		This minion's Attack is always equal to its Health.
+		Whenever a character is healed, gain +2 Attack.
+		At the start of your turn, restore 3 Health to a damaged friendly character.
+		<b>Deathrattle:</b> Draw a card.
+		<b>Battlecry:</b> Destroy your hero and replace it with Lord Jaraxxus.
+		Whenever a player casts a spell, put a copy into the other player’s hand.
+		<b>Battlecry:</b> Deal 3 damage randomly split between all other characters.
+		<b>Spell Damage +5</b>
+		Whenever you cast a spell, gain +2 Attack this turn.
+		Increased attack.
+		At the end of your turn, draw a card.
+		ALL minions cost (1) more.
+		Whenever you cast a spell, gain +1 Attack.
+		This minion has +4 Health and <b>Taunt</b>.
+		<b>Choose One</b> - Give a minion +4 Attack; or +4 Health and <b>Taunt</b>.
+		+4 Health and <b>Taunt</b>.
+		This minion has +4 Attack.
+		<b>Silence</b> all enemy minions. Draw a card.
+		At the end of your turn, give another random friendly minion +1 Attack.
+		<b>Battlecry:</b> Give a friendly minion <b>Stealth</b>.
+		<b>Battlecry:</b> Enemy spells cost (0) next turn.
+		<b>Battlecry:</b> If your opponent has 4 or more minions, take control of one at random.
+		<b>Hero Power</b>
+Deal 3 damage.
+		<b>Hero Power</b>
+Deal 2 damage.
+		Put a copy of a random minion from your opponent's deck into the battlefield.
+		<b>Secret:</b> When your opponent plays a minion, summon a copy of it.
+		<b>Secret:</b> When a character attacks your hero, instead he attacks another random character.
+		Costs (1) less for each damage your hero has taken.
+		Deal 2 damage.
+		Deal $4 damage. If you have 12 or less Health, deal $6 instead.
+		Costs (1) less for each other card in your hand.
+		Murloc Warleader is granting +2/+1.
+		Whenever a Murloc is summoned, gain +1 Attack.
+		ALL other Murlocs have +2/+1.
+		At the start of your turn, you have a 50% chance to draw an extra card.
+		Destroy a minion. Your opponent draws 2 cards.
+		Decreased Attack.
+		Give a minion +5/+5. At the start of your next turn, destroy it.
+		This minion has +5/+5, but will be destroyed soon.
+		<b>Secret:</b> When an enemy attacks, summon a 2/1 Defender as the new target.
+		Draw 3 cards.
+		Gain 2 Mana Crystals.
+		<b>Choose One</b> - Gain 2 Mana Crystals; or Draw 3 cards.
+		Players only have 15 seconds to take their turns.
+		<b>Battlecry:</b> Summon 1/1 Whelps until your side of the battlefield is full.
+		<b>Stealth</b>. Destroy any minion damaged by this minion.
+		<b>Battlecry:</b> Deal 1 damage. <b>Combo:</b> Deal 2 instead.
+		The first minion you play each turn costs (1) less.
+		<b>Battlecry:</b> Deal 5 damage to your hero.
+		Give a friendly minion +4/+4 until end of turn. Then, it dies. Horribly.
+		This minion has +4/+4, but will die a horrible death at the end of the turn.
+		Your next Secret costs (0).
+		<b>Choose One</b> - Give your minions +1/+1; or Summon a 3/2 Panther.
+		The next spell you cast this turn costs (3) less.
+		<b>Battlecry:</b> Restore 4 Health to your hero.
+		Double the damage and healing of your spells and Hero Power.
+		Deal $10 damage.
+		Whenever you play a card, gain +1/+1.
+		<b>Enrage:</b> <b>Windfury</b> and +1 Attack
+		Can't Attack. At the end of your turn, deal 8 damage to a random enemy.
+		+3/+3.
+		Give a damaged minion +3/+3.
+		<b>Secret:</b> When one of your minions dies, return it to life with 1 Health.
+		Health reduced to 1.
+		<b>Secret:</b> When your opponent plays a minion, reduce its Health to 1.
+		+5 Health and <b>Taunt</b>.
+		<b>Combo:</b> Deal 2 damage.
+		Deal damage equal to your hero's Attack to a minion.
+		<b>Deathrattle:</b> Summon two 2/2 Hyenas.
+		Whenever a friendly Beast dies, gain +2/+1.
+		Costs (1) less for each other minion on the battlefield.
+		Whenever a <b>Secret</b> is played, gain +1/+1.
+		Put 2 random Demons from your deck into your hand.
+		Gain control of an enemy minion with 3 or less Attack until end of turn.
+		Mindgames whiffed! Your opponent had no minions!
+		Destroy a friendly minion and deal its Attack damage to all enemy minions.
+		Your Hero Power becomes 'Deal 2 damage'. If already in Shadowform: 3 damage.
+		This minion has consumed Divine Shields and has increased Attack and Health.
+		Return a friendly minion to your hand. It costs (2) less.
+		Summon two 2/2 Treants with <b>Taunt</b>.
+		+2 Attack from Spiteful Smith.
+		+1 Durability.
+		Deal 1 damage to a minion for each Armor you have.
+		<b>Battlecry:</b> Summon a 2/2 Squire.
+		Destroy a minion. Restore #3 Health to your hero.
+		Deal $2 damage to a minion. If it survives, draw a card.
+		<b>Secret:</b> When one of your minions is attacked, summon three 1/1 Snakes.
+		<b>Secret:</b> When your opponent plays a minion, deal $4 damage to it.
+		Your spells cost (1) less.
+		Give your minions "<b>Deathrattle:</b> Summon a 2/2 Treant."
+		Deathrattle: Summon a 2/2 Treant.
+		Your other Pirates have +1/+1.
+		Has <b>Charge</b> while you have a weapon equipped.
+		<b>Secret:</b> When an enemy casts a spell on a minion, summon a 1/3 as the new target.
+		<b>Enrage:</b> Your weapon has +2 Attack.
+		<b>Battlecry:</b> Destroy a random enemy minion with 2 or less Attack.
+		Attack changed to 1.
+		Deal $2 damage to all enemy minions.
+		Deal $5 damage to a minion.
+		<b>Choose One -</b> Deal $5 damage to a minion; or $2 damage to all enemy minions.
+		<b>Overload:</b> (1)
+		Dire Wolf Alpha is granting +1 Attack to this minion.
+		Summon a 3/2 Panther.
+		Your minions cost (2) less, but not less than (1).
+		<b>Battlecry:</b> Give adjacent minions <b>Taunt</b>.
+		<b>Taunt</b>. <b>Divine Shield</b>
+		Whenever you summon a minion, give it +1/+1 and this loses 1 Durability.
+		<b>Deathrattle:</b> Take control of a random enemy minion.
+		<b>Taunt</b>. <b>Enrage:</b> +3 Attack
+		<b>Spell Damage +1</b>.
+		<b>Battlecry:</b> Give a friendly minion +3 Health.
+		<b>Deathrattle:</b> Summon a 3/3 Finkle Einhorn for your opponent.
+		<b>Battlecry:</b> Destroy an enemy minion with <b>Taunt</b>.
+		Copy 2 cards from your opponent's deck and put them into your hand.
+		<b>Windfury</b>
+		<b>Battlecry:</b> Transform another random minion into a 5/5 Devilsaur or a 1/1 Squirrel.
+		<b>Divine Shield</b>. <b>Taunt</b>. <b>Deathrattle:</b> Equip a 5/3 Ashbringer.
+		Will be <b>Frozen</b> again at the start of the next turn.
+		<b>Charge</b>.  At the end of the turn, destroy this minion.
+		<b>Battlecry:</b> Gain +1 Health for each card in your hand.
+		Destroy all minions.
+		Whenever you play a card with <b>Overload</b>, gain +1/+1.
+		For each enemy minion, summon a 1/1 Hound with <b>Charge</b>.
+		If you have a weapon, give it +1/+1. Otherwise equip a 1/3 weapon.
+		Increased Durability.
+		+1 Attack and +1 Durability.
+		+5 Attack.
+		This minion has increased Attack and Health.
+		<b>Secret:</b> When a minion attacks your hero, destroy it.
+		Your minions cost (3) more.
+		Whenever you cast a spell, summon a 1/1 Violet Apprentice.
+		<b>Battlecry:</b> Destroy the minions on either side of this minion and gain their Attack and Health.
+		After you cast a spell, deal 1 damage to ALL minions.
+		<i>You are out of demons! At least there are always imps...</i>
+		Deal $1 damage to a minion. Draw a card.
+		Deal $3 damage to a minion.
+		<b>Choose One</b> - Deal $3 damage to a minion; or $1 damage and draw a card.
+		Southsea Captain is granting +1/+1.
+		At the end of your turn, give another random friendly minion +1 Health.
+		At the end of your turn, draw a Dream Card.
+		Deal $5 damage to all characters except Ysera.
+		Can't be <b>Silenced. Divine Shield, Stealth.</b>
+		Your volume can't be reduced below maximum.
+		<b>Battlecry:</b> Draw some cards. With a pen.
+		<b>Super Taunt</b> <i>(EVERY character must attack this minion.)</i>
+		At the end of your turn, give a random minion +1 Attack.
+		<i>The notorious Footclapper.</i>
+		<b>Battlecry:</b> Summon a 2/2 Pirate and destroy all Ninjas.
+		<i>Was successfully NOT part of the problem! ...most of the time.</i>
+		<b>Enrage:</b> Just kidding! He never Enrages.
+		<b>Battlecry:</b> Summon FIVE random Inventions.
+		<i>3 for a 5/4? That's a good deal!</i>
+		<b>C-C-C-COMBO:</b> Destroy a minion.
+		<b>Battlecry:</b> Draw TWO cards. <i>She's not a novice engineer.</i>
+		You can't start a game without this minion in your deck.
+		<b>Battlecry:</b> Summon a frothy beverage.
+		Your other minions have +3 Attack and <b>Charge</b>.
+		<b>Battlecry:</b> Complain about bacon prices.
+		<b>Deathrattle:</b> Return a random friendly minion to your hand.
+		<b>Secret:</b> When one of your minions dies, give a random friendly minion +3/+2.
+		Your minions trigger their <b>Deathrattles</b> twice.
+		<b>Hero Power</b>
+Take control of a random enemy minion.
+		<b>Hero Power</b>
+Take control of a random enemy minion until end of turn.
+		<b>Deathrattle:</b> Your opponent draws a card.
+		<b>Deathrattle:</b> Give a random friendly minion +3 Health.
+		<b>Deathrattle:</b> Deal 1 damage to all minions.
+		Deal $5 damage to a minion. Summon a Spore.
+		<b>Charge. Deathrattle:</b> Deal 3 damage to your hero.
+		<b>Taunt. Deathrattle:</b> Your opponent puts a minion from their deck into the battlefield.
+		<b>Hero Power</b>
+Change the Health of all minions to 1.
+		<b>Hero Power</b>
+Change the Health of enemy minions to 1.
+		<b>Secret:</b> When a friendly minion dies, put 2 copies of it into your hand.
+		<b>Battlecry:</b> Summon an exact copy of this minion at the end of the turn.
+		+6 Attack this turn.
+		Give your hero +6 Attack this turn.
+		<b>Hero Power</b>
+Deal 3 damage to the left-most enemy minion.
+		<b>Hero Power</b>
+Deal 2 damage to the left-most enemy minion.
+		<b>Deathrattle:</b> If Stalagg also died this game, summon Thaddius.
+		<b>Hero Power</b>
+Deal 2 damage to the enemy hero and <b>Freeze</b> it.
+		<b>Hero Power</b>
+Deal 3 damage to the enemy hero and <b>Freeze</b> it.
+		<b>Hero Power</b>
+Destroy all enemy minions that aren't <b>Frozen</b>.
+		Permanently Frozen.  Adjacent minions are Immune to Frost Breath.
+		<b>Hero Power</b>
+Draw a card.
+		<b>Hero Power</b>
+Draw a card. Gain a Mana Crystal.
+		<b>Hero Power</b>
+Destroy a minion.
+		<b>Deathrattle:</b> Summon two 1/1 Spectral Spiders.
+		<b>Deathrattle:</b> Put this weapon into your hand.
+		<b>Windfury</b>
+<b>Deathrattle:</b> Put this weapon into your hand.
+		Whenever a minion with <b>Deathrattle</b> dies, gain +2 Attack.
+		At the end of each turn, summon all friendly minions that died this turn.
+		Your hero is <b>Immune</b>.
+		<b>Battlecry:</b> Enemy spells cost (5) more next turn.
+		Deal $3 damage to all enemy minions. Restore #3 Health to your hero.
+		<b>Deathrattle:</b> Put a <b>Secret</b> from your deck into the battlefield.
+		Give your minions and your weapon +1/+1.
+		Deals double damage to heroes.
+		Activate the Crystal to control the Understudies!
+		Both players draw 2 cards and gain a Mana Crystal.
+		<i>This is Kel'Thuzad's kitty.</i>
+		Give a minion +4/+4 and <b>Taunt</b>.
+		+4/+4 and <b>Taunt</b>.
+		<b>Deathrattle:</b> Destroy the minions next to this one as well.
+		<b>Hero Power</b>
+Deal 3 damage to the enemy hero.
+		Your spells cost (5) more this turn.
+		Destroy a minion.
+		Minions with <b>Battlecry</b> cost (2) more.
+		<b>Deathrattle:</b> Summon a 4/4 Nerubian.
+		Destroy all non-Skeleton minions.
+		<b>Hero Power</b>
+Deal 1 damage to all minions. If any die, summon a slime.
+		<b>Hero Power</b>
+Deal 2 damage to all enemies. If any die, summon a slime.
+		Destroy all minions and summon 2/2 Treants to replace them.
+		Attack and Health swapped.
+		<b>Hero Power</b>
+Swap the Attack and Health of all minions.
+		Deal $8 damage to the enemy hero, and <b>Freeze</b> it.
+		<b>Hero Power</b>
+Fire a missile for each card in your opponent's hand.
+		<b>Passive Hero Power</b>
+Whenever an enemy dies, raise a 1/1 Skeleton.
+		<b>Passive Hero Power</b>
+Whenever an enemy dies, raise a 5/5 Skeleton.
+		Destroy a minion, then return it to life with full Health.
+		Has +6 Attack if the other Horsemen are dead.
+		Has +3 Attack if the other Horsemen are dead.
+		<b>Stealth.</b> At the start of your turn, gain +1/+1.
+		<b>Deathrattle:</b> Destroy your opponent's weapon.
+		<b>Hero Power</b>
+Summon a 3/1 Nerubian.
+		<b>Hero Power</b>
+Summon a 4/4 Nerubian.
+		MINE!
+		<b>Taunt.
+Deathrattle:</b> Summon a 1/2 Slime with <b>Taunt</b>.
+		At the start of your turn, deal 1 damage to your hero.
+		<b>Deathrattle:</b> Give all enemy minions +8 Attack.
+		Deal $1 damage to all enemy minions. Summon a Spore.
+		<b>Deathrattle:</b> If Feugen also died this game, summon Thaddius.
+		At the start of your turn, restore this minion to full Health.
+		Give your minions +2 Health.
+		<b>Hero Power</b>
+Deal 4 damage.
+		Whenever you summon a minion with <b>Deathrattle</b>, gain +1 Attack.
+		<b>Hero Power</b>
+Draw 2 cards.
+		<b>Deathrattle:</b> Summon a Spectral Rider for your opponent.
+		<b>Deathrattle:</b> Summon a Spectral Trainee for your opponent.
+		<b>Deathrattle:</b> Summon a Spectral Warrior for your opponent.
+		<b>Taunt</b>. <b>Deathrattle:</b> Deal 1 damage to all minions.
+		+3/+2.
+		<b>Deathrattle:</b> Put a random Demon from your hand into the battlefield.
+		<b>Battlecry: Silence</b> your other minions.
+		<b>Hero Power</b>
+Return a random enemy minion to your opponent's hand.
+		<b>Hero Power</b>
+Return 2 random enemy minions to your opponent's hand.
+		<b>Deathrattle:</b> Add a random Beast card to your hand.
+		Your hero has +1 Attack on your turn.
+		Your hero has +3 Attack on your turn.
+		<b>Deathrattle:</b> Restore 5 Health to the enemy hero.
+		Give a player's weapon -1 Durability.
+		Give a Minion +1000/+1000
+		Spawn into play to give all minions <b>Charge</b>.
+		Spawn into play to smack your own hero for 5.
+		Spawn into play to destroy all minions.
+		Spawn into play to destroy the AI's Hand and Deck.
+		Get the AI ready for testing.
+		Give your Hero +100 Armor
+		Become Hogger for Video Recording.
+		Destroy a hero's weapon.
+		Crash the game.
+		Deal 1 damage.
+		Deal 5 damage.
+		Whenever this minion takes damage, deal 1 damage to ALL other characters.
+		Set the Health of a character to 1.
+		Destroy a minion or hero.
+		Destroy all heroes.
+		Delete an opponent's deck
+		Destroy a player's Hero Power.
+		Choose a hero. Destroy all <b>Secrets</b> controlled by that hero.
+		Pick a player and destroy one of his Mana Crystals.
+		Destroy all of a player's Mana Crystals.
+		Choose a hero.  That hero's controller discards his hand.
+		This does nothing.
+		This enchantment does nothing.
+		Enable emotes for your VS.AI game. (not in tutorials, though)
+		Give a character Charge and make him able to attack!
+		Enchant a minion with an empty enchant.
+		Force the AI to use their Hero Power every turn from now on.
+		Your cards cost (0) for the rest of the game.
+		<b>Freeze</b> a character.
+		Give a minion <b>Mega-Windfury</b>.
+		<b>Battlecry:</b> Discard 3 cards, then draw 3 cards.
+		Shuffle a player's hand into his deck.
+		Permanently make a character <b>Immune</b>.
+		Put 10 cards from a hero's deck into his graveyard.
+		Put 30 cards from a hero's deck into his graveyard.
+		You can take as long as you want on your turn.
+		Force your opponent to concede.
+		Force your opponnet to disconnect.
+		Restore 1 Health to a character.
+		Restore 5 Health to a character.
+		Restore all Health to a character.
+		Crash the Server.  DON'T BE A FOOL.
+		Remove all enchantments and powers from a minion.
+		Silence and Destroy ALL Minions.
+		Summon five 1/1 snakes.
+		Steal a random card from your opponent.
+		Summon a secret from your deck.
+		Give your Weapon +100/+100
+		Put a random minion from each player's hand into the battlefield.
+		At the end of each turn, destroy this minion if it's your only one.
+		<b>Taunt</b>
+<b>Divine Shield</b>
+		<b>Taunt</b>. <b>Choose One -</b>
++1 Attack; or +1 Health.
+		<b>Battlecry:</b> Restore 8 Health to your hero.
+		<b>Taunt</b>
+Can't be targeted by spells or Hero Powers.
+		+1 Health.
+		Give a minion +1 Health.
+		+1 Attack.
+		<b>Battlecry:</b> Equip a random weapon for each player.
+		Whenever a friendly minion dies while this is in your hand, gain +1 Attack.
+		<b>Battlecry:</b> Deal 4 damage to a random enemy minion.
+		<b>Deathrattle</b>: Deal 1-4 damage to a random enemy.
+		Deal $1 damage to a random minion. Repeat until a minion dies.
+		Whenever your opponent casts a spell, gain +2 Attack.
+		When you draw this, it explodes. You take 10 damage and draw a card.
+		Draw a card.
+If it's a Beast, it costs (4) less.
+		Costs (1) less for each card in your opponent's hand.
+		<b>Deathrattle:</b> Add a <b>Spare Part</b> card to your hand.
+		Whenever you summon a Mech, gain <b>Divine Shield</b>.
+		Deal $3 damage to a minion and the enemy hero.
+		<b>Battlecry:</b> Give a random friendly minion <b>Divine Shield</b> and <b>Taunt</b>.
+		Has +2 Attack while you have a Mech.
+		Deal $3-$6 damage. <b>Overload: (1)</b>
+		Destroy a minion. If you have a damaged minion, this costs (4) less.
+		<b>Choose One -</b> Summon 5 Wisps; or Give a minion +5/+5 and <b>Taunt</b>.
+		Summon 5 Wisps.
+		+5/+5 and <b>Taunt</b>.
+		Deal $3 damage.
+		Deal $5 damage to a minion.  If it's a friendly Demon, give it +5/+5 instead.
+		+5/+5.
+		<b>Battlecry</b>: Summon two 1/1 Boom Bots. <i>WARNING: Bots may explode.</i>
+		<b>Battlecry:</b> If you have a Beast, transform this minion into a 7/7.
+		<b>Windfury, Overload: (1)</b>
+50% chance to attack the wrong enemy.
+		Put a copy of each friendly minion into your hand.
+		<b>Freeze</b> a minion.
+		<b>Battlecry:</b> Give your other minions <b>Windfury</b>, <b>Taunt</b>, or <b>Divine Shield</b>.
+<i>(at random)</i>
+		<b>Deathrattle:</b> Deal 2 damage to all minions.
+		Trigger all <b>Deathrattles</b> on your minions.
+		At the end of your turn, deal 2 damage to a non-Mech minion.
+		Whenever your opponent plays a card, discard the top 3 cards of your deck.
+		Give a friendly minion <b>Stealth</b> until your next turn.
+		When you draw this, deal 2 damage to all characters.
+		Deal $4 damage to a random enemy minion.
+		Whenever your hero takes damage on your turn, gain +2/+2.
+		Also damages the minions next to whomever he attacks.
+		Whenever this minion takes damage, double its Attack.
+		Gain 1 Mana Crystal this turn only.
+<i>(Won't trigger Gallywix.)</i>
+		Whenever you cast a 1-mana spell, add a random Mech to your hand.
+		Each player draws a card.
+		Give each player a Mana Crystal.
+		<b>Battlecry:</b> Give a random friendly minion +1 Attack.
+		<b>Charge</b>
+<b>Taunt</b>
+		<b>Battlecry:</b> Draw a card. If it's a minion, transform it into a Chicken.
+		<b>Battlecry</b>: Give your weapon +1 Attack.
+		<b>Battlecry:</b> If you have a Mech, deal 4 damage randomly split among all enemies.
+		Has +4 Attack while your opponent has 6 or more cards in hand.
+		Mal'Ganis is granting +2/+2.
+		<b>Choose One -</b> Give each player a Mana Crystal; or Each player draws a card.
+		<b>Battlecry:</b> Destroy a Beast.
+		Whenever you play a 1-Attack minion, give it +2/+2.
+		If you control a <b>Secret</b> at the end of your turn, restore 4 health to your hero.
+		Deal $2-$4 damage to a minion. Summon a 1/1 Imp for each damage dealt.
+		<b>Battlecry:</b> Shuffle a Mine into your opponent's deck. When drawn, it explodes for 10 damage.
+		At the end of your turn, give another friendly Mech +2/+2.
+		At the end of each player's turn, that player draws until they have 3 cards.
+		Whenever a friendly Mech dies, gain +2/+2.
+		<b>Battlecry:</b> Take control of a random enemy <b>Secret</b>.
+		<b>Taunt</b>. <b>Battlecry:</b> Gain +1 Attack for each other Beast you have.
+		Restore #3 Health. If the target is still damaged, summon a Lightwarden.
+		Deal damage to each minion equal to its Attack.
+		<b>Taunt</b>
+<b>Battlecry:</b> Gain +1/+1 for each enemy <b>Deathrattle</b> minion.
+		<b>Battlecry:</b> Deal 6 damage randomly split between all other characters.
+		Your other Demons have +2/+2.
+Your hero is <b>Immune</b>.
+		<b>Deathrattle:</b> Shuffle this minion into your deck.
+		Whenever this minion takes damage, add a <b>Spare Part</b> card to your hand.
+		<b>Deathrattle:</b> Give each player a <b>Spare Part.</b>
+		Your Mechs cost (1) less.
+		Whenever an enemy minion dies, summon a Leper Gnome.
+		<b>Battlecry</b>: Give your other Mechs +2 Attack.
+		At the start of each turn, gain +1 Attack.
+		Multiplying Attack.
+		At the start of your turn, if you have at least 3 Mechs, destroy them all and form V-07-TR-0N.
+		<b>Stealth</b>
+<b>Spell Damage +1</b>
+		Whenever this minion deals damage, restore that much Health to your hero.
+		All minions have a 50% chance to attack the wrong enemy.
+		Summon three 1/1 Silver Hand Recruits. Equip a 1/4 Weapon.
+		<b>Battlecry:</b> Add 4 random Murlocs to your hand. <b>Overload: (3)</b>
+		50% chance to attack the wrong enemy.
+		<b>Stealth</b>
+50% chance to attack the wrong enemy.
+		Whenever you summon a Pirate, gain <b>Stealth</b>.
+		Spell Damage +2.
+		<b>Deathrattle:</b> Summon a random 2-Cost minion.
+		<b>Deathrattle:</b> Summon a random 4-Cost minion.
+		<b>Deathrattle</b>: Give a random friendly Mech +2/+2.
+		Increased Stats.
+		<b>Battlecry:</b> Give your Silver Hand Recruits +2/+2.
+		<b>Battlecry:</b> Transform a friendly minion into a random minion with the same Cost.
+		Shuffle an enemy minion into your opponent's deck.
+		+4 Health.
+		Increased Attack
+		Swap a minion's Attack and Health.
+		Give a minion <b>Taunt</b>.
+		Destroy a random enemy minion. <b>Combo</b>: And your opponent's weapon.
+		<b>Battlecry</b>: Deal 2 damage to all minions with <b>Deathrattle</b>.
+		<b>Battlecry</b>: Give a friendly Mech +2/+2.
+		Restore #4 Health to your hero and gain +2 Attack this turn.
+		<b>Battlecry:</b> Deal 3 damage to each hero.
+		Whenever a character is healed, deal 1 damage to a random enemy.
+		Health was swapped.
+		<b>Battlecry:</b> Gain 5 Armor.
+		Whenever you summon a Pirate, deal 2 damage to a random enemy.
+		-2 Attack this turn.
+		<b>Battlecry:</b> Give a minion -2 Attack this turn.
+		Whenever you gain Armor, give this minion +1 Attack.
+		Whenever another friendly Murloc dies, draw a card. <b>Overload</b>: (1)
+		<b>Deathrattle:</b> Summon a random legendary minion.
+		Your Hero Power can target minions.
+		Whenever your opponent casts a spell, gain +1 Attack.
+		Attack and Health have been swapped by Reversing Switch.
+		Return a friendly minion to your hand.
+		Give your weapon +3 Attack. <b>Combo:</b> Give a random friendly minion +3 Attack.
+		<b>Battlecry:</b> If you have a Mech, gain +1/+1 and add a <b>Spare Part</b> to your hand.
+		<b>Battlecry and Deathrattle:</b> Add a <b>Spare Part</b> card to your hand.
+		Whenever your opponent casts a spell, gain a copy of it and give them a Coin.
+		Restore all characters to full Health.
+		Whenever your opponent casts a spell, summon a Burly Rockjaw Trogg.
+		Add a random minion to your hand. It costs (3) less.
+		<b>Battlecry:</b> Give a friendly Mech +4 Health.
+		<b>Charge</b>
+<b>Mega-Windfury</b> <i>(Can attack four times a turn.)</i>
+		+2/+4 and <b>Spell Damage +1</b>.
+		Give a minion +2/+4 and <b>Spell Damage +1</b>.
+		At the end of your turn, restore 4 Health to your hero.
+		<b>Battlecry:</b> Swap Health with another minion.
+		<b>Enrage:</b> +1 Attack.
+		Adjacent minions can't be targeted by spells or Hero Powers.
+		Give a minion +1 Attack.
+		This minion has +1/+1. <i>(+1 Attack/+1 Health)</i>
+		Give a friendly minion +1/+1. <i>(+1 Attack/+1 Health)</i>
+		Is something in this barrel?
+		<b>Battlecry:</b> Throw Bananas.
+		Shoot 5 missiles at random enemies for $1 damage each.
+		<b>Hero Power</b>
+Summon two 2/1 minions.
+		Was hiding in a barrel!
+		Deal 4 damage.
+		Has +2/+2. <i>(+2 Attack/+2 Health)</i>
+		Give your minions +2/+2. <i>(+2 Attack/+2 Health)</i>
+		King Mukla has +8 Attack this turn.
+		So strong! And only 6 Mana?!
+		Deal 2 damage to all enemies.
+		Until you kill Cho's minions, he can't be attacked.
+		Restore 8 Health.
+		<i>Hey Chicken!</i>
+		<b>Battlecry:</b> Give both players the power to ROCK! (with a Power Chord card)
+		At the end of your turn, give a random minion +1/+1.
+		<b>Battlecry:</b> Summon an AWESOME invention.
+		At the start of your turn, destroy this minion and draw 3 cards.
+		Summon three, four, or five 1/1 Murlocs.
+		At the start of your turn, transform a random minion into a 1/1 Chicken.
+		Summon a random Horde Warrior.
+		At the end of your turn, restore 6 Health to a damaged character.
+		Deal $4 damage. Draw a card.
+		Has been transformed into a chicken!
+		<b>Battlecry:</b> Put a random Pirate from your deck into your hand.
+		<b>Charge</b>. Has +1 Attack for each other Murloc on the battlefield.
+		Battlecry: Someone remembers to publish this card.
+	faction
+		Alliance
+		Neutral
+		Horde
+	rarity
+		Common
+		Free
+		Rare
+		Legendary
+		Epic
+	cost
+		2
+		0
+		3
+		1
+		5
+		6
+		4
+		7
+		8
+		10
+		9
+		20
+		12
+	attack
+		3
+		5
+		4
+		1
+		2
+		6
+		9
+		0
+		8
+		7
+		12
+		10
+		11
+	health
+		2
+		30
+		7
+		1
+		4
+		5
+		6
+		3
+		8
+		12
+		9
+		15
+		10
+		45
+		14
+		55
+		40
+		99
+		75
+		11
+		20
+		27
+		26
+		25
+	flavor
+		Oozes love Flamenco.  Don't ask.
+		I personally prefer some non-ancestral right-the-heck-now healing, but maybe that is just me.
+		You could summon Misha, Leokk, or Huffer!  Huffer is more trouble than he's worth.
+		This spell is much better than Arcane Implosion.
+		Playing this card makes you SMARTER.  And let's face it: we could all stand to be a little smarter.
+		You'd think you'd be able to control your missiles a little better since you're a powerful mage and all.
+		Magi conjured arcane arrows to sell to hunters, until hunters learned just enough magic to do it themselves.  The resulting loss of jobs sent Stormwind into a minor recession.
+		No… actually you should fear the Reaper.
+		You earn the title of Archmage when you can destroy anyone who calls you on it.
+		Guaranteed to have been owned by a real assassin.   Certificate of authenticity included.
+		If you don't want to be assassinated, move to the Barrens and change your name. Good luck!
+		It's funny how often yelling "Look over there!" gets your opponent to turn around.
+		Given the number of kings who have been assassinated, are you sure you want their blessing?
+		"As in, you MIGHT want to get out of my way." - Toad Mackle, recently buffed.
+		"Kill 30 raptors." - Hemet Nesingwary
+		blaarghghLLGHRHARAAHAHHH!!
+		He just wants a hug.   A sloppy... slimy... hug.
+		You can hire him... until someone offers him enough gold to turn on you.
+		"ME HAVE GOOD STATS FOR THE COST"
+		"Guys! Guys! Slow down!" - some kind of non-warrior minion
+		He always dreamed of coming down from the mountains and opening a noodle shop, but he never got the nerve.
+		The claw decides who will stay and who will go.
+		Hey you two…could you stand next to each other for a second…
+		Consecrated ground glows with Holy energy.  But it smells a little, too.
+		You don’t tame a Core Hound. You just train it to eat someone else before it eats you.
+		It starts with stealing a pen from work, and before you know it, BOOM!  Corrupted!
+		You don't see a lot of Dalaran warriors.
+		Healing is just something she does in her free time.  It's more of a hobby really.
+		Rogues guard the secrets to poison-making carefully, lest magi start incorporating poison into their spells.  Poisonbolt? Rain of Poison?  Poison Elemental?  Nobody wants that.
+		Double the trouble. Double the fun!
+		She is still working on installing the rocket launcher add-on for Mr. Bitey.
+		"I've just sucked one year of your life away."
+		"INFERNOOOOOOOOOO!" - Jaraxxus, Eredar Lord of the Burning Legion
+		Don't bother asking her out on a date.  She'll shoot you down.
+		It's okay, he deserved it.
+		I wouldn't say I LOVE knives, but I'm definitely a fan.
+		During times of tranquility and harmony, this weapon was called by its less popular name, Chilly Peace Axe.
+		He can never take a bath. Ewww.
+		This spell is useful for burning things.  If you're looking for spells that toast things, or just warm them a little, you're in the wrong place.
+		When the ground is on fire, you should <i>not</i> stop, drop, and roll.
+		Totemsmiths like to use the rarest woods for their totems.  There are even rumors of totems made of Ironbark Protectors.
+		Hey man, that's cold.  Literally and metaphorically.
+		FROST SHOCK!
+		It is customary to yell "Chill out!" or "Freeze!" or "Ice ice, baby!" when you play this card.
+		Grunting is what his father did and his father before that.   It's more than just a job.
+		The Frostwolves are locked in combat with the Stormpike Expedition over control of Alterac Valley.  Every attempt at peace-talks has ended with Captain Galvangar killing the mediator.
+		She's never quite sure what she's making, she just knows it's AWESOME!
+		If 1/2 minions are all that is defending Goldshire, you would think it would have been overrun years ago.
+		These are the brainy murlocs.  It turns out that doesn’t mean much.
+		Holy beings from the beyond are so cliché!
+		No Pain, No Gain.
+		A good paladin has many tools.  Hammer of Wrath, Pliers of Vengeance, Hacksaw of Justice, etc.
+		This spell has been renamed so many times, even paladins don’t know what it should be called anymore.
+		8 Health, no waiting.
+		It's spells like these that make it hard for Warlocks to get decent help.
+		Really, if you're a hero, this is <i>every</i> strike.
+		If you Hex a Murloc... it really isn't much of a change, is it?
+		If you are often bathed in Holy Light, you should consider wearing sunscreen.
+		If the Holy Light forsakes you, good luck casting this spell.  Also, you're probably a jerk.
+		It doesn't matter how pious you are.  Everyone needs a good smiting now and again.
+		"Who let the dogs out?" he asks.  It's rhetorical.
+		This card makes something really damp.  Oh wait.  That's "Humidity."
+		Never play 'Hide and Go Seek' with a Hunter.
+		Some druids still have flashbacks from strangers yelling "Innervate me!!" at them.
+		I <i>dare</i> you to attack Darnassus.
+		"Ready! Aim! Drink!"
+		"Bear Carcass 1/10"
+		"Kill!", he commanded.
+		In the old days, Kobolds were the finest candle merchants in the land. Then they got pushed too far...
+		The Kor'kron are the elite forces of Garrosh Hellscream. Let's just say you don't want to run into these guys while wearing a blue tabard.
+		Prince Malchezaar was a collector of rare weapons. He'd animate them and have them dance for him.
+		He used to be a 2100+ rated arena player, but that was years ago and nobody can get him to shut up about it.
+		He likes to think he is powerful, but pretty much anyone can solo Molten Core now.
+		Not to be confused with Jim of the Wild.
+		This spell blasts you directly in the MIND.
+		Nominated as "Spell Most Likely to Make Your Opponent Punch the Wall."
+		I see what you did there.
+		Oh hey it's Mirror Image! !egamI rorriM s'ti yeh hO
+		"Cast Moonfire, and never stop." - How to Be a Druid, Chapter 5, Section 3
+		If your spells look like horrifying skulls, let's be honest, you should get to draw some cards.
+		You see, it's all about <i>throughput</i>.
+		Mrrraggglhlhghghlgh, mrgaaag blarrghlgaahahl mrgggg glhalhah a bghhll graggmgmg Garrosh mglhlhlh mrghlhlhl!!
+		"Death will rise, from the tides!"
+		Even your flavor text has been deleted. Dang.
+		Your face is the place you'd probably least like a dagger, and where rogues are most likely to deliver them.
+		They help the downtrodden and distressed.  Also they sell cookies.
+		"Half of this class will not graduate… since they'll have been turned to chickens." - Tinkmaster Overspark, teaching Gizmos 101.
+		His dreams of flying and breathing fire like his idol will never be realized.
+		Training Ogres in the art of spellcasting is a questionable decision.
+		There was going to be a pun in this flavor text, but it just came out baa-d.
+		Sure the extra protection is nice, but the shield really reduces visibility.
+		"That's a 50 DKP minus!"
+		Someone did mess with Tuskerr once.  ONCE.
+		One Insane Rocketeer.   One Rocket full of Explosives.   Infinite Fun.
+		Edward "Lefty" Smith tried to make luggage out of a river crocolisk once.
+		This would be real handy if your enemy is made of rock.
+		This is the reason that Demons never really become friends with Warlocks.
+		Rogues love sappy movies.
+		What do they roar? Nobody can quite tell, but it sounds like "Elephant Macho Breeze".  It's probably not that, though.
+		Sen'jin Villiage is nice, if you like trolls and dust.
+		It’s a Bolt.   Its made out of Shadow.   What more do you need to know!
+		If you miss, it leaves a lightning-bolt-shaped scar on your target.
+		A step up from a spell cast by many beginning acolytes: "Shadow Word: Annoy".
+		They always have a spare flask of Sunwell Energy Drink™!
+		Shields were invented because Face Block is USELESS.
+		Rogues are experts at SHIV-al-ry.
+		He likes to act like he's in charge, but the silverback matriarch actually runs things.
+		There's something about this strike that just feels off.  Sinister, even.
+		Are you lighting a soul on fire? Or burning someone with your OWN soul? This seems like an important distinction.
+		Rogues are not good joggers.
+		Balance is important to druids.  This card is perfectly balanced.
+		If you feed him, he loses his whole <i>identity</i>.
+		This card is boaring.
+		The Stormpike Commandos are demolition experts.  They also bake a mean cupcake.
+		When Deathwing assaulted the capital, this soldier was the only member of his squad to survive. Now he's all bitter and stuff.
+		They're still embarassed about "The Deathwing Incident".
+		Warlocks have it pretty good.
+		When a bear rears back and extends his arms, he's about to Swipe!  ... or hug.
+		Other beasts totally dig hanging out with timber wolves.
+		Totem-stomping is no longer recommended.
+		For the person who just cannot decide what card to put into a deck!
+		It Slices, it Dices. You can cut a tin can with it. (But you wouldn't want to.)
+		Tundra rhinos are often mistaken for kodos.  Or am I mistaken?
+		No relation to "The Voidsteppers", the popular Void-based dance troupe.
+		Voodoo is an oft-misunderstood art. But it <i>is</i> art.
+		Golems are not afraid, but for some reason they still run when you cast Fear on them.  Instinct, maybe?  A desire to blend in?
+		The Warsong clan is <i>such drama</i>. It's really not worth it to become a commander.
+		Don't summon a water elemental at a party.  It'll dampen the mood.
+		The way to tell seasoned warriors from novice ones: the novices yell "wheeeee" while whirlwinding.
+		Grow your own mana crystals with this Mana Crystal Growth Kit, only 39.99!
+		Windfury is like Earthfury and Firefury, but more light and airy.
+		Is there anything worse than a Windspeaker with halitosis?
+		Orcish raiders ride wolves because they are well adapted to harsh environments, and because they are soft and cuddly.
+		Abominations enjoy Fresh Meat and long walks on the beach.
+		ADD ME TO YOUR DECK, MAGGOT!
+		He trained when he was younger to be an acolyte of joy, but things didn’t work out like he thought they would.
+		He is the weakest of the four Elemental Lords.  And the other three don't let him forget it.
+		WARNING.  WARNING.  WARNING.
+		The Aldor hate two things: the Scryers and smooth jazz.
+		Alexstrasza the Life-Binder brings life and hope to everyone.  Except Deathwing.  And Malygos.  And Nekros.
+		If an Amani berserker asks "Joo lookin' at me?!", the correct response is "Nah, mon".
+		It was just a flesh wound.
+		Most pandaren say his brew tastes like yak.  But apparently that's a compliment.
+		Sometimes he forgets and just wanders into someone else's game.
+		Why do its eyes seem to follow you as you walk by?
+		Go ahead, carve your initials in him.
+		Young Night Elves love to play "Who can get the Ancient of War to Uproot?"  You lose if you get crushed to death.
+		There is no beast more frightening (or ridiculous) than a fully enraged chicken.
+		50% off fist weapons, limited time only!
+		Having Arcane golems at home really classes up the place, and as a bonus they are great conversation pieces.
+		Antonidas was the Grand Magus of the Kirin Tor, and Jaina's mentor.  This was a big step up from being Grand Magus of Jelly Donuts.
+		The Argent Dawn stands vigilant against the Scourge, as well as people who cut in line at coffee shops.
+		"I'm not saying you can dodge fireballs.  I'm saying with this shield, you won't have to."
+		"I solemnly swear to uphold the Light, purge the world of darkness, and to eat only burritos." - The Argent Dawn Oath
+		She accepts guild funds for repairs!
+		The Auchenai know the end is coming, but they're not sure when.
+		Wham! Wham! Wham! Wham! Wham! Wham! Wham! Wham!
+		They initially planned to be the Beryl or Cerulean drakes, but those felt a tad too pretentious.
+		My advice to you is to avoid Doom, if possible.
+		Baron Geddon was Ragnaros's foremost lieutenant, until he got FIRED.
+		"You won't like me when I'm angry."
+		The seething wrath is just beneath the surface.  Beneath that is wild abandon, followed by slight annoyance.
+		Everyone has a price. Gnomes, for example, can be persuaded by stuffed animals and small amounts of chocolate.
+		Mere devilsaurs no longer excite him.  Soon he'll be trying to catch Onyxia with only a dull Krol Blade.
+		Chew your food!
+		"Look, it's not just about waving daggers around really fast.  It's a lot more complicated than that." - Shan, Rogue Trainer
+		This card causes double the trouble AND double the fun.
+		Apparently with wisdom comes the knowledge that you should probably be attacking every turn.
+		This spell can be very Entertaining.
+		Imps are content to hide and viciously taunt everyone nearby.
+		The Blood Knights get their holy powers from the Sunwell, which you should NOT bathe in.
+		He's in charge of the Annual Scarlet Monastery Blood Drive!
+		Every pirate uses the same four digits to access Automated Gold Dispensers.  It's called the "Pirate's Code".
+		"I only plunder on days that end in 'y'."
+		Do you know the first rule of Brawl Club?
+		You never know who may be secretly working for the Cabal....
+		Cairne was killed by Garrosh, so... don't put this guy in a Warrior deck.  It's pretty insensitive.
+		He was <i>this close</i> to piloting a massive juggernaut into Stormwind Harbor. If it weren't for those pesky kids!
+		Yes, he's a demigod. No, he doesn't need to wear a shirt.
+		It isn't really a circle.
+		"I'm cold blooded, check it and see!"
+		They can see the future.   In that future both players draw more cards.   Spoooky.
+		The Coldlight murlocs reside in the darkest pits of the Abyssal Depths.  So no, there's no getting away from murlocs.
+		"Shout! Shout! Let it all out!" - Advice to warriors-in-training
+		Rogues conceal everything but their emotions.  You can't get 'em to shut up about feelings.
+		Magi of the Kirin Tor were casting Cubes of Cold for many years before Cones came into fashion some 90 years ago.
+		What's the difference between a mage playing with Counterspell and a mage who isn't?  The mage who isn't is getting Pyroblasted in the face.
+		"You'll <i>love</i> my new recipe!" he says... especially if you're not happy with your current number of limbs.
+		"I'm going to need you to come in on Sunday." - Cruel Taskmaster
+		She may be an evil cult master, but she still calls her parents once a week.
+		Guardians of Dark Iron Ore.  Perhaps the most annoying ore, given where you have to forge it.
+		Accuracy is not a highly valued trait among the mok'nathal.  Deadliness is near the top, though.
+		Once a noble dragon known as Neltharion, Deathwing lost his mind and shattered Azeroth before finally being defeated.  Daddy issues?
+		You wouldn’t think that Argus would need this much defending.  But it does.
+		He stole the deed to town years ago, so technically the town <i>is</i> his. He just calls people Scrub to be mean.
+		Laying siege isn't fun for anyone.  It's not even all that effective, now that everyone has a flying mount.
+		Demonfire is like regular fire except for IT NEVER STOPS BURNING HELLLPPP
+		We are pretty excited about the upcoming release of Dire Wolf Beta, just repost this sign for a chance at a key.
+		This is not just a favor, but a divine one, like helping someone move a couch with a fold out bed!
+		Summoning a doomguard is risky. <i>Someone</i> is going to die.
+		Orgrim Doomhammer gave this legendary weapon to Thrall.  His name is a total coincidence.
+		He's almost been right so many times. He was <i>sure</i> it was coming during the Cataclysm.
+		"Yarrrr" is a pirate word that means "Greetings, milord."
+		Cat or Bear?  Cat or Bear?!  I just cannot CHOOSE!
+		Westfall is full of dust devils. And buzzards. And crazed golems. And pirates. Why does anyone live here?
+		First Lesson: Put the pointy end in the other guy.
+		Nothing beats rock.
+		Earth Shock? Shouldn't it be "Azeroth Shock"?
+		He can see really far, and he doesn't use a telescope like those filthy pirates.
+		He led the Stonemasons in the reconstruction of Stormwind, and when the nobles refused to pay, he founded the Defias Brotherhood to, well, <i>deconstruct</i> Stormwind.
+		The Sholazar Basin is home to a lot of really horrible things. If you're going to visit, wear bug spray.  And plate armor.
+		We are all special unique snowflakes... with 1 Health.
+		The ethereals are wrapped in cloth to give form to their non-corporeal bodies. Also because it's nice and soft.
+		There is a high cost to Eviscerating your opponent:  It takes a long time to get blood stains out of leather armor.
+		Pull the pin, count to 5, then shoot.  Then duck.
+		It traps your food AND cooks it for you!
+		Justice sometimes takes the form of a closed fist into a soft cheek.
+		The Faceless Ones are servants of Yogg-Saron, and they feed on fear. Right now they are feeding on your fear of accidentally disenchanting all your good cards.
+		Adorable.  Immune to Magic.  Doesn't pee on the rug.  The perfect pet!
+		Drek'thar can't see, but he can <i>see</i>. You know what I mean? It's ok if you don't.
+		Yes, he'll fight for you.  BUT HE'S NOT GOING TO LIKE IT.
+		He used to be called Bog Beast, but it confused people because he wasn't an actual beast.   Boom, New Name!
+		Spirit wolves are like regular wolves with pom-poms.
+		Imps like being on fire.  They just do.
+		Not only does it reveal your enemies, but it's also great for parties!
+		'Flesheating' is an unfair name.  It's just that there's not really much else for him to eat.
+		"I think I'll just nap under these trees. Wait... AAAAAHHH!" - Blinkfizz, the Unfortunate Gnome
+		If you combine it with Spooned Lightning and Knived Lightning, you have the full dining set.
+		"Dang, that's cold." - appropriate response to Freezing Trap, or a mean joke.
+		When a Water elemental and an Ice elemental love each other VERY much...
+		He used to work as an accountant before he tried his hand at Berserkering.
+		He used to run the black market auction house, but there was just too much violence and he had to move.
+		The longbow allows shots to be fired from farther away and is useful for firing on particularly odorous targets.
+		Grommash Hellscream's famous axe.  Somehow this ended up in Prince Malchezaar's possession.  Quite the mystery!
+		Grommash drank the tainted blood of Mannoroth, dooming the orcs to green skin and red eyes!  Maybe not his best decision.
+		He's Gruul "the Dragonkiller".  He just wanted to cuddle them… he never meant to…
+		“That belongs in the Hall of Explorers!”
+		"Overheat threshold exceeded. System failure. Wheat clog in port two. Shutting down."
+		When all else fails, nothing beats a swift whack upside the head.
+		Hogger is super powerful. If you kill him, it's because he <i>let</i> you.
+		Often followed by Holy Smokes!
+		C'mon Molten Giant!!
+		Murloc.  It's what's for dinner.
+		This is Rank 1.  Rank 2 is Chocolate Milk Barrier.
+		Ice is nice, and will suffice!
+		The trick is not to break the lance.  Otherwise, you have "Ice Pieces."  Ice Pieces aren't as effective.
+		Illidan's brother, Malfurion, imprisoned him beneath Hyjal for 10,000 years.  Stormrages are not good at letting go of grudges.
+		She would enjoy the job a lot more if she just could get the imps to QUIT BITING HER.
+		He claims it is an old war wound, but we think he just cut himself shaving.
+		Good idea: Buffing your minions.  Bad idea: Starting a conversation in the Barrens.
+		They're only smiling on the outside.
+		Their wings are silent but their screech is... whatever the opposite of silent is.
+		Stranglethorn is a beautiful place to visit, but you wouldn't want to live there.
+		These guys just show up and start Keeping your Groves without even asking.
+		He just wants people to see his vacation photos.
+		The best defense against King Krush is to have someone you don’t like standing in front of you.
+		King Mukla wanders Jaguero Isle, searching for love.
+		The Kirin Tor reside in the floating city of Dalaran.  How do you make a Dalaran float?  Two scoops of ice cream, one scoop of Dalaran.
+		Ambitious Knife Jugglers sometimes graduate to Bomb Jugglers.    They never last long enough to make it onto a card though.
+		It's like an ocean of liquid magma in your mouth!
+		A grammatically awkward life saver.
+		At least he has Angry Chicken.
+		He really just wants to be your friend, but the constant rejection is starting to really get to him.
+		Lightning Bolt! Lightning Bolt! Lightning Bolt!
+		An umbrella won't be effective, I'm afraid.
+		Spawn of the Light? Or Pawn of the Lights?
+		She’s smaller than her sisters Mediumwarden and Heavywarden.
+		It isn't clear if people ignore the Lightwell, or if it is just invisible.
+		Always roll need.
+		"TRIFLING GNOME! YOUR ARROGANCE WILL BE YOUR UNDOING!!!!"
+		Lorewalker Cho archives and shares tales from the land of Pandaria, but his favorite story is the one where Joey and Phoebe go on a road trip.
+		He's not really all that crazy, he is just not as careful with explosives as he should be.
+		Malygos hates it when mortals use magic.  He gets so mad!
+		She’s trying to kick the habit, but still takes some mana whenever she has a stressful day.
+		It is said that some shaman can say "Floatin' totem" 10 times, fast.
+		They come out at night to eat leftover mana crystals. "Mmmmmm," they say.
+		These wyrms feed on arcane energies, and while they are generally considered a nuisance rather than a real threat, you really shouldn't leave them alone with a bucket of mana.
+		Druids call it the "Mark of Nature."  Everyone else calls it "needing a bath."
+		It dispels buffs, powers, hopes, and dreams.
+		He's currently trying to craft a "flail-axe", but all the other swordsmiths say it can't be done.
+		She's actually a male tauren.  People don't call him "Master of Disguise" for nothing.
+		"I'm gonna light you up, sweetcheeks!"
+		Mind Control technology is getting better, but that's not saying much.
+		Sometimes it feels like this is all a game.
+		"You go first." - Krush'gor the Behemoth, to his pet boar.
+		Sometimes it's as simple as putting on a fake mustache and pointing at someone else.
+		All these guys ever do is talk about the Thunder King.   BOOOORRRINNG!
+		He gets terrible heartburn.  BECAUSE HE IS FULL OF LAVA.
+		"If you only use one ability, use Mortal Strike." - The Warrior Code, Line 6
+		His mother said that he was just big boned.
+		This guy gets crazy strong at family reunions.
+		Do Murlocs ever get tired of making the same old sound?  Nope!  Mrglglrglglglglglglgl!
+		Nat Pagle, Azeroth's premier fisherman!  He invented the Auto-Angler 3000, the Extendo-Pole 3000, and the Lure-o-matic 2099 (still in testing).
+		Another one bites the dust.
+		We will always remember you, "Defender!"
+		Druids take nourishment from many things: the power of nature, the songbird's chirp, a chocolate cake.
+		Time to write some flavor text.
+		Onyxia long manipulated the Stormwind Court by disguising herself as Lady Katrana Prestor.   You would have thought that the giant wings and scales would have been a giveaway.
+		He’s not really that patient. It just takes a while for someone to walk by that he can actually reach.
+		Perdition's Blade is Ragnaros's back-up weapon while Sulfuras is in the shop.
+		She's quite jealous of the Gallon-Sized Summoner.
+		Mannoroth, Magtheridon, and Brutallus may be dead, but it turns out there are a LOT of pit lords.
+		We cannot even describe how horrible the death is.  It's CRAZY bad!  Maybe worse than that.  Just don't do it.
+		Never look a panther in the eye.  Or is it 'Always look a panther in the eye'?  Well, it's one of those.
+		"Be Prepared" - Rogue Motto
+		If she threatens to "moon" you, it's not what you think.
+		He's been exiled from his home, and all his brothers turned evil, but otherwise he doesn't have a lot to complain about.
+		Take the time for an evil laugh after you draw this card.
+		"Does anyone have some extra Boar Pelts?"
+		If he's raging now, just wait until he gets nerfed.
+		Ragnaros was summoned by the Dark Iron dwarves, who were eventually enslaved by the Firelord.  Summoning Ragnaros often doesn’t work out the way you want it to.
+		Minion get ANGRY.   Minion SMASH!
+		Just mail him a package with a name and 10,000 gold.  He'll take care of the rest.
+		I am not sure how you get demptioned the first time.  It’s a mystery!
+		Repentance often comes in the moment before obliteration. Curious.
+		The agents of SI:7 are responsible for Stormwind's covert activities.  Their duties include espionage, assassination, and throwing surprise birthday parties for the royal family.
+		It is true that some druids are savage, but others still enjoy a quiet moment and a spot of tea.
+		In the jungle, the mighty jungle, the lion gets slowly consumed by hyenas.
+		Never wash your whites with a Scarlet Crusader.
+		Hyenas prefer the bones of kodos or windserpents, but they'll eat pretty much anything.  Even Brussels sprouts.
+		See?  Giant.
+		She promises not to tell anyone about that thing you did last night with that one person.
+		Generally demons are pretty obvious and you don’t need a spell to sense them.
+		You can rationalize it all you want, it's still a mean thing to do.
+		Start with a powerful minion and stir in Shadowflame and you have a good time!
+		If a bright light shines on a priest in Shadowform… do they cast a shadow?
+		Rogue dance troops will sometimes Shadowstep away at the end of a performance.  Crowds love it.
+		"What is a better weapon? The sharp one your enemies expect, or the blunt one they ignore?" - The Art of Warrior, Chapter 9
+		Have you seen the size of the shields in this game??  This is no easy job.
+		Reserved for enemy spellcasters, evil liches from beyond the grave, and karaoke nights at the Grim Guzzler.
+		It's good to be a knight.   Less so to be one's squire.
+		The first time they tried to guard Silvermoon against the scourge, it didn’t go so well…
+		You probably should avoid siphoning your own soul.  You might create some kind of weird infinite loop.
+		"Dun da dun, dun da dun": if you've heard an ogre sing this, it's too late.
+		Why did it have to be snakes?
+		A great sniper hits the spot.  Just like a delicious flank of boar. Mmmmm.
+		Apprentices are great for bossing around.  "Conjure me some mana buns! And a coffee!  Make that a mana coffee!"
+		"Reforestation" is suddenly a terrifying word.
+		When he saves enough plunder, he's going to commission an enormous captain's hat.  He has hat envy.
+		Pirates are into this new fad called "Planking".
+		While it's fun to intercept enemy lightning bolts, a spellbender much prefers to intercept opposing Marks of the Wild.  It just feels meaner.  And blood elves... well, they're a little mean.
+		Spellbreakers can rip enchantments from magic-wielders.  The process is painless and can be performed on an outpatient basis.
+		She'll craft you a sword, but you'll need to bring her 5 Steel Ingots, 3 Motes of Earth, and the scalp of her last customer.
+		This Kodo is so big that he can stampede by <i>himself</i>.
+		Is the sky falling?  Yes.  Yes it is.
+		Yo, that's a nice axe.
+		The wonderful thing about tigers is tigers are wonderful things!
+		NOT LESS THAN 1!  Don't get any ideas!
+		She carries a shield, but only so she can give it to someone she can stand behind.
+		She doesn’t ACTUALLY walk on the Sun.  It's just a name.  Don’t worry!
+		I dub you Sir Loin of Beef!
+		Sylvanas was turned into the Banshee Queen by Arthas, but he probably should have just killed her because it just pissed her off.
+		Tauren Warrior: Champion of Mulgore, Slayer of Quilboar, Rider of Thunderbluff Elevators.
+		He also moonlights Thursday nights as a bouncer at the Pig and Whistle Tavern.
+		He lives in Blackrock Mountain.  He eats Gnomes.  That's pretty much it.
+		He was sent by the Lich King to disrupt the Argent Tournament.   We can pretty much mark that a failure.
+		"What do you get when you cast Thoughtsteal on an Orc?  Nothing!" - Tauren joke
+		He's stationed in the Hellfire Peninsula, but he's hoping for a reassignment closer to Orgrimmar, or really anywhere the ground is less on fire.
+		Tinkmaster Overspark nearly lost his Tinker's license after the Great Ironforge Squirrel Stampede of '09.
+		If you haven't heard the Tirion Fordring theme song, it's because it doesn't exist.
+		Twilight drakes feed on Mystical Energy.  And Tacos.
+		The Twisting Nether is a formless place of magic and illusion and destroyed minions.
+		Unlike bound elementals, Unbound ones really enjoy a night on the town.
+		You must read the name of this card out loud each time you play it.
+		Easily worth 50 DKP.
+		Rumor has it that Deathwing brought about the Cataclysm after losing a game to this card.  We may never know the truth.
+		No Job is too big.  No fee is too big.
+		If you don't pay attention, you may be turned into a pig.  And then you get your name on the board.
+		If you put this into your deck, you WILL lose the trust of your other minions.
+		BOOM BABY BOOM!  BAD IS GOOD!  DOWN WITH GOVERNMENT!
+		Harpies are not pleasant sounding.  That's the nicest I can put it.
+		If you hit an Eredar Lord with enough Wisps, it will explode.   But why?
+		If you want to stop a worgen from infiltrating, just yell, "No! Bad boy!"
+		The talk around the Ratchet Inn is that this card is too good and should be a Legendary.
+		They were the inspiration for the championship Taurenball team: The Dragonhawks.
+		She can't wait to learn Power Word: Fortitude Rank 2.
+		His youthful enthusiasm doesn’t always equal excellence in his brews.   Don’t drink the Mogu Stout!
+		Ysera rules the Emerald Dream.  Which is some kind of green-mirror-version of the real world, or something?
+		Originally he was called "Anub'ar Guy who bounces a guy back to your hand", but it lacked a certain zing.
+		Several paladins have joined together to deliver justice under the name "Justice Force."  Their lawyer talked them out of calling themselves the Justice League.
+		There used to be five Horsemen but one of them left because a job opened up in the deadmines and the benefits were better.
+		They like to dance to reggae.
+		The Cult of the Damned has found it's best not to mention their name when recruiting new cultists.
+		"Take a bite outta Death." - McScruff the Deathlord
+		"Rise from your grave!" - Kel'Thuzad
+		The one time when duping cards won't get your account banned!
+		OOZE... Ooze... Ooze... (ooze...)
+		Feugen is sad because everyone likes Stalagg better.
+		Arachnofauxbia: Fear of fake spiders.
+		Kel'Thuzad could not resist the call of the Lich King.   Even when it's just a robo-call extolling the Lich King's virtues.
+		Loatheb used to be a simple Bog Beast.  This is why we need stricter regulations on mining and agriculture.
+		His mother wanted him to be a mage or a warlock, but noooooooo, he had to go and be a scientist like his father.
+		Maexxna gets super mad when people introduce her as "Maxina" or "Maxxy".
+		Weblords spend all day making giant trampoline parks.
+		Eggs are a good source of protein and Nerubians.
+		"Poisonseed Bagel" is the least popular bagel at McTiggin's Druidic Bagel Emporium.
+		It's like birth, except you're an adult and you were just dead a second ago.
+		The Shades of Naxxramas <i>hate</i> the living. They even have a slur they use to refer them: <i>Livers</i>.
+		DO NOT GIVE HIM A ROOT BEER.
+		What do Faerie Dragons and Spectral Knights have in common?  They both love pasta!
+		Stalagg want to write own flavor text.  "STALAGG AWESOME!"
+		Stoneskin Gargoyles love freeze tag.
+		In a world where you can run to a spirit healer and resurrect yourself, Undertakers do pretty light business.
+		Filling your Ghouls with Rocket Fuel is all the rage at Necromancer school.
+		"Void!  Here, void!  Here, buddy!"
+		This soul just <i>wails</i> on you. Dang, soul, let up already.
+		Spider cocoons are like little piñatas!
+		Zombie.  It's what's for dinner.
+		"Hey! Ancestors!" - Ancestor's call
+		The Dark Animus is evil and mysterious and huge and unable to write sentences that utilize proper grammar.
+		The inventor of the Annoy-o-Tron was immediately expelled from Tinkerschool, Tinkertown, and was eventually exiled from the Eastern Kingdoms altogether.
+		It's adorable! AND OH MY GOODNESS WHY IS IT EATING MY FACE
+		They don't make 'em like they used to! (Because of explosions, mostly.)
+		There was some hard talk between gnome magi and engineers about inventing this mech.
+		PREPARE PARTY SERVOS FOR IMMEDIATE DEPLOYMENT.
+		Spoiler alert: Bolvar gets melted and then sits on an ice throne and everyone forgets about him.
+		He lobbies Orgrimmar daily on behalf of bombs.
+		Only goblins would think this was a good idea. Even they are starting to have their doubts.
+		He's burly because he does CrossFit.
+		Real hunters tame hungry crabs.
+		He and Mountain Giant don't get along.
+		Clockwork gnomes are always asking what time it is.
+		Guardians used to be built out of Adamantium, but production got moved to Gadgetzan and Cobalt was cheap.
+		"Cobra Shot" hurts way, way, way more than "Cobra Cuddle."
+		So you ripped this out of a machine, carved some runes on it, stuck it on a handle, and now it's a weapon of great divine power? Seems legit.
+		After a while, you don't see the cogs and sprockets. All you see is a robot, a spider tank, a deathray...
+		For tightening cogs and smashin' troggs!
+		Snap! This card! Pop!
+		Using this card on your enemies is one of the best things in life, according to some barbarians.
+		Don't worry; we fired the person who named this card.
+		If you're looking to make an "Emo" deck, this card is perfect!
+		Virtually every member of the pro demon lobby is a warlock. Weird.
+		MARVEL AT HIS MIGHT!
+		The Druids of the Fang live in the Wailing Caverns. They wear cool snake shirts and tell snake jokes and say "bro" a lot.
+		He just closes his eyes and goes for it. Raarararrrarar!
+		Medivh's echo haunts Karazhan, eternally cheating at chess and <i>Hearthstone</i>.
+		His enhancements are gluten free!
+		How is this supposed to work?  Your enemies think, "<i>Hey!</i> Cute sheep!" and run over to cuddle it?
+		The hardest part about doing a "Feign Death" convincingly is learning how to make the right smell. It takes a lot of commitment.
+		The box says, "New and improved, with 200% more fel!"
+		So reaver. Much fel. Wow.
+		Mimiron likes to take the Flame Leviathan out on some sweet joyrides.
+		Calling something a flamecannon really doesn't do much to distinguish it from other goblin devices.
+		"Evil Eye Watcher of Doom" was the original name, but marketing felt it was a bit too aggressive.
+		To operate, this contraption needs a hula doll on the dashboard. Otherwise it's just a “falling machine.”
+		Foe reaping is really not so different from harvest reaping, at the end of the day.
+		There is a factory in Tanaris for crafting force-tanks, but it only ever made two, because of cost overruns.
+		The Sen'jin High football team is The Gahz'rillas.
+		Gazlowe was voted "Most Likely to Explode" in high school.
+		"Shhh, I think I hear something."
+
+"Ah, it's probably nothing." - Every Henchman
+		For the times when a regular bazooka just isn't enough.
+		The gnomes are valiant and ready to return to their irradiated, poorly ventilated homeland!
+		He's legitimately surprised every time he turns himself into a chicken.
+		This guy is excellent at adjusting your haircut and/or height.
+		If you can't find a bomb to throw, just pick up any goblin invention and throw that.
+		He’s not such a binge exploder anymore. These days, he only explodes socially.
+		Likes: Hiking and the great outdoors. Dislikes: Goblin shredders and sandals. (Can’t find any that fit!).
+		It's hard to make a living as a hunter in a world where beasts instantly reappear minutes after you kill them.
+		Hobgoblins are meeting next week to discuss union benefits.  First on the list: dental plan.
+		"LUMOS!" is not what they yell. What do you think this is, Hogwarts?
+		The shrapnel is waaaaay worse than the explosion.
+		The Iron Juggernaut guards Orgrimmar and has just earned the "Employee of the Month" award!
+		Mechs like learning from him because he really speaks their language.
+
+0110100001101001
+		This robot is a lean, mean, butlerin' machine.
+		One bot's junk is another bot's AWESOME UPGRADE!
+		They pretend to be wise and enlightened, but they mostly just hate to be left out of a secret.
+		He never sleeps.  Not even in the mighty jungle.
+		"Light it up!" - Command given to both Lightwardens and Goblins holding Flamecannons.
+		This is what happens when you allow goblins to be priests.
+		Warlocks have the town exorcist on speed dial in case they unleash the wrong demon.
+		The message, "If found, please return to Mulgore," is tattooed on his rear.
+		Dang, Bomber, calm down.
+		Mal'Ganis doesn't like being betrayed, so if you discard him, watch out.
+		When Malorne isn't mauling hordes of demons, he enjoys attending parties, though he prefers to go stag.
+		Crushes buildings with his BEAR hands.
+		The yetis of Chillwind Point are a source of both inspiration and savage beatings.
+		Mechs that summon mechs? What's next? Donuts that summon donuts? Mmmmm.
+		He was obsessed with explosives until he discovered knitting. Now he yells, “SWEATERS! MORE SWEATERS!”
+		Don't leave them out in the rain. In Un'Goro Crater there is a whole colony of rust-tooth leapers.
+		This card is the real thing.
+		Do not push the big red button!
+		He is sometimes found hiding in the treasure chest in the Gurubashi Arena.
+		Her sister is the Mistress of Pane who sells windows and shower doors.
+		Mogor helped reopen the Dark Portal once. You know you're in trouble when you have to rely on an ogre.
+		"I'm bringing the guacamole!" – One of the most successful (yet rare) Silver Hand rallying cries
+		Neptulon is "The Tidehunter". He’s one of the four elemental lords. And he and Ragnaros get together and make really amazing saunas.
+		Ogres have really terrible short-term chocolate.
+		He didn't have the grades to get into ninja school, but his dad pulled some strings.
+		Simple, misguided, and incredibly dangerous. You know, like most things ogre.
+		When pirates say there is no "Eye" in "team," they are very literal about it.
+		Once upon a time, only goblins piloted shredders. These days, everyone from Doomsayer to Lorewalker Cho seems to ride one.
+		The pinnacle of goblin engineering. Includes an espresso machine and foot massager.
+		People assume that shamans control the elements, but really, they have to ask them stuff and the elements are like, "Yeah ok, sure."
+		He pays homage to Morgl, the great murloc oracle! (Who doesn't??)
+		His specialty? Dividing things into four pieces.
+		For when you didn’t combobulate quite right the first time around.
+		Druidic recycling involves putting plastics in one bin and enemy minions in another bin.
+		Rogues can't stand it. They know you planned it! They are going to set you straight!
+		He's recently recovered from being a "scurvy dog."
+		The Scarlet Crusade is doing market research to find out if the "Mauve Crusade" would be better received.
+		If it breaks, just kick it a couple of times while yelling "Durn thing!"
+		The walrus of Light restores EIGHT Health.
+		Shadowbomber does her job, but she's kind of phoning it in at this point.
+		Punching is its primary function. Also, its secondary function.
+		He chooses to believe what he is programmed to believe!
+		She has three shieldbearers in her party to supply her with back ups when she gets low on durability.
+		If you hear someone yell, "Cannonball!" you're about to get wet. Or crushed.
+		After the debacle of the Gnomish World Enlarger, gnomes are wary of size-changing inventions.
+		Wintergrasp Keep's only weakness!
+		The elements respond to anyone who calls them for a worthy cause, even if you call them by yelling, "MRGHRGLGLGL!"
+		When Sneed was defeated in the Deadmines, his shredder was sold at auction to an anonymous buyer. (Probably Hogger.)
+		Do the slow chant when he waddles by: "Chug! Chug! Chug!"
+		The inventor of the goblin shredder is involved in several patent disputes with the inventor of the soot spewer.
+		"What if we put guns on it?" -Fizzblitz, staring at the spider-transportation-machine
+		Goblins seldom have the patience for sniping. Most prefer lobbing explosives.
+		The only thing worse than smelling troggs is listening to their poetry.
+		The engineering equivalent of a "Kick Me" sticker.
+		"Get ready to strike oil!" - Super-cheesy battle cry
+		Won't you take me to... Tinkertown?
+		Something about power converters.
+		Gallywix believes in supply and demand. He supplies the beatings and demands you pay up!
+		Healing: It grows on trees!
+		He keeps earthinating the countryside despite attempts to stop him.
+		The denizens of Azeroth have no idea how much work goes into stabilizing portals.  We spend like 30% of GDP on portal upkeep.
+		It's the same as the previous generation but they slapped the word "upgraded" on it to sell it for double.
+		Velen wrote a "Lovely Card" for Tyrande with a picture of the Deeprun Tram that said "I Choo-Choo-Choose you!"
+		You can usually find these at the totemist's market on Saturdays.
+		Vol'jin is a shadow hunter, which is like a shadow priest except more voodoo.
+		Mass production of warbots was halted when it was discovered that they were accidentally being produced at "sample size."
+		Bane of spellcasters and spelling bees everywhere.
+		If you pay a little extra, you can get it in "candy-apple red."
+		He's looking for a drummer.  The current candidates are: Novice Engineer, Sen'jin Shieldmasta', and Ragnaros the Firelord.
+		He's the leader of the gnomes, and an incredible inventor.  He's getting better, too; He turns things into chickens WAY less than he used to.
+		Pirates and Parrots go together like Virmen and Carrots.
+		He's a legend among murlocs.  "Mrghllghghllghg!", they say.
+	artist
+		Chris Rahn
+		Dan Scott
+		Wei Wang
+		Howard Lyon
+		Dave Berggren
+		Warren Mahy
+		Luca Zontini
+		Stefan Kopinski
+		Steve Ellis
+		Brian Huang
+		Glenn Rane
+		Michael Sutfin
+		Lucas Graciano
+		Zoltan Boros
+		Dan Brereton
+		Jakub Kasper
+		Matt Cavotta
+		Brian Despain
+		Alex Horley Orlandelli
+		Mauro Cascioli
+		Dany Orizio
+		Phroilan Gardner
+		Vance Kovacs
+		E.M. Gist
+		Wayne Reynolds
+		Jim Nelson
+		Jesper Ejsing
+		Trevor Jacobs
+		Jim Pavelec
+		Zoltan & Gabor
+		Steve Prescott
+		Andrew Robinson
+		Ralph Horsley
+		Romain De Santi
+		Jonathan Ryder
+		Josh Tallman
+		Richie Marella
+		James Ryman
+		Court Jones
+		Donato Giancola
+		Phil Saunders
+		Efrem Palacios
+		Clint Langley
+		Cyril Van Der Haegen
+		Chippy
+		Jonboy Meyers
+		Steve Hui
+		Daren Bader
+		Jimmy Lo
+		Doug Alexander
+		Dave Allsop
+		Tooth
+		Lars Grant-West
+		Gabe from Penny Arcade
+		Gabor Szikszai
+		Matt Gaser
+		Brad Vancata
+		Sean O’Daniels
+		Michael Komarck
+		Richard Wright
+		Benjamin Zhang
+		Raymond Swanland
+		Terese Nielsen
+		Karl Richardson
+		Ittoku
+		Jessica Jung
+		Phill Gonzales
+		John Polidora
+		Scott Altmann
+		Grace Liu
+		Alex Garner
+		Frank Cho
+		James Zhang
+		Bernie Kang
+		Kev Walker
+		Ladronn
+		Matt Dixon
+		Malcolm Davis
+		Trent Kaniuga
+		Ryan Sook
+		Dave Kendall
+		John Avon
+		Justin Sweet
+		Patrik Hjelm
+		Mike Sass
+		Samwise
+		Sedhayu Ardian
+		Greg Hildebrandt
+		Ben Zhang
+		Ian Ameling
+		Chris Seaman
+		Tom Baxa
+		Hideaki Takamura
+		Tyler Walpole
+		Randy Gallegos
+		Daarken
+		Arthur Gimaldinov
+		Leo Che
+		Jason Chan
+		Tom Fleming
+		Scott Hampton
+		Ben Wootten
+		John Dickenson
+		Kevin Chin
+		Michal Ivan
+		Ariel Olivetti
+		Brandon Kitkouski
+		Monica Langlois
+		Simon Bisley
+		Peter C. Lee
+		Laurel D. Austin
+		Miguel Coimbra
+		Jaemin Kim
+		Carl Frank
+		Mark Gibbons
+		Slawomir Maniak
+		Sunny Gho
+		Popo Wei
+		Christopher Moeller
+		Erik Ko
+		Blizzard Entertainment
+		Mark Zug
+		Blizzard Cinematics
+		Sean O'Daniels
+		Ron Spencer
+		Raven Mimura
+		Cole Eastburn
+		Tim McBurnie
+		Ben Olson
+		Ron Spears
+		Steve Tappin
+		Attila Adorjany
+		Greg Staples
+		Gonzalo Ordonez
+		Chris Moeller
+		Dave Rapoza
+		Milivoj Ceran
+		Svetlin Velinov
+		Graven Tung
+		Carl Critchlow
+		Matt Starbuck
+		Lorenzo Minaca
+		Markus Erdt
+		Ken Steacy
+		Nate Bowden
+		Andrea Uderzo
+		Paul Warzecha
+		Brom
+		Linggar Bramanty
+		Alexander Alexandrov
+		Luke Mancini
+		Jon McConnell
+		Eric Browning
+		Jeremy Cranford
+		Chris Robinson
+		Justin Thavirat
+		Ittoku Seta
+		Matt Smith
+		Mike Nicholson
+		Robb Shoberg
+		E. M. Gist
+		Josh Harris
+		Eva Widermann
+		Jesper Esjing
+		Zero Yue
+		Nutchapol Thitinunthakorn
+		Jomaro Kindred
+		Andrew Hou
+		Danny Orizio
+		Jeff Haynie
+		Kerem Beyit
+		Massive Black
+		José Ladrönn
+		Peerasak Senalai
+		Aleksi Briclot
+		Mauricio Herrera
+		Todd Lockwood
+		Seamus Gallagher
+		Gino Whitehall
+		Zolton Boros
+		Oliver Chipping
+		Skan Srisuwan
+		Mike Hayes
+		Ruan Jia
+		Vinod Rams
+		Danny Beck
+		Michael Phillippi
+		Zoltan and Gabor
+		Nutthapon Petthai
+		Anton Zemskov
+		Jun Kang
+		Peet Cooper
+		Den
+		Guangjian Huang
+		Samwise Didier
+		Ludo Lullabi
+	collectible
+		True
+		False
+	howToGetGold
+		Unlocked at Rogue Level 57.
+		Unlocked at Level 15.
+		Unlocked at Level 45.
+		Unlocked at Level 28.
+		Unlocked at Level 32.
+		Unlocked at Level 51.
+		Unlocked at Mage Level 57.
+		Unlocked at Level 47.
+		Unlocked at Level 36.
+		Unlocked at Level 49.
+		Unlocked at Hunter Level 57.
+		Unlocked at Level 40.
+		Unlocked at Paladin Level 53.
+		Unlocked at Shaman Level 55.
+		Unlocked at Warlock Level 51.
+		Unlocked at Level 23.
+		Unlocked at Warrior Level 55.
+		Unlocked at Level 43.
+		Unlocked at Hunter Level 51.
+		Unlocked at Mage Level 59.
+		Unlocked at Priest Level 55.
+		Unlocked at Mage Level 53.
+		Unlocked at Druid Level 57.
+		Unlocked at Level 29.
+		Unlocked at Level 44.
+		Unlocked at Shaman Level 57.
+		Unlocked at Shaman Level 53.
+		Unlocked at Priest Level 57.
+		Unlocked at Paladin Level 57.
+		Unlocked at Warlock Level 53.
+		Unlocked at Warlock Level 57.
+		Unlocked at Mage Level 55.
+		Unlocked at Hunter Level 59.
+		Unlocked at Warlock Level 59.
+		Unlocked at Priest Level 59.
+		Unlocked at Shaman Level 51.
+		Unlocked at Priest Level 51.
+		Unlocked at Rogue Level 53.
+		Unlocked at Druid Level 53.
+		Unlocked at Druid Level 59.
+		Unlocked at Druid Level 51.
+		Unlocked at Warlock Level 55.
+		Unlocked at Warrior Level 57.
+		Unlocked at Hunter Level 55.
+		Unlocked at Shaman Level 59.
+		Unlocked at Druid Level 55.
+		Unlocked at Rogue Level 59.
+		Unlocked at Priest Level 53.
+		Unlocked at Warrior Level 53.
+		Unlocked at Hunter Level 53.
+		Unlocked at Paladin Level 51.
+		Unlocked at Paladin Level 59.
+		Unlocked at Paladin Level 55.
+		Unlocked at Rogue Level 55.
+		Unlocked at Rogue Level 51.
+		Unlocked at Warrior Level 59.
+		Can be crafted after completing the Rogue Class Challenge in Naxxramas.
+		Can be crafted after completing the Paladin Class Challenge in Naxxramas.
+		Can be crafted after completing the Military Quarter.
+		Can be crafted after defeating Instructor Razuvious in the Military Quarter.
+		Can be crafted after completing the Priest Class Challenge in Naxxramas.
+		Can be crafted after completing the Warrior Class Challenge in Naxxramas.
+		Can be crafted after defeating The Four Horsemen in the Military Quarter.
+		Can be crafted after completing the Mage Class Challenge in Naxxramas.
+		Can be crafted after defeating Sapphiron in the Frostwyrm Lair.
+		Can be crafted after completing the Construct Quarter.
+		Can be crafted after defeating Anub'Rekhan in the Arachnid Quarter.
+		Can be crafted after defeating every boss in Naxxramas!
+		Can be crafted after completing the Plague Quarter.
+		Can be crafted after defeating Grobbulus in the Construct Quarter.
+		Can be crafted after completing the Arachnid Quarter.
+		Can be crafted after defeating Grand Widow Faerlina in the Arachnid Quarter.
+		Can be crafted after defeating Maexxna in the Arachnid Quarter.
+		Can be crafted after completing the Druid Class Challenge in Naxxramas.
+		Can be crafted after completing the Shaman Class Challenge in Naxxramas.
+		Can be crafted after defeating Kel'Thuzad in the Frostwyrm Lair.
+		Can be crafted after defeating Loatheb in the Plague Quarter.
+		Can be crafted after defeating Gothik the Harvester in the Military Quarter.
+		Can be crafted after defeating Noth the Plaguebringer in the Plague Quarter.
+		Can be crafted after defeating Patchwerk in the Construct Quarter.
+		Can be crafted after defeating Heigan the Unclean in the Plague Quarter.
+		Can be crafted after completing the Warlock Class Challenge in Naxxramas.
+		Can be crafted after defeating Thaddius in the Construct Quarter.
+		Can be crafted after completing the Hunter Class Challenge in Naxxramas.
+		Can be crafted after defeating Gluth in the Construct Quarter.
+		Awarded at BlizzCon 2013.
+		This was rewarded to players who helped test the Store during the Beta.
+		Unlocked when you have all the Golden Pirates from the Expert Set.
+		Unlocked when you have all the Golden Murlocs from the Expert and Basic Sets.
+	mechanics
+		[
+  "Battlecry"
+]
+		[
+  "Taunt"
+]
+		[
+  "ImmuneToSpellpower"
+]
+		[
+  "Spellpower"
+]
+		[
+  "OneTurnEffect"
+]
+		[
+  "Charge"
+]
+		[
+  "AdjacentBuff",
+  "Aura"
+]
+		[
+  "Freeze"
+]
+		[
+  "Aura"
+]
+		[
+  "Morph"
+]
+		[
+  "HealTarget"
+]
+		[
+  "Deathrattle",
+  "Taunt"
+]
+		[
+  "Charge",
+  "Divine Shield",
+  "Taunt",
+  "Windfury"
+]
+		[
+  "Enrage"
+]
+		[
+  "Battlecry",
+  "Charge"
+]
+		[
+  "Charge",
+  "Divine Shield"
+]
+		[
+  "Divine Shield"
+]
+		[
+  "Battlecry",
+  "Spellpower"
+]
+		[
+  "AffectedBySpellPower"
+]
+		[
+  "Stealth"
+]
+		[
+  "Deathrattle",
+  "Spellpower"
+]
+		[
+  "Deathrattle"
+]
+		[
+  "Combo"
+]
+		[
+  "Secret"
+]
+		[
+  "Silence"
+]
+		[
+  "Windfury"
+]
+		[
+  "Poisonous"
+]
+		[
+  "Battlecry",
+  "Taunt"
+]
+		[
+  "Battlecry",
+  "Freeze"
+]
+		[
+  "Charge",
+  "Enrage"
+]
+		[
+  "Summoned"
+]
+		[
+  "Poisonous",
+  "Stealth"
+]
+		[
+  "Battlecry",
+  "Combo"
+]
+		[
+  "Divine Shield",
+  "Taunt"
+]
+		[
+  "Enrage",
+  "Taunt"
+]
+		[
+  "Deathrattle",
+  "Divine Shield",
+  "Taunt"
+]
+		[
+  "Charge",
+  "Deathrattle"
+]
+		[
+  "Deathrattle",
+  "Windfury"
+]
+		[
+  "Charge",
+  "Taunt"
+]
+		[
+  "Spellpower",
+  "Stealth"
+]
+		[
+  "Battlecry",
+  "Deathrattle"
+]
+	playerClass
+		Shaman
+		Priest
+		Hunter
+		Mage
+		Warrior
+		Rogue
+		Paladin
+		Druid
+		Warlock
+		Dream
+	howToGet
+		Unlocked at Level 1.
+		Unlocked at Level 2.
+		Unlocked at Level 10.
+		Unlocked at Level 4.
+		Unlocked at Level 6.
+		Unlocked at Level 8.
+		Unlocked by completing the Rogue Class Challenge in Naxxramas.
+		Unlocked by completing the Paladin Class Challenge in Naxxramas.
+		Unlocked by completing the Military Quarter.
+		Unlocked by defeating Instructor Razuvious in the Military Quarter.
+		Unlocked by completing the Priest Class Challenge in Naxxramas.
+		Unlocked by completing the Warrior Class Challenge in Naxxramas.
+		Unlocked by defeating The Four Horsemen in the Military Quarter.
+		Unlocked by completing the Mage Class Challenge in Naxxramas.
+		Unlocked by defeating Sapphiron in the Frostwyrm Lair.
+		Unlocked by completing the Construct Quarter.
+		Unlocked by defeating Anub'Rekhan in the Arachnid Quarter.
+		Unlocked by defeating every boss in Naxxramas!
+		Unlocked by completing the Plague Quarter.
+		Unlocked by defeating Grobbulus in the Construct Quarter.
+		Unlocked by completing the Arachnid Quarter.
+		Unlocked by defeating Grand Widow Faerlina in the Arachnid Quarter.
+		Unlocked by defeating Maexxna in the Arachnid Quarter.
+		Unlocked by completing the Druid Class Challenge in Naxxramas.
+		Unlocked by completing the Shaman Class Challenge in Naxxramas.
+		Unlocked by defeating Kel'Thuzad in the Frostwyrm Lair.
+		Unlocked by defeating Loatheb in the Plague Quarter.
+		Unlocked by defeating Gothik the Harvester in the Military Quarter.
+		Unlocked by defeating Noth the Plaguebringer in the Plague Quarter.
+		Unlocked by defeating Patchwerk in the Construct Quarter.
+		Unlocked by defeating Heigan the Unclean in the Plague Quarter.
+		Unlocked by completing the Warlock Class Challenge in Naxxramas.
+		Unlocked by defeating Thaddius in the Construct Quarter.
+		Unlocked by completing the Hunter Class Challenge in Naxxramas.
+		Unlocked by defeating Gluth in the Construct Quarter.
+		Unlocked when you have all the Pirates from the Expert Set.
+		Unlocked when you have all the Murlocs from the Expert Set.
+	durability
+		2
+		4
+		3
+		8
+		1
+		5
+		0
+	race
+		Beast
+		Murloc
+		Demon
+		Totem
+		Mech
+		Dragon
+		Pirate
+	inPlayText
+		Flametongue
+		Warlord
+		Argalagblbl
+		Beastmaster
+		Lead
+		Soaring
+		For the Alliance!
+		Frostbolt
+		Grand Magus
+		Smithing
+		Blood Pact
+		Demigod
+		Cultist
+		Catapult
+		Alpha Dog
+		Fanged
+		Cannibalism
+		Berserk
+		Auctioning
+		Growth
+		Imp Master
+		Weakened
+		Juggler
+		Quick
+		Healing
+		Meditate
+		Addicted
+		Gorging
+		Fishing
+		Aspect of Time
+		Sharpening
+		Ritual
+		Questing
+		Master
+		Scavenging
+		Firey
+		Summoning
+		Power
+		Breakable
+		Emboldening
+		Pecking
+		Poultryizing
+		Repairin'
+		Marglahg
+	elite
+		True
+		False

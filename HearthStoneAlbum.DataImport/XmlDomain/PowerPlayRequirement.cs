@@ -13,16 +13,16 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
     [SerializableAttribute()]
     [DebuggerStepThroughAttribute()]
     [DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(AnonymousType = true)]
-    public partial class EntityPowerPlayRequirement {
+    [XmlTypeAttribute("PowerPlayRequirement", AnonymousType = true)]
+    public partial class PowerPlayRequirement {
 
         private string reqIDField;
 
         private string paramField;
 
         /// <remarks/>
-        [XmlAttributeAttribute()]
-        public string reqID {
+        [XmlAttributeAttribute("reqID")]
+        public string ReqId {
             get {
                 return this.reqIDField;
             }
@@ -32,8 +32,8 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         }
 
         /// <remarks/>
-        [XmlAttributeAttribute()]
-        public string param {
+        [XmlAttributeAttribute("param")]
+        public string Param {
             get {
                 return this.paramField;
             }

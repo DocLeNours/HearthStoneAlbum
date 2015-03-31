@@ -15,25 +15,27 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
     [DebuggerStepThroughAttribute()]
     [DesignerCategoryAttribute("code")]
     [XmlTypeAttribute(AnonymousType = true)]
-    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    [XmlRootAttribute("Entity", Namespace = "", IsNullable = false)]
     public partial class Entity {
 
         private string masterPowerField;
 
-        private EntityTag[] tagField;
+        private Tag[] tagField;
 
-        private EntityReferencedTag[] referencedTagField;
+        private ReferencedTag[] referencedTagField;
 
-        private EntityPower[] powerField;
+        private Power[] powerField;
 
-        private EntityTriggeredPowerHistoryInfo[] triggeredPowerHistoryInfoField;
+        private TriggeredPowerHistoryInfo[] triggeredPowerHistoryInfoField;
+
+        private EntourageCard[] entourageCardField;
 
         private string versionField;
 
         private string cardIDField;
 
         /// <remarks/>
-        [XmlElementAttribute(Form = XmlSchemaForm.Unqualified)]
+        [XmlElementAttribute("MasterPower", Form = XmlSchemaForm.Unqualified)]
         public string MasterPower {
             get {
                 return this.masterPowerField;
@@ -45,7 +47,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
 
         /// <remarks/>
         [XmlElementAttribute("Tag", Form = XmlSchemaForm.Unqualified)]
-        public EntityTag[] Tag {
+        public Tag[] Tag {
             get {
                 return this.tagField;
             }
@@ -56,7 +58,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
 
         /// <remarks/>
         [XmlElementAttribute("ReferencedTag", Form = XmlSchemaForm.Unqualified)]
-        public EntityReferencedTag[] ReferencedTag {
+        public ReferencedTag[] ReferencedTag {
             get {
                 return this.referencedTagField;
             }
@@ -67,7 +69,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
 
         /// <remarks/>
         [XmlElementAttribute("Power", Form = XmlSchemaForm.Unqualified)]
-        public EntityPower[] Power {
+        public Power[] Power {
             get {
                 return this.powerField;
             }
@@ -78,7 +80,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
 
         /// <remarks/>
         [XmlElementAttribute("TriggeredPowerHistoryInfo", Form = XmlSchemaForm.Unqualified)]
-        public EntityTriggeredPowerHistoryInfo[] TriggeredPowerHistoryInfo {
+        public TriggeredPowerHistoryInfo[] TriggeredPowerHistoryInfo {
             get {
                 return this.triggeredPowerHistoryInfoField;
             }
@@ -88,8 +90,19 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         }
 
         /// <remarks/>
-        [XmlAttributeAttribute()]
-        public string version {
+        [XmlElementAttribute("EntourageCard", Form = XmlSchemaForm.Unqualified)]
+        public EntourageCard[] EntourageCard {
+            get {
+                return this.entourageCardField;
+            }
+            set {
+                this.entourageCardField = value;
+            }
+        }
+
+        /// <remarks/>
+        [XmlAttributeAttribute("version")]
+        public string Version {
             get {
                 return this.versionField;
             }
@@ -99,8 +112,8 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         }
 
         /// <remarks/>
-        [XmlAttributeAttribute()]
-        public string CardID {
+        [XmlAttributeAttribute("cardID")]
+        public string CardId {
             get {
                 return this.cardIDField;
             }

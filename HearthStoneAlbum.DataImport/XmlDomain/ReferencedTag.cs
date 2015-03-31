@@ -13,8 +13,8 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
     [SerializableAttribute()]
     [DebuggerStepThroughAttribute()]
     [DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(AnonymousType = true)]
-    public partial class EntityReferencedTag {
+    [XmlTypeAttribute("ReferencedTag", AnonymousType = true)]
+    public partial class ReferencedTag {
 
         private string nameField;
 
@@ -25,8 +25,8 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         private string valueField;
 
         /// <remarks/>
-        [XmlAttributeAttribute()]
-        public string name {
+        [XmlAttributeAttribute("name")]
+        public string Name {
             get {
                 return this.nameField;
             }
@@ -36,8 +36,8 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         }
 
         /// <remarks/>
-        [XmlAttributeAttribute()]
-        public string enumID {
+        [XmlAttributeAttribute("enumID")]
+        public string EnumId {
             get {
                 return this.enumIDField;
             }
@@ -47,8 +47,8 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         }
 
         /// <remarks/>
-        [XmlAttributeAttribute()]
-        public string type {
+        [XmlAttributeAttribute("type")]
+        public string Type {
             get {
                 return this.typeField;
             }
@@ -58,8 +58,8 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         }
 
         /// <remarks/>
-        [XmlAttributeAttribute()]
-        public string value {
+        [XmlAttributeAttribute("value")]
+        public string Value {
             get {
                 return this.valueField;
             }

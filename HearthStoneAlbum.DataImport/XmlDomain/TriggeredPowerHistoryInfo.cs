@@ -6,7 +6,6 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Xml.Schema;
 using System.Xml.Serialization;
 
 namespace HearthStoneAlbum.DataImport.XmlDomain {
@@ -14,34 +13,33 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
     [SerializableAttribute()]
     [DebuggerStepThroughAttribute()]
     [DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(AnonymousType = true)]
-    public partial class EntityPower {
+    [XmlTypeAttribute("TriggeredPowerHistoryInfo", AnonymousType = true)]
+    public partial class TriggeredPowerHistoryInfo {
 
-        private EntityPowerPlayRequirement[] playRequirementField;
+        private string effectIndexField;
 
-        private string definitionField;
+        private string showInHistoryField;
 
         /// <remarks/>
-        [XmlElementAttribute("PlayRequirement", Form = XmlSchemaForm.Unqualified)]
-        public EntityPowerPlayRequirement[] PlayRequirement {
+        [XmlAttributeAttribute("effectIndex")]
+        public string EffectIndex {
             get {
-                return this.playRequirementField;
+                return this.effectIndexField;
             }
             set {
-                this.playRequirementField = value;
+                this.effectIndexField = value;
             }
         }
 
         /// <remarks/>
-        [XmlAttributeAttribute()]
-        public string definition {
+        [XmlAttributeAttribute("showInHistory")]
+        public string ShowInHistory {
             get {
-                return this.definitionField;
+                return this.showInHistoryField;
             }
             set {
-                this.definitionField = value;
+                this.showInHistoryField = value;
             }
         }
     }
-
 }
