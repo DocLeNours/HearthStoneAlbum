@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace HearthStoneAlbum.Domain {
     public class BossAchievement {
-        public int PlayerId { get; private set; }
-        public int BossId { get; private set; }
-        public Player Player { get; private set; }
-        public Boss Boss { get; private set; }
-        public bool ClassChallenge { get; private set; }
+        public int PlayerId { get; set; }
+        public int BossId { get; set; }
+        public Player Player { get; set; }
+        public Boss Boss { get; set; }
+        public bool ClassChallenge { get; set; }
     }
 }

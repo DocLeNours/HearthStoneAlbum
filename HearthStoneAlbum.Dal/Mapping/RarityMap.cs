@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity.ModelConfiguration;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,8 @@ namespace HearthStoneAlbum.Dal.Mapping {
     public class RarityMap : EntityTypeConfiguration<Rarity> {
         public RarityMap() {
             this.HasKey(r => r.RarityId);
+            this.Property(r => r.RarityId)
+                .HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
         }
     }
 }

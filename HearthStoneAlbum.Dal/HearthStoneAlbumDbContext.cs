@@ -41,7 +41,7 @@ namespace HearthStoneAlbum.Dal {
         #endregion
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder) {
-            Database.SetInitializer<HearthStoneAlbumDbContext>(new DropCreateDatabaseIfModelChanges<HearthStoneAlbumDbContext>());
+            Database.SetInitializer<HearthStoneAlbumDbContext>(new HearthStoneAlbumDbInitializer());
 
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
             modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();

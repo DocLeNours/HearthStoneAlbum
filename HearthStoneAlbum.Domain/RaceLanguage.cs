@@ -8,10 +8,10 @@ namespace HearthStoneAlbum.Domain {
     public class RaceLanguage {
         public const int NameMaxLength = 20;
 
-        public int RaceId { get; private set; }
-        public int LanguageId { get; private set; }
-        public Race Race { get; private set; }
-        public Language Language { get; private set; }
-        public string Name { get; private set; }
+        public int RaceId { get; set; }
+        public int LanguageId { get; set; }
+        public Race Race { get; set; }
+        public Language Language { get; set; }
+        public string Name { get; set; }
     }
 }

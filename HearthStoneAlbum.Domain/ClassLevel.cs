@@ -9,10 +9,10 @@ namespace HearthStoneAlbum.Domain {
         public readonly int LevelMin = 0;
         public readonly int LevelMax = 60;
 
-        public int PlayerId { get; private set; }
-        public int PlayerClassId { get; private set; }
-        public Player Player { get; private set; }
-        public PlayerClass PlayerClass { get; private set; }
-        public int Level { get; private set; }
+        public int PlayerId { get; set; }
+        public int PlayerClassId { get; set; }
+        public Player Player { get; set; }
+        public PlayerClass PlayerClass { get; set; }
+        public int Level { get; set; }
     }
 }

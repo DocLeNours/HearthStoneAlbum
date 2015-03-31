@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity.ModelConfiguration;
 using System.Linq;
 using System.Text;
@@ -10,14 +11,10 @@ namespace HearthStoneAlbum.Dal.Mapping {
     public class AdventureMap : EntityTypeConfiguration<Adventure> {
         public AdventureMap() {
             this.HasKey(a => a.AdventureId);
+            this.Property(a => a.AdventureId)
+                .HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
             this.HasRequired(a => a.CardSet)
                 .WithOptional(cs => cs.Adventure);
-            this.HasRequired(a => a.Card)
-                .WithOptional()
-                .Map(m => {
-                    m.MapKey("CardId");
-                });
-            ;
         }
     }
 }

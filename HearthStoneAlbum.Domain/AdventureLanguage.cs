@@ -8,10 +8,10 @@ namespace HearthStoneAlbum.Domain {
     public class AdventureLanguage {
         public const int NameMaxLength = 50;
 
-        public int AdventureId { get; private set; }
-        public int LanguageId { get; private set; }
-        public Adventure Adventure { get; private set; }
-        public Language Language { get; private set; }
-        public string Name { get; private set; }
+        public int AdventureId { get; set; }
+        public int LanguageId { get; set; }
+        public Adventure Adventure { get; set; }
+        public Language Language { get; set; }
+        public string Name { get; set; }
     }
 }

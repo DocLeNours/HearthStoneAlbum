@@ -23,7 +23,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
 
         /// <remarks/>
         [XmlElementAttribute("PlayRequirement", Form = XmlSchemaForm.Unqualified)]
-        public PowerPlayRequirement[] PlayRequirement {
+        public PowerPlayRequirement[] PlayRequirements {
             get {
                 return this.playRequirementField;
             }

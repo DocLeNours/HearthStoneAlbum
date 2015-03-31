@@ -12,6 +12,8 @@ namespace HearthStoneAlbum.Dal.Mapping {
     public class LanguageMap : EntityTypeConfiguration<Language> {
         public LanguageMap() {
             this.HasKey(l => l.LanguageId);
+            this.Property(l => l.LanguageId)
+                .HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
             this.Property(l => l.Name)
                 .HasMaxLength(Language.NameMaxLength)
                 .IsRequired()

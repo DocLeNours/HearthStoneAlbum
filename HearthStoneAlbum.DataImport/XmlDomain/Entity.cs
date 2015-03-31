@@ -47,7 +47,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
 
         /// <remarks/>
         [XmlElementAttribute("Tag", Form = XmlSchemaForm.Unqualified)]
-        public Tag[] Tag {
+        public Tag[] Tags {
             get {
                 return this.tagField;
             }
@@ -58,7 +58,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
 
         /// <remarks/>
         [XmlElementAttribute("ReferencedTag", Form = XmlSchemaForm.Unqualified)]
-        public ReferencedTag[] ReferencedTag {
+        public ReferencedTag[] ReferencedTags {
             get {
                 return this.referencedTagField;
             }
@@ -69,7 +69,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
 
         /// <remarks/>
         [XmlElementAttribute("Power", Form = XmlSchemaForm.Unqualified)]
-        public Power[] Power {
+        public Power[] Powers {
             get {
                 return this.powerField;
             }
@@ -80,7 +80,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
 
         /// <remarks/>
         [XmlElementAttribute("TriggeredPowerHistoryInfo", Form = XmlSchemaForm.Unqualified)]
-        public TriggeredPowerHistoryInfo[] TriggeredPowerHistoryInfo {
+        public TriggeredPowerHistoryInfo[] TriggeredPowerHistoryInfos {
             get {
                 return this.triggeredPowerHistoryInfoField;
             }
@@ -91,7 +91,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
 
         /// <remarks/>
         [XmlElementAttribute("EntourageCard", Form = XmlSchemaForm.Unqualified)]
-        public EntourageCard[] EntourageCard {
+        public EntourageCard[] EntourageCards {
             get {
                 return this.entourageCardField;
             }
@@ -112,7 +112,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         }
 
         /// <remarks/>
-        [XmlAttributeAttribute("cardID")]
+        [XmlAttributeAttribute("CardID")]
         public string CardId {
             get {
                 return this.cardIDField;
@@ -120,6 +120,10 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
             set {
                 this.cardIDField = value;
             }
+        }
+
+        public Tag GetTag(string tagName) {
+            return this.Tags.SingleOrDefault(t => t.Name.Equals(tagName, StringComparison.InvariantCultureIgnoreCase));
         }
     }
 

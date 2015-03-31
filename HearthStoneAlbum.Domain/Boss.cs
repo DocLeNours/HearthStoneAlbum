@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace HearthStoneAlbum.Domain {
     public class Boss {
-        public int BossId { get; private set; }
-        public Wing Wing { get; private set; }
-        public PlayerClass PlayerClass { get; private set; }
+        public int BossId { get; set; }
+        public Wing Wing { get; set; }
+        public PlayerClass PlayerClass { get; set; }
         public ICollection<BossLanguage> BossLanguages { get; set; }
-        public Card Card { get; private set; }
-        public Card ClassCard { get; private set; }
+        public ICollection<Card> Cards { get; set; }
+        public ICollection<Card> PlayerClassCards { get; set; }
     }
 }

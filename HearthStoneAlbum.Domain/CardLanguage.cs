@@ -8,11 +8,11 @@ namespace HearthStoneAlbum.Domain {
     public class CardLanguage {
         public const int NameMaxLength = 50;
 
-        public int CardId { get; private set; }
-        public int LanguageId { get; private set; }
-        public Card Card { get; private set; }
-        public Language Language { get; private set; }
-        public string Name { get; private set; }
-        public string Description { get; private set; }
+        public int CardId { get; set; }
+        public int LanguageId { get; set; }
+        public Card Card { get; set; }
+        public Language Language { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
     }
 }

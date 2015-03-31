@@ -42,6 +42,26 @@ namespace HearthStoneAlbum.Dal.Mapping {
                 .Map(m => {
                     m.MapKey("RaceId");
                 });
+            this.HasOptional(c => c.Adventure)
+                .WithMany(a => a.Cards)
+                .Map(m => {
+                    m.MapKey("AdventureId");
+                });
+            this.HasOptional(c => c.Wing)
+                .WithMany(w => w.Cards)
+                .Map(m => {
+                    m.MapKey("WingId");
+                });
+            this.HasOptional(c => c.Boss)
+                .WithMany(b => b.Cards)
+                .Map(m => {
+                    m.MapKey("BossId");
+                });
+            this.HasOptional(c => c.PlayerClassBoss)
+                .WithMany(b => b.PlayerClassCards)
+                .Map(m => {
+                    m.MapKey("PlayerClassBossId");
+                });
         }
     }
 }

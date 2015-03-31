@@ -7,8 +7,8 @@
     <ProjectGuid>{6C66BE4C-1FF3-4E07-A9A6-5B12F8059D37}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HearthStoneAlbum.Repository</RootNamespace>
-    <AssemblyName>HearthStoneAlbum.Repository</AssemblyName>
+    <RootNamespace>HearthStoneAlbum.Dal</RootNamespace>
+    <AssemblyName>HearthStoneAlbum.Dal</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HearthStoneAlbumDbContext.cs" />
+    <Compile Include="HearthStoneAlbumDbInitializer.cs" />
     <Compile Include="Mapping\AdventureLanguageMap.cs" />
     <Compile Include="Mapping\BossLanguageMap.cs" />
     <Compile Include="Mapping\CardLanguageMap.cs" />

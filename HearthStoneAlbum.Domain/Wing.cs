@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace HearthStoneAlbum.Domain {
     public class Wing {
-        public int WingId { get; private set; }
-        public Adventure Adventure { get; private set; }
-        public ICollection<Boss> Bosses { get; private set; }
+        public int WingId { get; set; }
+        public Adventure Adventure { get; set; }
+        public ICollection<Boss> Bosses { get; set; }
         public ICollection<WingLanguage> WingLanguages { get; set; }
-        public Card Card { get; private set; }
+        public ICollection<Card> Cards { get; set; }
     }
 }

@@ -204,7 +204,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         }
 
         /// <remarks/>
-        [XmlAttributeAttribute("Type")]
+        [XmlAttributeAttribute("type")]
         public string Type {
             get {
                 return this.typeField;

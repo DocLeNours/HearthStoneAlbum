@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace HearthStoneAlbum.Domain {
     public class CardType {
-        public int CardTypeId { get; private set; }
-        public ICollection<Card> Cards { get; private set; }
+        public int CardTypeId { get; set; }
+        public ICollection<Card> Cards { get; set; }
         public ICollection<CardTypeLanguage> CardTypeLanguages { get; set; }
     }
 }
