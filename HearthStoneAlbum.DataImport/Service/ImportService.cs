@@ -33,6 +33,7 @@ namespace HearthStoneAlbum.DataImport.Service {
             this.logger = logger;
             this.context.Database.Log = logger;
             cards = context.Cards
+                .Include(c => c.CardLanguages)
                 .Include(c => c.PlayerClassCards)
                 .Include(c => c.RaceCardSetCards)
                 .ToList();
@@ -101,7 +102,7 @@ namespace HearthStoneAlbum.DataImport.Service {
             card.Attack = GetOptionalValue(entity.GetTag("Atk"));
             card.Health = GetOptionalValue(entity.GetTag("Health"));
             card.Durability = GetOptionalValue(entity.GetTag("Durability"));
-            card.CardLanguages = GetCardLanguages(entity);
+            GetCardLanguages(entity, card);
             this.ProcessHowToGet(card, entity.GetTag("HowToGetThisCard"), howToGets);
             this.ProcessHowToGet(card, entity.GetTag("HowToGetThisGoldCard"), howToGetGolds);
             if (card.CardId == 0) {
@@ -153,23 +154,25 @@ namespace HearthStoneAlbum.DataImport.Service {
             return GetValue(tag);
         }
 
-        private ICollection<CardLanguage> GetCardLanguages(Entity entity) {
-            ICollection<CardLanguage> cardLanguages = new List<CardLanguage>();
+        private void GetCardLanguages(Entity entity, Card card) {
             Tag cardName = entity.GetTag("CardName");
             Tag cardText = entity.GetTag("CardTextInHand");
             foreach (Language language in languages) {
                 string name = cardName.GetLanguageValue(language.Name);
                 if (name != null) {
-                    CardLanguage cardLanguage = new CardLanguage();
-                    cardLanguage.Language = language;
+                    CardLanguage cardLanguage = card.CardLanguages.SingleOrDefault(cl => cl.Language.Name.Equals(name, StringComparison.InvariantCultureIgnoreCase));
+                    if (cardLanguage == null) {
+                        cardLanguage = new CardLanguage() {
+                            Language = language,
+                        };
+                        card.CardLanguages.Add(cardLanguage);
+                    }
                     cardLanguage.Name = name;
                     if (cardText != null) {
                         cardLanguage.Description = CleanDescription(cardText.GetLanguageValue(language.Name));
                     }
-                    cardLanguages.Add(cardLanguage);
                 }
             }
-            return cardLanguages;
         }
         private string CleanDescription(string description) {
             return description.Replace("#", String.Empty).Replace("$", String.Empty);
