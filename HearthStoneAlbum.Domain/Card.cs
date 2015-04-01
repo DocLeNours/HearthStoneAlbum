@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace HearthStoneAlbum.Domain {
     public class Card {
-        public const int CodeMaxLength = 10;
+        public const int CodeMaxLength = 15;
+
+        public Card() {
+            this.CardLanguages = new List<CardLanguage>();
+            this.PlayerClassCards = new List<PlayerClassCard>();
+        }
 
         public int CardId { get; set; }
         public string Code { get; set; }
@@ -15,7 +20,7 @@ namespace HearthStoneAlbum.Domain {
         public Rarity Rarity { get; set; }
         public CardType CardType { get; set; }
         public Race Race { get; set; }
-        public int Cost { get; set; }
+        public int? Cost { get; set; }
         public int? Attack { get; set; }
         public int? Health { get; set; }
         public int? Durability { get; set; }

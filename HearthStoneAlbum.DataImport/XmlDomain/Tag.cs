@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Schema;
@@ -12,7 +13,7 @@ using System.Xml.Serialization;
 namespace HearthStoneAlbum.DataImport.XmlDomain {
     [GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
     [SerializableAttribute()]
-    [DebuggerStepThroughAttribute()]
+//    [DebuggerStepThroughAttribute()]
     [DesignerCategoryAttribute("code")]
     [XmlTypeAttribute("Tag", AnonymousType = true)]
     public partial class Tag {
@@ -223,6 +224,10 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
             set {
                 this.valueField = value;
             }
+        }
+
+        public string GetLanguageValue(string languageCode) {
+            return this.GetType().GetProperty(languageCode).GetValue(this) as string;
         }
     }
 

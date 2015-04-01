@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace HearthStoneAlbum.Domain {
     public class CardSet {
+        public CardSet() {
+            this.Cards = new List<Card>();
+            this.CardSetLanguages = new List<CardSetLanguage>();
+        }
+
         public int CardSetId { get; set; }
         public Adventure Adventure { get; set; }
         public ICollection<Card> Cards { get; set; }
