@@ -160,7 +160,7 @@ namespace HearthStoneAlbum.DataImport.Service {
             foreach (Language language in languages) {
                 string name = cardName.GetLanguageValue(language.Name);
                 if (name != null) {
-                    CardLanguage cardLanguage = card.CardLanguages.SingleOrDefault(cl => cl.Language.Name.Equals(name, StringComparison.InvariantCultureIgnoreCase));
+                    CardLanguage cardLanguage = card.CardLanguages.SingleOrDefault(cl => cl.Language.LanguageId == language.LanguageId);
                     if (cardLanguage == null) {
                         cardLanguage = new CardLanguage() {
                             Language = language,
