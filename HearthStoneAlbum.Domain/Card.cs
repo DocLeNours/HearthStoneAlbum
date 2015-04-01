@@ -11,6 +11,7 @@ namespace HearthStoneAlbum.Domain {
         public Card() {
             this.CardLanguages = new List<CardLanguage>();
             this.PlayerClassCards = new List<PlayerClassCard>();
+            this.RaceCardSetCards = new List<RaceCardSetCard>();
         }
 
         public int CardId { get; set; }
@@ -26,6 +27,7 @@ namespace HearthStoneAlbum.Domain {
         public int? Durability { get; set; }
         public ICollection<CardLanguage> CardLanguages { get; set; }
         public ICollection<PlayerClassCard> PlayerClassCards { get; set; }
+        public ICollection<RaceCardSetCard> RaceCardSetCards { get; set; }
         public Adventure Adventure { get; set; }
         public Wing Wing { get; set; }
         public Boss Boss { get; set; }

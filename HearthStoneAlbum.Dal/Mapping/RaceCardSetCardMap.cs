@@ -15,7 +15,7 @@ namespace HearthStoneAlbum.Dal.Mapping {
             this.HasRequired(rcsc => rcsc.CardSet)
                 .WithMany();
             this.HasRequired(rcsc => rcsc.Card)
-                .WithMany();
+                .WithMany(c=>c.RaceCardSetCards);
         }
     }
 }
