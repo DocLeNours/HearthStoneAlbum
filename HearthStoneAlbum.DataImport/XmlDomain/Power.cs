@@ -14,16 +14,16 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
     [SerializableAttribute()]
     [DebuggerStepThroughAttribute()]
     [DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute("Power", AnonymousType = true)]
+    [XmlTypeAttribute(AnonymousType = true)]
     public partial class Power {
 
-        private PowerPlayRequirement[] playRequirementField;
+        private PlayRequirement[] playRequirementField;
 
         private string definitionField;
 
         /// <remarks/>
-        [XmlElementAttribute("PlayRequirement", Form = XmlSchemaForm.Unqualified)]
-        public PowerPlayRequirement[] PlayRequirements {
+        [XmlElementAttribute("PlayRequirement", Form = System.Xml.Schema.XmlSchemaForm.Unqualified)]
+        public PlayRequirement[] PlayRequirement {
             get {
                 return this.playRequirementField;
             }
@@ -43,5 +43,4 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
             }
         }
     }
-
 }

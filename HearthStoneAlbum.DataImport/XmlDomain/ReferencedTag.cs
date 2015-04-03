@@ -13,7 +13,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
     [SerializableAttribute()]
     [DebuggerStepThroughAttribute()]
     [DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute("ReferencedTag", AnonymousType = true)]
+    [XmlTypeAttribute(AnonymousType = true)]
     public partial class ReferencedTag {
 
         private string nameField;
@@ -68,5 +68,4 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
             }
         }
     }
-
 }

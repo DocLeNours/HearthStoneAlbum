@@ -11,8 +11,7 @@ namespace HearthStoneAlbum.Dal.Mapping {
     public class BossMap : EntityTypeConfiguration<Boss> {
         public BossMap() {
             this.HasKey(b => b.BossId);
-            this.Property(b => b.BossId)
-                .HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
+            this.Property(b => b.BossId);
             this.HasRequired(b => b.Wing)
                 .WithMany(w => w.Bosses)
                 .Map(m => {

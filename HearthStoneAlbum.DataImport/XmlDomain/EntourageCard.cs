@@ -13,7 +13,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
     [SerializableAttribute()]
     [DebuggerStepThroughAttribute()]
     [DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute("EntourageCard", AnonymousType = true)]
+    [XmlTypeAttribute(AnonymousType = true)]
     public partial class EntourageCard {
 
         private string cardIDField;

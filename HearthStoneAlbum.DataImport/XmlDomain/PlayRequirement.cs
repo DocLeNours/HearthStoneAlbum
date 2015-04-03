@@ -13,8 +13,8 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
     [SerializableAttribute()]
     [DebuggerStepThroughAttribute()]
     [DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute("PowerPlayRequirement", AnonymousType = true)]
-    public partial class PowerPlayRequirement {
+    [XmlTypeAttribute(AnonymousType = true)]
+    public partial class PlayRequirement {
 
         private string reqIDField;
 
@@ -42,5 +42,4 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
             }
         }
     }
-
 }

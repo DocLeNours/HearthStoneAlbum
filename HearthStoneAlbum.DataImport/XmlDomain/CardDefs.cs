@@ -14,31 +14,19 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
     [DebuggerStepThroughAttribute()]
     [DesignerCategoryAttribute("code")]
     [XmlTypeAttribute(AnonymousType = true)]
-    public partial class TriggeredPowerHistoryInfo {
+    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public partial class CardDefs {
 
-        private string effectIndexField;
-
-        private string showInHistoryField;
-
-        /// <remarks/>
-        [XmlAttributeAttribute("effectIndex")]
-        public string EffectIndex {
-            get {
-                return this.effectIndexField;
-            }
-            set {
-                this.effectIndexField = value;
-            }
-        }
+        private Entity[] itemsField;
 
         /// <remarks/>
-        [XmlAttributeAttribute("showInHistory")]
-        public string ShowInHistory {
+        [XmlElementAttribute("Entity", Form = System.Xml.Schema.XmlSchemaForm.Unqualified)]
+        public Entity[] Items {
             get {
-                return this.showInHistoryField;
+                return this.itemsField;
             }
             set {
-                this.showInHistoryField = value;
+                this.itemsField = value;
             }
         }
     }
