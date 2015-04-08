@@ -24,7 +24,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
 
         private string valueField;
 
-        private string valueField1;
+        private string textField;
 
         /// <remarks/>
         [XmlAttributeAttribute("enumID")]
@@ -63,10 +63,20 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
         [XmlTextAttribute()]
         public string Text {
             get {
-                return this.valueField1;
+                return this.textField;
             }
             set {
-                this.valueField1 = value;
+                this.textField = value;
+            }
+        }
+
+        public string Data {
+            get {
+                if (String.IsNullOrEmpty(this.Type)) {
+                    return this.Text;
+                } else {
+                    return this.Value;
+                }
             }
         }
     }

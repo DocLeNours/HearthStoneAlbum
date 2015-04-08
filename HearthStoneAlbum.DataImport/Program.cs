@@ -10,23 +10,13 @@ using System.Xml.Serialization;
 using HearthStoneAlbum.Dal;
 using HearthStoneAlbum.DataImport.Service;
 using HearthStoneAlbum.DataImport.XmlDomain;
-using HearthStoneAlbum.Domain;
 
 namespace HearthStoneAlbum.DataImport {
     class Program {
         static void Main(string[] args) {
             try {
-                DirectoryInfo di = new DirectoryInfo(ConfigurationManager.AppSettings["dirAssets"]);
-                IList<Entity> entities = new List<Entity>();
-                foreach (FileInfo fi in di.GetFiles()) {
-                    XmlSerializer ser = new XmlSerializer(typeof(Entity));
-                    using (XmlReader reader = XmlReader.Create(fi.FullName)) {
-                        Entity entity = (Entity)ser.Deserialize(reader);
-                        entities.Add(entity);
-                    }
-                }
-                using (ImportService service = new ImportService(ConfigurationManager.ConnectionStrings["HearthStoneAlbumDbContext"].ConnectionString, Console.WriteLine)) {
-                    service.Import(entities);
+                using (ImportService service = new ImportService(ConfigurationManager.AppSettings["dirAssets"], ConfigurationManager.ConnectionStrings["HearthStoneAlbumDbContext"].ConnectionString)) {
+                    //service.Import(carDefs);
                 }
             } catch (Exception ex) {
                 Console.WriteLine(ex.Message);

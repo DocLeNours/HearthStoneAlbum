@@ -15,17 +15,16 @@ namespace HearthStoneAlbum.Dal.Mapping {
             this.Property(c => c.Code)
                 .HasMaxLength(Card.CodeMaxLength)
                 .IsRequired()
-                .HasColumnAnnotation(IndexAnnotation.AnnotationName, new IndexAnnotation(
-                    new IndexAttribute("IXCardCode") { IsUnique = true }));
+                .HasUniqueIndexAnnotation("UQCardCode");
             this.HasRequired(c => c.CardSet)
                 .WithMany(cs => cs.Cards)
                 .Map(m => {
                     m.MapKey("CardSetId");
                 });
-            this.HasOptional(c => c.PlayerClass)
+            this.HasOptional(c => c.HeroClass)
                 .WithMany(pc => pc.Cards)
                 .Map(m => {
-                    m.MapKey("PlayerClassId");
+                    m.MapKey("HeroClassId");
                 });
             this.HasRequired(c => c.Rarity)
                 .WithMany(r => r.Cards)
@@ -56,11 +55,6 @@ namespace HearthStoneAlbum.Dal.Mapping {
                 .WithMany(b => b.Cards)
                 .Map(m => {
                     m.MapKey("BossId");
-                });
-            this.HasOptional(c => c.PlayerClassBoss)
-                .WithMany(b => b.PlayerClassCards)
-                .Map(m => {
-                    m.MapKey("PlayerClassBossId");
                 });
         }
     }

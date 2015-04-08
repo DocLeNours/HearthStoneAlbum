@@ -56,7 +56,7 @@
     <Compile Include="XmlDomain\CardDefs.cs" />
     <Compile Include="XmlDomain\Entity.cs" />
     <Compile Include="XmlDomain\EntourageCard.cs" />
-    <Compile Include="XmlDomain\TagId.cs" />
+    <Compile Include="XmlDomain\EnumId.cs" />
     <Compile Include="XmlDomain\Power.cs" />
     <Compile Include="XmlDomain\PlayRequirement.cs" />
     <Compile Include="XmlDomain\ReferencedTag.cs" />

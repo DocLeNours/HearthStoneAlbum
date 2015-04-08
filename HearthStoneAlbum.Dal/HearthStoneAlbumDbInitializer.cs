@@ -27,37 +27,37 @@ namespace HearthStoneAlbum.Dal {
                 new Language { LanguageId = 14, Name = "ptPT" },
             });
 
-            context.PlayerClasses.AddRange(new[] {
-                new PlayerClass { PlayerClassId = 2, PlayerClassLanguages = new[] {
-		            new PlayerClassLanguage { PlayerClassId = 2, LanguageId = 1, Name = "Druid" },
+            context.HeroClasses.AddRange(new[] {
+                new HeroClass { HeroClassId = 2, HeroClassLanguages = new[] {
+		            new HeroClassLanguage { HeroClassId = 2, LanguageId = 1, Name = "Druid" },
                 }},
-                new PlayerClass { PlayerClassId = 3, PlayerClassLanguages = new[] {
-		            new PlayerClassLanguage { PlayerClassId = 3, LanguageId = 1, Name = "Hunter" },
+                new HeroClass { HeroClassId = 3, HeroClassLanguages = new[] {
+		            new HeroClassLanguage { HeroClassId = 3, LanguageId = 1, Name = "Hunter" },
                 }},
-                new PlayerClass { PlayerClassId = 4, PlayerClassLanguages = new[] {
-		            new PlayerClassLanguage { PlayerClassId = 4, LanguageId = 1, Name = "Mage" },
+                new HeroClass { HeroClassId = 4, HeroClassLanguages = new[] {
+		            new HeroClassLanguage { HeroClassId = 4, LanguageId = 1, Name = "Mage" },
                 }},
-                new PlayerClass { PlayerClassId = 5, PlayerClassLanguages = new[] {
-		            new PlayerClassLanguage { PlayerClassId = 5, LanguageId = 1, Name = "Paladin" },
+                new HeroClass { HeroClassId = 5, HeroClassLanguages = new[] {
+		            new HeroClassLanguage { HeroClassId = 5, LanguageId = 1, Name = "Paladin" },
                 }},
-                new PlayerClass { PlayerClassId = 6, PlayerClassLanguages = new[] {
-		            new PlayerClassLanguage { PlayerClassId = 6, LanguageId = 1, Name = "Priest" },
+                new HeroClass { HeroClassId = 6, HeroClassLanguages = new[] {
+		            new HeroClassLanguage { HeroClassId = 6, LanguageId = 1, Name = "Priest" },
                 }},
-                new PlayerClass { PlayerClassId = 7, PlayerClassLanguages = new[] {
-		            new PlayerClassLanguage { PlayerClassId = 7, LanguageId = 1, Name = "Rogue" },
+                new HeroClass { HeroClassId = 7, HeroClassLanguages = new[] {
+		            new HeroClassLanguage { HeroClassId = 7, LanguageId = 1, Name = "Rogue" },
                 }},
-                new PlayerClass { PlayerClassId = 8, PlayerClassLanguages = new[] {
-		            new PlayerClassLanguage { PlayerClassId = 8, LanguageId = 1, Name = "Shaman" },
+                new HeroClass { HeroClassId = 8, HeroClassLanguages = new[] {
+		            new HeroClassLanguage { HeroClassId = 8, LanguageId = 1, Name = "Shaman" },
                 }},
-                new PlayerClass { PlayerClassId = 9, PlayerClassLanguages = new[] {
-		            new PlayerClassLanguage { PlayerClassId = 9, LanguageId = 1, Name = "Warlock" },
+                new HeroClass { HeroClassId = 9, HeroClassLanguages = new[] {
+		            new HeroClassLanguage { HeroClassId = 9, LanguageId = 1, Name = "Warlock" },
                 }},
-                new PlayerClass { PlayerClassId = 10, PlayerClassLanguages = new[] {
-		            new PlayerClassLanguage { PlayerClassId = 10, LanguageId = 1, Name = "Warrior" },
+                new HeroClass { HeroClassId = 10, HeroClassLanguages = new[] {
+		            new HeroClassLanguage { HeroClassId = 10, LanguageId = 1, Name = "Warrior" },
                 }},
             });
 
-            DbSet<PlayerClass> classes = context.PlayerClasses;
+            DbSet<HeroClass> classes = context.HeroClasses;
             Adventure naxx = SetNaxx(classes);
             context.Adventures.Add(naxx);
             Adventure blackrock = SetBlackrock(classes);
@@ -144,117 +144,141 @@ namespace HearthStoneAlbum.Dal {
             context.SaveChanges();
         }
 
-        private PlayerClass GetByName(DbSet<PlayerClass> classes, string name) {
-            return classes.SingleOrDefault(pc => pc.PlayerClassLanguages.Any(pcl => pcl.Name.Equals(name, StringComparison.InvariantCultureIgnoreCase)));
+        private HeroClass GetHeroClassByName(DbSet<HeroClass> classes, string name) {
+            return classes.SingleOrDefault(pc => pc.HeroClassLanguages
+                .Any(pcl => pcl.Name.Equals(name, StringComparison.InvariantCultureIgnoreCase)));
         }
 
-        private Adventure SetNaxx(DbSet<PlayerClass> classes) {
+        private Adventure SetNaxx(DbSet<HeroClass> classes) {
             return new Adventure() {
                 AdventureLanguages = new[] {
                 new AdventureLanguage { LanguageId = 1, Name = "Curse of Naxxramas" }},
                 Wings = new[] {
-                    new Wing { WingLanguages = new[] { 
+                    new Wing { Order = 1, WingLanguages = new[] { 
                         new WingLanguage { LanguageId = 1, Name = "Arachnid Quarter" }},
                         Bosses = new[] {
-                            new Boss { BossLanguages = new[] {
+                            new Boss { Order = 1, BossLanguages = new[] {
                                 new BossLanguage { LanguageId = 1, Name = "Anub'Rekhan" },
                             }},
-                            new Boss { PlayerClass = GetByName(classes, "Druid"), BossLanguages = new[] {
+                            new Boss { Order = 2, BossLanguages = new[] {
                                 new BossLanguage { LanguageId = 1, Name = "Grand Widow Faerlina" },
                             }},
-                            new Boss { PlayerClass = GetByName(classes, "Rogue"), BossLanguages = new[] {
+                            new Boss { Order = 3, BossLanguages = new[] {
                                 new BossLanguage { LanguageId = 1, Name = "Maexxna" },
                             }},
-                        }
+                        },
+                        HeroClassChallenges = new[] {
+                            new HeroClassChallenge { HeroClass = GetHeroClassByName(classes, "Druid") },
+                            new HeroClassChallenge { HeroClass = GetHeroClassByName(classes, "Rogue") },
+                        },
                     },
-                    new Wing { WingLanguages = new[] { 
+                    new Wing { Order = 2, WingLanguages = new[] { 
                         new WingLanguage { LanguageId = 1, Name = "Plague Quarter" }},
                         Bosses = new [] {
-                            new Boss { BossLanguages = new[] {
+                            new Boss { Order = 1, BossLanguages = new[] {
                                 new BossLanguage { LanguageId = 1, Name = "Noth the Plaguebringer" },
                             }},
-                            new Boss { PlayerClass = GetByName(classes, "Mage"), BossLanguages = new[] {
+                            new Boss { Order = 2, BossLanguages = new[] {
                                 new BossLanguage { LanguageId = 1, Name = "Heigan the Unclean" },
                             }},
-                            new Boss { PlayerClass = GetByName(classes, "Hunter"), BossLanguages = new[] {
+                            new Boss { Order = 3, BossLanguages = new[] {
                                 new BossLanguage { LanguageId = 1, Name = "Loatheb" },
                             }},
-                        }
+                        },
+                        HeroClassChallenges = new[] {
+                            new HeroClassChallenge { HeroClass = GetHeroClassByName(classes, "Mage") },
+                            new HeroClassChallenge { HeroClass = GetHeroClassByName(classes, "Hunter") },
+                        },
                     },
-                    new Wing { WingLanguages = new[] { 
+                    new Wing { Order = 3, WingLanguages = new[] { 
                         new WingLanguage { LanguageId = 1, Name = "Military Quarter" }},
                         Bosses = new [] {
-                            new Boss { BossLanguages = new[] {
+                            new Boss { Order = 1, BossLanguages = new[] {
                                 new BossLanguage { LanguageId = 1, Name = "Instructor Razuvious" },
                             }},
-                            new Boss { PlayerClass = GetByName(classes, "Shaman"), BossLanguages = new[] {
+                            new Boss { Order = 2, BossLanguages = new[] {
                                 new BossLanguage { LanguageId = 1, Name = "Gothik the Harvester" },
                             }},
-                            new Boss { PlayerClass = GetByName(classes, "Warlock"), BossLanguages = new[] {
+                            new Boss { Order = 3, BossLanguages = new[] {
                                 new BossLanguage { LanguageId = 1, Name = "The Four Horsemen" },
                             }},
-                        }
+                        },
+                        HeroClassChallenges = new[] {
+                            new HeroClassChallenge { HeroClass = GetHeroClassByName(classes, "Shaman") },
+                            new HeroClassChallenge { HeroClass = GetHeroClassByName(classes, "Warlock") },
+                        },
                     },
-                    new Wing { WingLanguages = new[] { 
+                    new Wing { Order = 4, WingLanguages = new[] { 
                         new WingLanguage { LanguageId = 1, Name = "Construct Quarter" }},
                         Bosses = new [] {
-                            new Boss { BossLanguages = new[] {
+                            new Boss { Order = 1, BossLanguages = new[] {
                                 new BossLanguage { LanguageId = 1, Name = "Patchwerk" },
                             }},
-                            new Boss { PlayerClass = GetByName(classes, "Warrior"), BossLanguages = new[] {
+                            new Boss { Order = 2, BossLanguages = new[] {
                                 new BossLanguage { LanguageId = 1, Name = "Grobbulus" },
                             }},
-                            new Boss { BossLanguages = new[] {
+                            new Boss { Order = 3, BossLanguages = new[] {
                                 new BossLanguage { LanguageId = 1, Name = "Gluth" },
                             }},
-                            new Boss { PlayerClass = GetByName(classes, "Priest"), BossLanguages = new[] {
+                            new Boss { Order = 4, BossLanguages = new[] {
                                 new BossLanguage { LanguageId = 1, Name = "Thaddius" },
                             }},
-                        }
+                        },
+                        HeroClassChallenges = new[] {
+                            new HeroClassChallenge { HeroClass = GetHeroClassByName(classes, "Warrior") },
+                            new HeroClassChallenge { HeroClass = GetHeroClassByName(classes, "Priest") },
+                        },
                     },
-                    new Wing { WingLanguages = new[] { 
+                    new Wing { Order = 5, WingLanguages = new[] { 
                         new WingLanguage { LanguageId = 1, Name = "Frostwyrm Lair" }},
                         Bosses = new [] {
-                            new Boss { BossLanguages = new[] {
+                            new Boss { Order = 1, BossLanguages = new[] {
                                 new BossLanguage { LanguageId = 1, Name = "Sapphiron" },
                             }},
-                            new Boss { PlayerClass = GetByName(classes, "Paladin"), BossLanguages = new[] {
+                            new Boss { Order = 2, BossLanguages = new[] {
                                 new BossLanguage { LanguageId = 1, Name = "Kel'Thuzad" },
                             }},
-                        }
+                        },
+                        HeroClassChallenges = new[] {
+                            new HeroClassChallenge { HeroClass = GetHeroClassByName(classes, "Paladin") },
+                        },
                     },
                 }
             };
         }
-        private Adventure SetBlackrock(DbSet<PlayerClass> classes) {
+        private Adventure SetBlackrock(DbSet<HeroClass> classes) {
             return new Adventure() {
                 AdventureLanguages = new[] {
                 new AdventureLanguage { LanguageId = 1, Name = "Blackrock Mountain" }},
                 Wings = new[] {
-                    new Wing { WingLanguages = new[] { 
+                    new Wing { Order = 1, WingLanguages = new[] { 
                         new WingLanguage { LanguageId = 1, Name = "Blackrock Depths" }},
                         Bosses = new[] {
-                            new Boss { PlayerClass = GetByName(classes, "Hunter"), BossLanguages = new[] {
+                            new Boss { Order = 1, BossLanguages = new[] {
                                 new BossLanguage { LanguageId = 1, Name = "Coren Direbrew" },
                             }},
-                            new Boss { PlayerClass = GetByName(classes, "Mage"), BossLanguages = new[] {
+                            new Boss { Order = 2, BossLanguages = new[] {
                                 new BossLanguage { LanguageId = 1, Name = "High Justice Grimstone" },
                             }},
-                            new Boss { BossLanguages = new[] {
+                            new Boss { Order = 3, BossLanguages = new[] {
                                 new BossLanguage { LanguageId = 1, Name = "Emperor Thaurissan" },
                             }},
-                        }
+                        },
+                        HeroClassChallenges = new[] {
+                            new HeroClassChallenge { HeroClass = GetHeroClassByName(classes, "Hunter") },
+                            new HeroClassChallenge { HeroClass = GetHeroClassByName(classes, "Mage") },
+                        },
                     },
-                    new Wing { WingLanguages = new[] { 
+                    new Wing { Order = 2, WingLanguages = new[] { 
                         new WingLanguage { LanguageId = 1, Name = "Molten Core" }},
                     },
-                    new Wing { WingLanguages = new[] { 
+                    new Wing { Order = 3, WingLanguages = new[] { 
                         new WingLanguage { LanguageId = 1, Name = "Blackrock Spire" }},
                     },
-                    new Wing { WingLanguages = new[] { 
+                    new Wing { Order = 4, WingLanguages = new[] { 
                         new WingLanguage { LanguageId = 1, Name = "Blackwing Lair" }},
                     },
-                    new Wing { WingLanguages = new[] { 
+                    new Wing { Order = 5, WingLanguages = new[] { 
                         new WingLanguage { LanguageId = 1, Name = "Hidden Laboratory" }},
                     },
                 }

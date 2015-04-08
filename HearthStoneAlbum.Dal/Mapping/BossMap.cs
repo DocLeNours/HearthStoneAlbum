@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Data.Entity.Infrastructure.Annotations;
 using System.Data.Entity.ModelConfiguration;
 using System.Linq;
 using System.Text;
@@ -17,11 +18,10 @@ namespace HearthStoneAlbum.Dal.Mapping {
                 .Map(m => {
                     m.MapKey("WingId");
                 });
-            this.HasOptional(b => b.PlayerClass)
-                .WithMany()
-                .Map(m => {
-                    m.MapKey("PlayerClassId");
-                });
+            this.Property(b => b.Wing.WingId)
+                .HasUniqueIndexAnnotation("UQWingOrder", 0);
+            this.Property(b=>b.Order)
+                .HasUniqueIndexAnnotation("UQWingOrder", 1);
         }
     }
 }

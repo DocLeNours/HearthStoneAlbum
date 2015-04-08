@@ -46,27 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntityTypeConfigurationExtension.cs" />
     <Compile Include="HearthStoneAlbumDbContext.cs" />
     <Compile Include="HearthStoneAlbumDbInitializer.cs" />
     <Compile Include="Mapping\AdventureLanguageMap.cs" />
     <Compile Include="Mapping\BossLanguageMap.cs" />
     <Compile Include="Mapping\CardLanguageMap.cs" />
     <Compile Include="Mapping\CardSetLanguageMap.cs" />
+    <Compile Include="Mapping\HeroClassChallengeMap.cs" />
+    <Compile Include="Mapping\PlayerHeroClassChallengeMap.cs" />
     <Compile Include="Mapping\RaceCardSetCardMap.cs" />
     <Compile Include="Mapping\CardTypeLanguageMap.cs" />
     <Compile Include="Mapping\LanguageMap.cs" />
-    <Compile Include="Mapping\PlayerClassCardMap.cs" />
-    <Compile Include="Mapping\PlayerClassLanguageMap.cs" />
+    <Compile Include="Mapping\HeroClassCardMap.cs" />
+    <Compile Include="Mapping\HeroClassLanguageMap.cs" />
     <Compile Include="Mapping\PlayerCardMap.cs" />
     <Compile Include="Mapping\PlayerMap.cs" />
     <Compile Include="Mapping\AdventureMap.cs" />
     <Compile Include="Mapping\BossMap.cs" />
-    <Compile Include="Mapping\BossAchievementMap.cs" />
+    <Compile Include="Mapping\PlayerBossMap.cs" />
     <Compile Include="Mapping\CardMap.cs" />
     <Compile Include="Mapping\CardSetMap.cs" />
     <Compile Include="Mapping\CardTypeMap.cs" />
-    <Compile Include="Mapping\ClassLevelMap.cs" />
-    <Compile Include="Mapping\PlayerClassMap.cs" />
+    <Compile Include="Mapping\PlayerHeroClassMap.cs" />
+    <Compile Include="Mapping\HeroClassMap.cs" />
     <Compile Include="Mapping\RaceLanguageMap.cs" />
     <Compile Include="Mapping\RaceMap.cs" />
     <Compile Include="Mapping\RarityLanguageMap.cs" />

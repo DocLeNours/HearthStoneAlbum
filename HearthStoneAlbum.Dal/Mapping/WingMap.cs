@@ -17,6 +17,10 @@ namespace HearthStoneAlbum.Dal.Mapping {
                 .Map(m => {
                     m.MapKey("AdventureId");
                 });
+            this.Property(a => a.Adventure.AdventureId)
+                .HasUniqueIndexAnnotation("UQAdventureOrder", 0);
+            this.Property(a => a.Order)
+                .HasUniqueIndexAnnotation("UQAdventureOrder", 1);
         }
     }
 }

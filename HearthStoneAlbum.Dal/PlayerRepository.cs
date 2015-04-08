@@ -12,7 +12,7 @@ namespace HearthStoneAlbum.Dal {
             throw new NotImplementedException();
         }
 
-        public IList<PlayerClass> GetPlayerClasses() {
+        public IList<HeroClass> GetHeroClasses() {
             throw new NotImplementedException();
         }
 

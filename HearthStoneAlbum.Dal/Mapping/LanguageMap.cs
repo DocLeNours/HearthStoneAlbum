@@ -17,8 +17,7 @@ namespace HearthStoneAlbum.Dal.Mapping {
             this.Property(l => l.Name)
                 .HasMaxLength(Language.NameMaxLength)
                 .IsRequired()
-                .HasColumnAnnotation(IndexAnnotation.AnnotationName, new IndexAnnotation(
-                    new IndexAttribute("IXLanguageName") { IsUnique = true }));
+                .HasUniqueIndexAnnotation("UQLanguageName");
         }
     }
 }

@@ -8,14 +8,16 @@ using System.Threading.Tasks;
 namespace HearthStoneAlbum.Domain {
     public class Player {
         public Player() {
-            this.ClassLevels = new List<ClassLevel>();
-            this.BossAchievements = new List<BossAchievement>();
+            this.PlayerHeroClasses = new List<PlayerHeroClass>();
+            this.PlayerBosses = new List<PlayerBoss>();
             this.PlayerCards = new List<PlayerCard>();
+            this.PlayerHeroClassChallenges = new List<PlayerHeroClassChallenge>();
         }
 
         public int PlayerId { get; set; }
-        public ICollection<ClassLevel> ClassLevels { get; set; }
-        public ICollection<BossAchievement> BossAchievements { get; set; }
+        public ICollection<PlayerHeroClass> PlayerHeroClasses { get; set; }
+        public ICollection<PlayerBoss> PlayerBosses { get; set; }
         public ICollection<PlayerCard> PlayerCards { get; set; }
+        public ICollection<PlayerHeroClassChallenge> PlayerHeroClassChallenges { get; set; }
     }
 }
