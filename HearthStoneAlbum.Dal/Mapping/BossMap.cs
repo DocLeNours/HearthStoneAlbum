@@ -12,16 +12,15 @@ namespace HearthStoneAlbum.Dal.Mapping {
     public class BossMap : EntityTypeConfiguration<Boss> {
         public BossMap() {
             this.HasKey(b => b.BossId);
-            this.Property(b => b.BossId);
             this.HasRequired(b => b.Wing)
                 .WithMany(w => w.Bosses)
                 .Map(m => {
                     m.MapKey("WingId");
                 });
-            this.Property(b => b.Wing.WingId)
-                .HasUniqueIndexAnnotation("UQWingOrder", 0);
-            this.Property(b=>b.Order)
-                .HasUniqueIndexAnnotation("UQWingOrder", 1);
+            //this.Property(b => b.Wing.WingId)
+            //    .HasUniqueIndexAnnotation("UQWingOrder", 0);
+            //this.Property(b=>b.Order)
+            //    .HasUniqueIndexAnnotation("UQWingOrder", 1);
         }
     }
 }

@@ -13,7 +13,6 @@ using System.Xml.Serialization;
 namespace HearthStoneAlbum.DataImport.XmlDomain {
     [GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
     [SerializableAttribute()]
-    [DebuggerStepThroughAttribute()]
     [DesignerCategoryAttribute("code")]
     [XmlTypeAttribute(AnonymousType = true)]
     public partial class Tag {
@@ -72,7 +71,7 @@ namespace HearthStoneAlbum.DataImport.XmlDomain {
 
         public string Data {
             get {
-                if (String.IsNullOrEmpty(this.Type)) {
+                if (!String.IsNullOrEmpty(this.Type)) {
                     return this.Text;
                 } else {
                     return this.Value;

@@ -11,16 +11,15 @@ namespace HearthStoneAlbum.Dal.Mapping {
     public class WingMap : EntityTypeConfiguration<Wing> {
         public WingMap() {
             this.HasKey(w => w.WingId);
-            this.Property(w => w.WingId);
             this.HasRequired(w => w.Adventure)
                 .WithMany(a => a.Wings)
                 .Map(m => {
                     m.MapKey("AdventureId");
                 });
-            this.Property(a => a.Adventure.AdventureId)
-                .HasUniqueIndexAnnotation("UQAdventureOrder", 0);
-            this.Property(a => a.Order)
-                .HasUniqueIndexAnnotation("UQAdventureOrder", 1);
+            //this.Property(a => a.Adventure.AdventureId)
+            //    .HasUniqueIndexAnnotation("UQAdventureOrder", 0);
+            //this.Property(a => a.Order)
+            //    .HasUniqueIndexAnnotation("UQAdventureOrder", 1);
         }
     }
 }

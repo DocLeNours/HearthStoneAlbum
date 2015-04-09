@@ -49,6 +49,7 @@
     <Compile Include="EntityTypeConfigurationExtension.cs" />
     <Compile Include="HearthStoneAlbumDbContext.cs" />
     <Compile Include="HearthStoneAlbumDbInitializer.cs" />
+    <Compile Include="Mapping\AdventureCardMap.cs" />
     <Compile Include="Mapping\AdventureLanguageMap.cs" />
     <Compile Include="Mapping\BossLanguageMap.cs" />
     <Compile Include="Mapping\CardLanguageMap.cs" />

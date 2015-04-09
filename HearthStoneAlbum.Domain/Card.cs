@@ -28,8 +28,10 @@ namespace HearthStoneAlbum.Domain {
         public ICollection<CardLanguage> CardLanguages { get; set; }
         public ICollection<HeroClassCard> HeroClassCards { get; set; }
         public ICollection<RaceCardSetCard> RaceCardSetCards { get; set; }
-        public Adventure Adventure { get; set; }
-        public Wing Wing { get; set; }
-        public Boss Boss { get; set; }
+        public AdventureCard AdventureCard { get; set; }
+
+        public override string ToString() {
+            return this.Code;
+        }
     }
 }

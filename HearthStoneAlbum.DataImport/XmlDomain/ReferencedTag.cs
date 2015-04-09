@@ -11,7 +11,6 @@ using System.Xml.Serialization;
 namespace HearthStoneAlbum.DataImport.XmlDomain {
     [GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
     [SerializableAttribute()]
-    [DebuggerStepThroughAttribute()]
     [DesignerCategoryAttribute("code")]
     [XmlTypeAttribute(AnonymousType = true)]
     public partial class ReferencedTag {

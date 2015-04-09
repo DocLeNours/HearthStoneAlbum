@@ -8,12 +8,12 @@ namespace HearthStoneAlbum.Domain {
     public class Boss {
         public Boss() {
             this.BossLanguages = new List<BossLanguage>();
-            this.Cards = new List<Card>();
+            this.AdventureCards = new List<AdventureCard>();
         }
         public int BossId { get; set; }
         public int Order { get; set; }
         public Wing Wing { get; set; }
         public ICollection<BossLanguage> BossLanguages { get; set; }
-        public ICollection<Card> Cards { get; set; }
+        public ICollection<AdventureCard> AdventureCards { get; set; }
     }
 }

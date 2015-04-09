@@ -40,6 +40,7 @@ namespace HearthStoneAlbum.Dal {
         public DbSet<RaceCardSetCard> RaceCardSetCards { get; set; }
         public DbSet<HeroClassChallenge> HeroClassChallenges { get; set; }
         public DbSet<PlayerHeroClassChallenge> PlayerHeroClassChallenges { get; set; }
+        public DbSet<AdventureCard> AdventureCards { get; set; }
         #endregion
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder) {
@@ -75,6 +76,7 @@ namespace HearthStoneAlbum.Dal {
             modelBuilder.Configurations.Add(new RaceCardSetCardMap());
             modelBuilder.Configurations.Add(new HeroClassChallengeMap());
             modelBuilder.Configurations.Add(new PlayerHeroClassChallengeMap());
+            modelBuilder.Configurations.Add(new AdventureCardMap());
         }
     }
 }

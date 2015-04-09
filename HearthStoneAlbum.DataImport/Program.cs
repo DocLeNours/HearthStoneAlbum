@@ -15,8 +15,15 @@ namespace HearthStoneAlbum.DataImport {
     class Program {
         static void Main(string[] args) {
             try {
-                using (ImportService service = new ImportService(ConfigurationManager.AppSettings["dirAssets"], ConfigurationManager.ConnectionStrings["HearthStoneAlbumDbContext"].ConnectionString)) {
-                    //service.Import(carDefs);
+                string logPath = String.Format(ConfigurationManager.AppSettings["logPath"], DateTime.Now.ToString("yyyyMMddHHmmss"));
+                using (FileStream fs = new FileStream(logPath, FileMode.CreateNew, FileAccess.Write)) {
+                    using (TextWriter tw = new StreamWriter(fs)) {
+                        using (ImportService service = new ImportService(ConfigurationManager.AppSettings["dirAssets"],
+                            ConfigurationManager.ConnectionStrings["HearthStoneAlbumDbContext"].ConnectionString,
+                            tw.WriteLine)) {
+                            service.Import();
+                        }
+                    }
                 }
             } catch (Exception ex) {
                 Console.WriteLine(ex.Message);

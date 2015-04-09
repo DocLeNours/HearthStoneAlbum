@@ -11,7 +11,6 @@ namespace HearthStoneAlbum.Dal.Mapping {
     public class AdventureMap : EntityTypeConfiguration<Adventure> {
         public AdventureMap() {
             this.HasKey(a => a.AdventureId);
-            this.Property(a => a.AdventureId);
             this.HasRequired(a => a.CardSet)
                 .WithOptional(cs => cs.Adventure);
         }

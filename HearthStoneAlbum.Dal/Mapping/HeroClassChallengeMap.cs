@@ -9,7 +9,7 @@ using HearthStoneAlbum.Domain;
 namespace HearthStoneAlbum.Dal.Mapping {
     public class HeroClassChallengeMap : EntityTypeConfiguration<HeroClassChallenge> {
         public HeroClassChallengeMap() {
-            this.HasKey(hcc => new { hcc.WingId, hcc.HeroClassId });
+            this.HasKey(hcc => hcc.HeroClassChallengeId);
             this.HasRequired(hcc => hcc.Wing)
                 .WithMany(w => w.HeroClassChallenges);
             this.HasRequired(hcc => hcc.HeroClass)

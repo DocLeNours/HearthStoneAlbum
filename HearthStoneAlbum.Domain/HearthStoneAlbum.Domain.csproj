@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdventureCard.cs" />
     <Compile Include="AdventureLanguage.cs" />
     <Compile Include="Adventure.cs" />
     <Compile Include="BossLanguage.cs" />

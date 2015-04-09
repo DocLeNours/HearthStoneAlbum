@@ -9,12 +9,10 @@ namespace HearthStoneAlbum.Domain {
         public Adventure() {
             this.Wings = new List<Wing>();
             this.AdventureLanguages = new List<AdventureLanguage>();
-            this.Cards = new List<Card>();
         }
         public int AdventureId { get; set; }
         public CardSet CardSet { get; set; }
         public ICollection<Wing> Wings { get; set; }
         public ICollection<AdventureLanguage> AdventureLanguages { get; set; }
-        public ICollection<Card> Cards { get; set; }
     }
 }

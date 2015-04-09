@@ -9,5 +9,9 @@ namespace HearthStoneAlbum.Domain {
         public const int NameMaxLength = 6;
         public int LanguageId { get; set; }
         public string Name { get; set; }
+
+        public override string ToString() {
+            return this.Name;
+        }
     }
 }
