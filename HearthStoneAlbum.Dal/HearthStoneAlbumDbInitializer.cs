@@ -293,8 +293,8 @@ namespace HearthStoneAlbum.Dal {
                             }},
                         },
                         HeroClassChallenges = new[] {
-                            new HeroClassChallenge { HeroClass = GetHeroClassByName(classes, "Druid") },
-                            new HeroClassChallenge { HeroClass = GetHeroClassByName(classes, "Paladin") },
+                            new HeroClassChallenge { HeroClass = GetHeroClassByName(classes, "Warrior") },
+                            new HeroClassChallenge { HeroClass = GetHeroClassByName(classes, "Shaman") },
                         },
                     },
                     new Wing { Order = 3, WingLanguages = new[] { 
@@ -332,8 +332,8 @@ namespace HearthStoneAlbum.Dal {
                             }},
                         },
                         HeroClassChallenges = new[] {
-                            new HeroClassChallenge { HeroClass = GetHeroClassByName(classes, "Shaman") },
-                            new HeroClassChallenge { HeroClass = GetHeroClassByName(classes, "Warlock") },
+                            new HeroClassChallenge { HeroClass = GetHeroClassByName(classes, "Druid") },
+                            new HeroClassChallenge { HeroClass = GetHeroClassByName(classes, "Paladin") },
                         },
                     },
                     new Wing { Order = 5, WingLanguages = new[] { 
@@ -353,7 +353,7 @@ namespace HearthStoneAlbum.Dal {
                             }},
                         },
                         HeroClassChallenges = new[] {
-                            new HeroClassChallenge { HeroClass = GetHeroClassByName(classes, "Warrior") },
+                            new HeroClassChallenge { HeroClass = GetHeroClassByName(classes, "Warlock") },
                         },
                     },
                 }
