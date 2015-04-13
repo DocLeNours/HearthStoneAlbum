@@ -9,7 +9,7 @@ using HearthStoneAlbum.Domain;
 namespace HearthStoneAlbum.Dal.Mapping {
     public class PlayerCardMap : EntityTypeConfiguration<PlayerCard> {
         public PlayerCardMap() {
-            this.HasKey(pc => new { pc.PlayerId, pc.CardId });
+            this.HasKey(pc => new { pc.PlayerId, pc.CardId, pc.Golden });
             this.HasRequired(pc => pc.Player)
                 .WithMany(p => p.PlayerCards);
             this.HasRequired(pc => pc.Card)
