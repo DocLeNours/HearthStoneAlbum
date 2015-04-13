@@ -49,17 +49,18 @@
     <Compile Include="EntityTypeConfigurationExtension.cs" />
     <Compile Include="HearthStoneAlbumDbContext.cs" />
     <Compile Include="HearthStoneAlbumDbInitializer.cs" />
-    <Compile Include="Mapping\AdventureCardMap.cs" />
     <Compile Include="Mapping\AdventureLanguageMap.cs" />
     <Compile Include="Mapping\BossLanguageMap.cs" />
+    <Compile Include="Mapping\BossRewardMap.cs" />
     <Compile Include="Mapping\CardLanguageMap.cs" />
     <Compile Include="Mapping\CardSetLanguageMap.cs" />
+    <Compile Include="Mapping\CardSetRaceRewardMap.cs" />
     <Compile Include="Mapping\HeroClassChallengeMap.cs" />
+    <Compile Include="Mapping\HeroClassChallengeRewardMap.cs" />
+    <Compile Include="Mapping\HeroClassRewardMap.cs" />
     <Compile Include="Mapping\PlayerHeroClassChallengeMap.cs" />
-    <Compile Include="Mapping\RaceCardSetCardMap.cs" />
     <Compile Include="Mapping\CardTypeLanguageMap.cs" />
     <Compile Include="Mapping\LanguageMap.cs" />
-    <Compile Include="Mapping\HeroClassCardMap.cs" />
     <Compile Include="Mapping\HeroClassLanguageMap.cs" />
     <Compile Include="Mapping\PlayerCardMap.cs" />
     <Compile Include="Mapping\PlayerMap.cs" />
@@ -73,10 +74,13 @@
     <Compile Include="Mapping\HeroClassMap.cs" />
     <Compile Include="Mapping\RaceLanguageMap.cs" />
     <Compile Include="Mapping\RaceMap.cs" />
+    <Compile Include="Mapping\RaceRewardMap.cs" />
     <Compile Include="Mapping\RarityLanguageMap.cs" />
     <Compile Include="Mapping\RarityMap.cs" />
+    <Compile Include="Mapping\RewardMap.cs" />
     <Compile Include="Mapping\WingLanguageMap.cs" />
     <Compile Include="Mapping\WingMap.cs" />
+    <Compile Include="Mapping\WingRewardMap.cs" />
     <Compile Include="PlayerRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

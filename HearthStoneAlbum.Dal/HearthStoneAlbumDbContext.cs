@@ -36,11 +36,15 @@ namespace HearthStoneAlbum.Dal {
         public DbSet<RarityLanguage> RarityLanguages { get; set; }
         public DbSet<WingLanguage> WingLanguages { get; set; }
         public DbSet<PlayerCard> PlayerCards { get; set; }
-        public DbSet<HeroClassCard> HeroClassCards { get; set; }
-        public DbSet<RaceCardSetCard> RaceCardSetCards { get; set; }
         public DbSet<HeroClassChallenge> HeroClassChallenges { get; set; }
         public DbSet<PlayerHeroClassChallenge> PlayerHeroClassChallenges { get; set; }
-        public DbSet<AdventureCard> AdventureCards { get; set; }
+        public DbSet<WingReward> WingRewards { get; set; }
+        public DbSet<BossReward> BossRewards { get; set; }
+        public DbSet<HeroClassChallengeReward> HeroClassChallengeRewards { get; set; }
+        public DbSet<RaceReward> RaceRewards { get; set; }
+        public DbSet<CardSetRaceReward> CardSetRaceRewards { get; set; }
+        public DbSet<HeroClassReward> HeroClassRewards { get; set; }
+
         #endregion
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder) {
@@ -72,11 +76,15 @@ namespace HearthStoneAlbum.Dal {
             modelBuilder.Configurations.Add(new WingMap());
             modelBuilder.Configurations.Add(new WingLanguageMap());
             modelBuilder.Configurations.Add(new PlayerCardMap());
-            modelBuilder.Configurations.Add(new HeroClassCardMap());
-            modelBuilder.Configurations.Add(new RaceCardSetCardMap());
             modelBuilder.Configurations.Add(new HeroClassChallengeMap());
             modelBuilder.Configurations.Add(new PlayerHeroClassChallengeMap());
-            modelBuilder.Configurations.Add(new AdventureCardMap());
+            modelBuilder.Configurations.Add(new RewardMap());
+            modelBuilder.Configurations.Add(new WingRewardMap());
+            modelBuilder.Configurations.Add(new BossRewardMap());
+            modelBuilder.Configurations.Add(new HeroClassChallengeRewardMap());
+            modelBuilder.Configurations.Add(new RaceRewardMap());
+            modelBuilder.Configurations.Add(new CardSetRaceRewardMap());
+            modelBuilder.Configurations.Add(new HeroClassRewardMap());
         }
     }
 }

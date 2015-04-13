@@ -10,8 +10,7 @@ namespace HearthStoneAlbum.Domain {
 
         public Card() {
             this.CardLanguages = new List<CardLanguage>();
-            this.HeroClassCards = new List<HeroClassCard>();
-            this.RaceCardSetCards = new List<RaceCardSetCard>();
+            this.Rewards = new List<Reward>();
         }
 
         public int CardId { get; set; }
@@ -26,9 +25,7 @@ namespace HearthStoneAlbum.Domain {
         public int? Health { get; set; }
         public int? Durability { get; set; }
         public ICollection<CardLanguage> CardLanguages { get; set; }
-        public ICollection<HeroClassCard> HeroClassCards { get; set; }
-        public ICollection<RaceCardSetCard> RaceCardSetCards { get; set; }
-        public AdventureCard AdventureCard { get; set; }
+        public ICollection<Reward> Rewards { get; set; }
 
         public override string ToString() {
             return this.Code;

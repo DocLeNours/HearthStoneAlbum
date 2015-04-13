@@ -15,6 +15,7 @@ using HearthStoneAlbum.Domain;
 namespace HearthStoneAlbum.DataImport.Service {
     public class ImportService : IDisposable {
         private const int defaultLanguageId = 1;
+        private const int heroCardType = 3;
 
         private HearthStoneAlbumDbContext context;
         private DirectoryInfo assetDirectory;
@@ -38,10 +39,9 @@ namespace HearthStoneAlbum.DataImport.Service {
             this.context.Database.Log = logger;
             cards = context.Cards
                 .Include(c => c.CardLanguages)
-                .Include(c => c.HeroClassCards)
-                .Include(c => c.RaceCardSetCards)
-                .Include(c => c.AdventureCard)
+                .Include(c => c.Rewards)
                 .ToList();
+            context.CardSetRaceRewards.Load();
             cardSets = context.CardSetLanguages
                 .Include(csl => csl.CardSet)
                 .Where(csl => csl.LanguageId == defaultLanguageId)
@@ -148,44 +148,15 @@ namespace HearthStoneAlbum.DataImport.Service {
             card.Attack = importCard.Attack;
             card.Health = importCard.Health;
             card.Durability = importCard.Durability;
-            SynchronizeAdventureCard(card, importCard);
             SynchronizeLanguage(card, importCard);
-            SynchronizeRaceCardSet(card, importCard);
-            SynchronizeHeroClass(card, importCard);
+            SynchronizeReward(card, importCard);
         }
 
-        private static void SynchronizeAdventureCard(Card card, Card importCard) {
-            AdventureCard importAdventureCard = importCard.AdventureCard;
-            AdventureCard adventureCard = card.AdventureCard;
-            if (importAdventureCard != null) {
-                if (adventureCard == null) {
-                    card.AdventureCard = importAdventureCard;
-                } else {
-                    adventureCard.Boss = importAdventureCard.Boss;
-                    adventureCard.Wing = importAdventureCard.Wing;
-                    adventureCard.HeroClassChallenge = importAdventureCard.HeroClassChallenge;
-                }
-            }
-        }
-
-        private static void SynchronizeHeroClass(Card card, Card importCard) {
-            foreach (HeroClassCard importHeroClassCard in importCard.HeroClassCards) {
-                HeroClassCard heroClassCard = card.HeroClassCards
-                    .SingleOrDefault(hcc => hcc.HeroClass.HeroClassId == importHeroClassCard.HeroClass.HeroClassId
-                        && hcc.Golden == importHeroClassCard.Golden);
-                if (heroClassCard == null) {
-                    card.HeroClassCards.Add(importHeroClassCard);
-                }
-            }
-        }
-
-        private static void SynchronizeRaceCardSet(Card card, Card importCard) {
-            foreach (RaceCardSetCard importRaceCardSetCard in importCard.RaceCardSetCards) {
-                RaceCardSetCard raceCardSetCard = card.RaceCardSetCards
-                    .SingleOrDefault(rcsc => rcsc.CardSet.CardSetId == importRaceCardSetCard.CardSet.CardSetId
-                        && rcsc.Race.RaceId == importRaceCardSetCard.Race.RaceId);
-                if (raceCardSetCard == null) {
-                    card.RaceCardSetCards.Add(importRaceCardSetCard);
+        private static void SynchronizeReward(Card card, Card importCard) {
+            foreach (Reward importReward in importCard.Rewards) {
+                Reward reward = card.Rewards.SingleOrDefault(r => r.Golden == importReward.Golden);
+                if (reward == null) {
+                    card.Rewards.Add(importReward);
                 }
             }
         }
@@ -209,9 +180,9 @@ namespace HearthStoneAlbum.DataImport.Service {
                 card = this.Transform(entity);
                 if (card != null) {
                     importCards.Add(card);
+                    this.ProcessHowToGet(card, entity.GetStringValue(EnumId.HowToGet), howToGets);
+                    this.ProcessHowToGet(card, entity.GetStringValue(EnumId.HowToGetGold), howToGetGolds);
                 }
-                this.ProcessHowToGet(card, entity.GetStringValue(EnumId.HowToGet), howToGets);
-                this.ProcessHowToGet(card, entity.GetStringValue(EnumId.HowToGetGold), howToGetGolds);
             } else {
                 card = importCards.SingleOrDefault(ic => ic.Code == entity.CardId);
             }
@@ -220,8 +191,7 @@ namespace HearthStoneAlbum.DataImport.Service {
             }
         }
         private Card Transform(Entity entity) {
-            CardType cardType = GetReference<CardType>(entity, EnumId.CardType);
-            if (cardType == null) {
+            if (entity.GetIntValue(EnumId.CardType) == heroCardType) { 
                 // Hero case -- TODO : get hero names
                 return null;
             }
@@ -230,7 +200,7 @@ namespace HearthStoneAlbum.DataImport.Service {
                 CardSet = GetMandatoryReference<CardSet>(entity, EnumId.CardSet),
                 HeroClass = GetReference<HeroClass>(entity, EnumId.Hero),
                 Rarity = GetMandatoryReference<Rarity>(entity, EnumId.Rarity),
-                CardType = cardType,
+                CardType = GetMandatoryReference<CardType>(entity, EnumId.CardType),
                 Race = GetReference<Race>(entity, EnumId.Race),
                 Cost = entity.GetIntValue(EnumId.Cost),
                 Attack = entity.GetIntValue(EnumId.Attack),
@@ -288,18 +258,6 @@ namespace HearthStoneAlbum.DataImport.Service {
 
         #region HowToGet
         #region Regular
-        private bool ProcessHowToGetByRace(Card card, string howToGet) {
-            const string unlockedRace = @"^Unlocked when you have all the (Golden )?(?<" + regexRace + @">\w+)s from the (?<" + regexCardSet + @">\w+) Set\.$";
-            Match match = Regex.Match(howToGet, unlockedRace);
-            if (match.Success) {
-                RaceLanguage raceLanguage = ExtractRace(match, card.Code);
-                CardSetLanguage cardSetLanguage = ExtractCardSet(match, card.Code);
-                AddRaceCardSet(card, raceLanguage.Race, cardSetLanguage.CardSet);
-                return true;
-            }
-            return false;
-        }
-
         private bool ProcessHowToGetByLevel(Card card, string howToGet) {
             return ProcessHowToGetByLevel(card, howToGet, false);
         }
@@ -308,10 +266,13 @@ namespace HearthStoneAlbum.DataImport.Service {
             Match match = Regex.Match(howToGet, unlockedAdventure);
             if (match.Success) {
                 AdventureLanguage adventureLanguage = ExtractAdventure(match, card.Code);
-                Wing wing = adventureLanguage.Adventure.Wings.OrderByDescending(w => w.Order).FirstOrDefault();
-                card.AdventureCard = new AdventureCard {
+                Wing wing = adventureLanguage.Adventure.Wings
+                    .OrderByDescending(w => w.Order)
+                    .FirstOrDefault();
+                card.Rewards.Add(new WingReward {
+                    Golden = false,
                     Wing = wing,
-                };
+                });
                 return true;
             }
             return false;
@@ -321,9 +282,10 @@ namespace HearthStoneAlbum.DataImport.Service {
             Match match = Regex.Match(howToGet, unlockedBoss);
             if (match.Success) {
                 BossLanguage bossLanguage = ExtractBoss(match, card.Code);
-                card.AdventureCard = new AdventureCard {
+                card.Rewards.Add(new BossReward {
+                    Golden = false,
                     Boss = bossLanguage.Boss,
-                };
+                });
                 return true;
             }
             return false;
@@ -339,9 +301,10 @@ namespace HearthStoneAlbum.DataImport.Service {
                 if (challenge == null) {
                     throw new ArgumentException(String.Format("How to get boss for heroClass {0} and adventure {1} not found (Card.Code = {2})", heroClassLanguage.Name, adventureLanguage.Name, card.Code));
                 }
-                card.AdventureCard = new AdventureCard {
+                card.Rewards.Add(new HeroClassChallengeReward {
+                    Golden = false,
                     HeroClassChallenge = challenge,
-                };
+                });
                 return true;
             }
             return false;
@@ -351,9 +314,10 @@ namespace HearthStoneAlbum.DataImport.Service {
             Match match = Regex.Match(howToGet, unlockedWing);
             if (match.Success) {
                 WingLanguage wingLanguage = ExtractWing(match, card.Code);
-                card.AdventureCard = new AdventureCard {
+                card.Rewards.Add(new WingReward {
+                    Golden = false,
                     Wing = wingLanguage.Wing,
-                };
+                });
                 return true;
             }
             return false;
@@ -366,15 +330,7 @@ namespace HearthStoneAlbum.DataImport.Service {
         private const string regexBoss = "Boss";
         private const string regexWing = "wing";
         private const string regexAdventure = "adventure";
-
-        private static void AddRaceCardSet(Card card, Race race, CardSet cardSet) {
-            if (!card.RaceCardSetCards.Any(rcsc => rcsc.Race.RaceId == race.RaceId && rcsc.CardSet.CardSetId == cardSet.CardSetId)) {
-                card.RaceCardSetCards.Add(new RaceCardSetCard {
-                    Race = race,
-                    CardSet = cardSet,
-                });
-            }
-        }
+        private const string regexGolden = "golden";
 
         private int ExtractLevel(Match match, string cardCode) {
             int level;
@@ -425,9 +381,7 @@ namespace HearthStoneAlbum.DataImport.Service {
             return wingLanguage;
         }
         private BossLanguage ExtractBoss(Match match, string cardCode) {
-            string bossValue = match.Groups[regexBoss].Value
-                .Replace("Grim Guzzler", "Coren Direbrew")
-                .Replace("Dark Iron Arena", "High Justice Grimstone");
+            string bossValue = match.Groups[regexBoss].Value;
             BossLanguage bossLanguage = bosses.SingleOrDefault(bl => bl.Name.Contains(bossValue));
             if (bossLanguage == null) {
                 throw new ArgumentException(String.Format("How to get boss {0} not found (Card.Code = {1})", bossValue, cardCode));
@@ -439,15 +393,40 @@ namespace HearthStoneAlbum.DataImport.Service {
             Match match = Regex.Match(howToGet, unlockedLevel);
             if (match.Success) {
                 int level = ExtractLevel(match, card.Code);
-                HeroClassCard heroClassCard = new HeroClassCard() {
+                card.Rewards.Add(new HeroClassReward {
+                    Golden = golden,
                     HeroClass = card.HeroClass,
                     Level = level,
-                    Golden = golden,
-                };
-                card.HeroClassCards.Add(heroClassCard);
+                });
                 return true;
             }
             return false;
+        }
+        private bool ProcessHowToGetByRace(Card card, string howToGet) {
+            const string unlockedRace = @"^Unlocked when you have all the (?<" + regexGolden + ">Golden )?(?<" + regexRace + @">\w+)s from the (?<" + regexCardSet + @">\w+) Set\.$";
+            Match match = Regex.Match(howToGet, unlockedRace);
+            if (match.Success) {
+                RaceLanguage raceLanguage = ExtractRace(match, card.Code);
+                CardSetLanguage cardSetLanguage = ExtractCardSet(match, card.Code);
+                bool golden = !String.IsNullOrEmpty(match.Groups[regexGolden].Value);
+                AddRaceReward(card, golden, raceLanguage.Race, cardSetLanguage.CardSet);
+                return true;
+            }
+            return false;
+        }
+
+        private static void AddRaceReward(Card card, bool golden, Race race, params CardSet[] cardSets) {
+            RaceReward reward = new RaceReward {
+                Golden = golden,
+                Race = race,
+            };
+            foreach (CardSet cardSet in cardSets) {
+                reward.CardSetRaceRewards.Add(new CardSetRaceReward {
+                    Golden = golden,
+                    CardSet = cardSet,
+                });
+            }
+            card.Rewards.Add(reward);
         }
         #region Gold
         private bool ProcessHowToGetGoldByLevel(Card card, string howToGet) {
@@ -459,12 +438,11 @@ namespace HearthStoneAlbum.DataImport.Service {
             if (match.Success) {
                 int level = ExtractLevel(match, card.Code);
                 HeroClassLanguage heroClassLanguage = ExtractHeroClass(match, card.Code);
-                HeroClassCard heroClassCard = new HeroClassCard {
+                card.Rewards.Add(new HeroClassReward {
+                    Golden = true,
                     HeroClass = heroClassLanguage.HeroClass,
                     Level = level,
-                    Golden = true,
-                };
-                card.HeroClassCards.Add(heroClassCard);
+                });
                 return true;
             }
             return false;
@@ -475,9 +453,8 @@ namespace HearthStoneAlbum.DataImport.Service {
             if (match.Success) {
                 RaceLanguage raceLanguage = ExtractRace(match, card.Code);
                 CardSetLanguage cardSetLanguageFirst = ExtractCardSet(match, card.Code, "cardSet1");
-                AddRaceCardSet(card, raceLanguage.Race, cardSetLanguageFirst.CardSet);
                 CardSetLanguage cardSetLanguageSecond = ExtractCardSet(match, card.Code, "cardSet2");
-                AddRaceCardSet(card, raceLanguage.Race, cardSetLanguageSecond.CardSet);
+                AddRaceReward(card, true, raceLanguage.Race, cardSetLanguageFirst.CardSet, cardSetLanguageSecond.CardSet);
                 return true;
             }
             return false;

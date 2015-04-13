@@ -9,12 +9,12 @@ namespace HearthStoneAlbum.Domain {
         public HeroClass() {
             this.Cards = new List<Card>();
             this.HeroClassLanguages = new List<HeroClassLanguage>();
-            this.HeroClassCards = new List<HeroClassCard>();
+            this.HeroClassRewards = new List<HeroClassReward>();
         }
 
         public int HeroClassId { get; set; }
         public ICollection<Card> Cards { get; set; }
         public ICollection<HeroClassLanguage> HeroClassLanguages { get; set; }
-        public ICollection<HeroClassCard> HeroClassCards { get; set; }
+        public ICollection<HeroClassReward> HeroClassRewards { get; set; }
     }
 }

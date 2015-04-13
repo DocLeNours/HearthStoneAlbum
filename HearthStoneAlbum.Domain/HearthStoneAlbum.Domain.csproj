@@ -39,12 +39,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdventureCard.cs" />
     <Compile Include="AdventureLanguage.cs" />
     <Compile Include="Adventure.cs" />
     <Compile Include="BossLanguage.cs" />
+    <Compile Include="BossReward.cs" />
     <Compile Include="CardLanguage.cs" />
     <Compile Include="CardSetLanguage.cs" />
+    <Compile Include="CardSetRaceReward.cs" />
     <Compile Include="CardTypeLanguage.cs" />
     <Compile Include="Core\Album.cs" />
     <Compile Include="Boss.cs" />
@@ -52,6 +53,8 @@
     <Compile Include="CardSet.cs" />
     <Compile Include="CardType.cs" />
     <Compile Include="HeroClassChallenge.cs" />
+    <Compile Include="HeroClassChallengeReward.cs" />
+    <Compile Include="HeroClassReward.cs" />
     <Compile Include="Language.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="PlayerBoss.cs" />
@@ -59,19 +62,20 @@
     <Compile Include="Interface\IAlbumRepository.cs" />
     <Compile Include="Interface\IPlayerRepository.cs" />
     <Compile Include="PlayerCard.cs" />
-    <Compile Include="HeroClassCard.cs" />
     <Compile Include="HeroClassLanguage.cs" />
     <Compile Include="HeroClass.cs" />
     <Compile Include="PlayerHeroClass.cs" />
     <Compile Include="PlayerHeroClassChallenge.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RaceCardSetCard.cs" />
     <Compile Include="RaceLanguage.cs" />
     <Compile Include="Race.cs" />
+    <Compile Include="RaceReward.cs" />
     <Compile Include="RarityLanguage.cs" />
     <Compile Include="Rarity.cs" />
+    <Compile Include="Reward.cs" />
     <Compile Include="WingLanguage.cs" />
     <Compile Include="Wing.cs" />
+    <Compile Include="WingReward.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

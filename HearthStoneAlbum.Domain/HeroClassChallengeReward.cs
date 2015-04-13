@@ -5,11 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace HearthStoneAlbum.Domain {
-    public class AdventureCard {
-        public int AdventureCardId { get; set; }
-        public Card Card { get; set; }
-        public Wing Wing { get; set; }
-        public Boss Boss { get; set; }
+    public class HeroClassChallengeReward : Reward {
         public HeroClassChallenge HeroClassChallenge { get; set; }
     }
 }

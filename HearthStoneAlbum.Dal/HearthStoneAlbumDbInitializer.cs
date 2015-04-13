@@ -265,10 +265,10 @@ namespace HearthStoneAlbum.Dal {
                         new WingLanguage { LanguageId = 1, Name = "Blackrock Depths" }},
                         Bosses = new[] {
                             new Boss { Order = 1, BossLanguages = new[] {
-                                new BossLanguage { LanguageId = 1, Name = "Coren Direbrew" },
+                                new BossLanguage { LanguageId = 1, Name = "Grim Guzzler" },
                             }},
                             new Boss { Order = 2, BossLanguages = new[] {
-                                new BossLanguage { LanguageId = 1, Name = "High Justice Grimstone" },
+                                new BossLanguage { LanguageId = 1, Name = "Dark Iron Arena" },
                             }},
                             new Boss { Order = 3, BossLanguages = new[] {
                                 new BossLanguage { LanguageId = 1, Name = "Emperor Thaurissan" },
