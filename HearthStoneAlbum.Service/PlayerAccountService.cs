@@ -6,29 +6,31 @@ using System.Text;
 using System.Threading.Tasks;
 using HearthStoneAlbum.Dal;
 using HearthStoneAlbum.Domain;
+using HearthStoneAlbum.Interface;
 
 namespace HearthStoneAlbum.Service {
-    public class PlayerAccountService {
-        private HearthStoneAlbumDbContext Context;
+    public class PlayerAccountService : IPlayerAccountService {
+        private HearthStoneAlbumDbContext context;
         public PlayerAccountService(HearthStoneAlbumDbContext context) {
-            this.Context = context;
+            this.context = context;
         }
 
         public async Task<int> CreateAccount(Player player) {
             await this.SetHeroClasses(player);
             int cardNumber = await this.SetFreeCards(player);
-            this.Context.Players.Add(player);
-            await this.Context.SaveChangesAsync();
+            this.context.Players.Add(player);
+            await this.context.SaveChangesAsync();
             return cardNumber;
         }
 
         private async Task<int> SetFreeCards(Player player) {
-            IEnumerable<Card> cards = await this.Context.Cards
+            IEnumerable<Card> cards = await this.context.Cards
                 .Include(c => c.Rarity)
+                .Include(c => c.CardLanguages)
                 .Where(c => c.CardSet.CardSetId == CardSet.BasicCardSetId)
-                .Where(c => !this.Context.HeroClassRewards.Any(hcr => hcr.CardId == c.CardId && !hcr.Golden))
+                .Where(c => !this.context.HeroClassRewards.Any(hcr => hcr.CardId == c.CardId && !hcr.Golden))
                 .ToListAsync();
-            this.Context.PlayerCards
+            this.context.PlayerCards
                 .AddRange(cards.Select(c => new PlayerCard {
                     Player = player,
                     Card = c,
@@ -38,8 +40,10 @@ namespace HearthStoneAlbum.Service {
             return cards.Count();
         }
         private async Task SetHeroClasses(Player player) {
-            IList<HeroClass> heroClasses = await this.Context.HeroClasses.ToListAsync();
-            this.Context.PlayerHeroClasses
+            IList<HeroClass> heroClasses = await this.context.HeroClasses
+                .Include(hc => hc.HeroClassLanguages)
+                .ToListAsync();
+            this.context.PlayerHeroClasses
                 .AddRange(heroClasses.Select(hc => new PlayerHeroClass {
                     Player = player,
                     HeroClass = hc,

@@ -10,7 +10,9 @@ using HearthStoneAlbum.Dal.Mapping;
 
 namespace HearthStoneAlbum.Dal {
     public class HearthStoneAlbumDbContext : DbContext {
-        public HearthStoneAlbumDbContext(string connectionString) : base(connectionString) { }
+        public HearthStoneAlbumDbContext(string connectionString) : base(connectionString) {
+            this.Configuration.LazyLoadingEnabled = false;
+        }
 
         #region DbSets
         public DbSet<Player> Players { get; set; }
@@ -85,6 +87,10 @@ namespace HearthStoneAlbum.Dal {
             modelBuilder.Configurations.Add(new RaceRewardMap());
             modelBuilder.Configurations.Add(new CardSetRaceRewardMap());
             modelBuilder.Configurations.Add(new HeroClassRewardMap());
+        }
+
+        protected override void Dispose(bool disposing) {
+            base.Dispose(disposing);
         }
     }
 }
